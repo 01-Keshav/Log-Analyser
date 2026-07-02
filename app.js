@@ -91,10 +91,10 @@ function navigate(view) {
 
   const titles = {
     dashboard: ['Dashboard', 'Overview'],
-    explorer:  ['Log Explorer', 'Browse & Filter Logs'],
-    ingest:    ['Ingest Logs', 'Add New Logs'],
+    explorer: ['Log Explorer', 'Browse & Filter Logs'],
+    ingest: ['Ingest Logs', 'Add New Logs'],
     analytics: ['Analytics', 'Charts & Statistics'],
-    chat:      ['AI Chat', 'Gemini-Powered Analysis'],
+    chat: ['AI Chat', 'Gemini-Powered Analysis'],
   };
   const [title, sub] = titles[view] || ['', ''];
   $('page-title').textContent = title;
@@ -178,10 +178,10 @@ async function loadExplorer(reset = false) {
     limit: PAGE_SIZE,
     offset: state.explorer.offset,
     ...(f.source ? { source: f.source } : {}),
-    ...(f.level  ? { level:  f.level  } : {}),
+    ...(f.level ? { level: f.level } : {}),
     ...(f.search ? { search: f.search } : {}),
-    ...(f.start  ? { startDate: f.start } : {}),
-    ...(f.end    ? { endDate:   f.end   } : {}),
+    ...(f.start ? { startDate: f.start } : {}),
+    ...(f.end ? { endDate: f.end } : {}),
   });
   try {
     const data = await apiFetch('/api/logs?' + params);
@@ -304,8 +304,8 @@ function previewLogs(text) {
   count.textContent = `${total} entries (showing first 10)`;
   preview.innerHTML = lines.map(line => {
     const level = /error|err|fatal|critical/i.test(line) ? 'ERROR' :
-                  /warn/i.test(line) ? 'WARN' :
-                  /debug|trace/i.test(line) ? 'DEBUG' : 'INFO';
+      /warn/i.test(line) ? 'WARN' :
+        /debug|trace/i.test(line) ? 'DEBUG' : 'INFO';
     return `<div class="log-row ${level}">
       <span class="level-chip ${level}">${level}</span>
       <span class="log-message">${escHtml(line.slice(0, 150))}</span>
@@ -412,8 +412,8 @@ function renderAnalytics(data) {
 // ── CANVAS CHARTS ────────────────────────────────────────────────
 const LEVEL_COLORS = {
   ERROR: '#ff4d6a',
-  WARN:  '#ffc842',
-  INFO:  '#448aff',
+  WARN: '#ffc842',
+  INFO: '#448aff',
   DEBUG: 'rgba(255,255,255,0.15)',
 };
 
@@ -674,15 +674,15 @@ function renderMessages() {
       <p>Powered by Gemini 2.5 Flash. Ask me anything about your logs.</p>
       <div class="quick-prompts" id="quick-prompts">
         ${[
-          ['Summarize the current log data and identify any critical issues.', 'Summarize logs'],
-          ['What are the most common errors and their root causes?', 'Top errors & root causes'],
-          ['Are there any performance issues or high latency events?', 'Performance analysis'],
-          ['Show me a timeline of events and identify any anomalies.', 'Anomaly detection'],
-          ['Correlate logs across different sources and find related events.', 'Cross-source correlation'],
-          ['Give me actionable recommendations to fix the issues you found.', 'Recommendations'],
-        ].map(([prompt, label]) =>
-          `<button class="quick-prompt-btn" data-prompt="${escHtml(prompt)}">${escHtml(label)}</button>`
-        ).join('')}
+        ['Summarize the current log data and identify any critical issues.', 'Summarize logs'],
+        ['What are the most common errors and their root causes?', 'Top errors & root causes'],
+        ['Are there any performance issues or high latency events?', 'Performance analysis'],
+        ['Show me a timeline of events and identify any anomalies.', 'Anomaly detection'],
+        ['Correlate logs across different sources and find related events.', 'Cross-source correlation'],
+        ['Give me actionable recommendations to fix the issues you found.', 'Recommendations'],
+      ].map(([prompt, label]) =>
+        `<button class="quick-prompt-btn" data-prompt="${escHtml(prompt)}">${escHtml(label)}</button>`
+      ).join('')}
       </div>
     </div>`;
 
@@ -915,10 +915,10 @@ function init() {
   $('btn-apply-filter').addEventListener('click', () => {
     state.explorer.filters = {
       source: $('filter-source').value,
-      level:  $('filter-level').value,
+      level: $('filter-level').value,
       search: $('filter-search').value,
-      start:  $('filter-start').value,
-      end:    $('filter-end').value,
+      start: $('filter-start').value,
+      end: $('filter-end').value,
     };
     loadExplorer(true);
   });

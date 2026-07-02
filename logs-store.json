@@ -1,4 +1,2046 @@
 {
-  "logs": [],
-  "nextId": 1
+  "logs": [
+    {
+      "id": 1,
+      "timestamp": "2026-07-01T13:13:33.700Z",
+      "level": "INFO",
+      "source": "Microsoft-Windows-UserModePowerService",
+      "message": "Process C:\\Program Files\\ASUS\\ARMOURY CRATE Service\\ArmouryCrate.UserSessionHelper.exe (process ID:11132) reset policy scheme from {6fecc5ae-f350-48a5-b669-b472cb895ccf} to {6fecc5ae-f350-48a5-b669-b472cb895ccf}",
+      "metadata": {
+        "source": "Microsoft-Windows-UserModePowerService",
+        "metadata": {
+          "eventId": 12,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782911613700)/\",\"Id\":12,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Microsoft-Windows-UserModePowerService\",\"Message\":\"Process C:\\\\Program Files\\\\ASUS\\\\ARMOURY CRATE Service\\\\ArmouryCrate.UserSessionHelper.exe (process ID:11132) reset policy scheme from {6fecc5ae-f350-48a5-b669-b472cb895ccf} to {6fecc5ae-f350-48a5-b669-b472cb895ccf}\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:13:33.700Z\",\"level\":\"INFO\",\"source\":\"Microsoft-Windows-UserModePowerService\",\"message\":\"Process C:\\\\Program Files\\\\ASUS\\\\ARMOURY CRATE Service\\\\ArmouryCrate.UserSessionHelper.exe (process ID:11132) reset policy scheme from {6fecc5ae-f350-48a5-b669-b472cb895ccf} to {6fecc5ae-f350-48a5-b669-b472cb895ccf}\",\"metadata\":{\"eventId\":12,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782911613700)/\\\",\\\"Id\\\":12,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-UserModePowerService\\\",\\\"Message\\\":\\\"Process C:\\\\\\\\Program Files\\\\\\\\ASUS\\\\\\\\ARMOURY CRATE Service\\\\\\\\ArmouryCrate.UserSessionHelper.exe (process ID:11132) reset policy scheme from {6fecc5ae-f350-48a5-b669-b472cb895ccf} to {6fecc5ae-f350-48a5-b669-b472cb895ccf}\\\"}\"}"
+    },
+    {
+      "id": 2,
+      "timestamp": "2026-07-01T13:13:26.625Z",
+      "level": "INFO",
+      "source": "Microsoft-Windows-UserModePowerService",
+      "message": "Process C:\\Program Files\\ASUS\\ARMOURY CRATE Service\\ArmouryCrate.UserSessionHelper.exe (process ID:11132) reset policy scheme from {27fa6203-3987-4dcc-918d-748559d549ec} to {6fecc5ae-f350-48a5-b669-b472cb895ccf}",
+      "metadata": {
+        "source": "Microsoft-Windows-UserModePowerService",
+        "metadata": {
+          "eventId": 12,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782911606625)/\",\"Id\":12,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Microsoft-Windows-UserModePowerService\",\"Message\":\"Process C:\\\\Program Files\\\\ASUS\\\\ARMOURY CRATE Service\\\\ArmouryCrate.UserSessionHelper.exe (process ID:11132) reset policy scheme from {27fa6203-3987-4dcc-918d-748559d549ec} to {6fecc5ae-f350-48a5-b669-b472cb895ccf}\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:13:26.625Z\",\"level\":\"INFO\",\"source\":\"Microsoft-Windows-UserModePowerService\",\"message\":\"Process C:\\\\Program Files\\\\ASUS\\\\ARMOURY CRATE Service\\\\ArmouryCrate.UserSessionHelper.exe (process ID:11132) reset policy scheme from {27fa6203-3987-4dcc-918d-748559d549ec} to {6fecc5ae-f350-48a5-b669-b472cb895ccf}\",\"metadata\":{\"eventId\":12,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782911606625)/\\\",\\\"Id\\\":12,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-UserModePowerService\\\",\\\"Message\\\":\\\"Process C:\\\\\\\\Program Files\\\\\\\\ASUS\\\\\\\\ARMOURY CRATE Service\\\\\\\\ArmouryCrate.UserSessionHelper.exe (process ID:11132) reset policy scheme from {27fa6203-3987-4dcc-918d-748559d549ec} to {6fecc5ae-f350-48a5-b669-b472cb895ccf}\\\"}\"}"
+    },
+    {
+      "id": 3,
+      "timestamp": "2026-07-01T13:13:26.201Z",
+      "level": "INFO",
+      "source": "Microsoft-Windows-Kernel-Power",
+      "message": "Power source change.",
+      "metadata": {
+        "source": "Microsoft-Windows-Kernel-Power",
+        "metadata": {
+          "eventId": 105,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782911606201)/\",\"Id\":105,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Microsoft-Windows-Kernel-Power\",\"Message\":\"Power source change.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:13:26.201Z\",\"level\":\"INFO\",\"source\":\"Microsoft-Windows-Kernel-Power\",\"message\":\"Power source change.\",\"metadata\":{\"eventId\":105,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782911606201)/\\\",\\\"Id\\\":105,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-Kernel-Power\\\",\\\"Message\\\":\\\"Power source change.\\\"}\"}"
+    },
+    {
+      "id": 4,
+      "timestamp": "2026-07-01T13:10:50.477Z",
+      "level": "WARN",
+      "source": "BTHUSB",
+      "message": "A command sent to the adapter has timed out. The adapter did not respond.",
+      "metadata": {
+        "source": "BTHUSB",
+        "metadata": {
+          "eventId": 3,
+          "winLevel": "Warning"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782911450477)/\",\"Id\":3,\"LevelDisplayName\":\"Warning\",\"ProviderName\":\"BTHUSB\",\"Message\":\"A command sent to the adapter has timed out. The adapter did not respond.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:10:50.477Z\",\"level\":\"WARN\",\"source\":\"BTHUSB\",\"message\":\"A command sent to the adapter has timed out. The adapter did not respond.\",\"metadata\":{\"eventId\":3,\"winLevel\":\"Warning\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782911450477)/\\\",\\\"Id\\\":3,\\\"LevelDisplayName\\\":\\\"Warning\\\",\\\"ProviderName\\\":\\\"BTHUSB\\\",\\\"Message\\\":\\\"A command sent to the adapter has timed out. The adapter did not respond.\\\"}\"}"
+    },
+    {
+      "id": 5,
+      "timestamp": "2026-07-01T13:07:19.693Z",
+      "level": "INFO",
+      "source": "Microsoft-Windows-Security-SPP",
+      "message": "Successfully scheduled Software Protection service for re-start at 2126-06-07T13:07:19Z. Reason: RulesEngine.",
+      "metadata": {
+        "source": "Microsoft-Windows-Security-SPP",
+        "metadata": {
+          "eventId": 16384,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782911239693)/\",\"Id\":16384,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Microsoft-Windows-Security-SPP\",\"Message\":\"Successfully scheduled Software Protection service for re-start at 2126-06-07T13:07:19Z. Reason: RulesEngine.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:07:19.693Z\",\"level\":\"INFO\",\"source\":\"Microsoft-Windows-Security-SPP\",\"message\":\"Successfully scheduled Software Protection service for re-start at 2126-06-07T13:07:19Z. Reason: RulesEngine.\",\"metadata\":{\"eventId\":16384,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782911239693)/\\\",\\\"Id\\\":16384,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-Security-SPP\\\",\\\"Message\\\":\\\"Successfully scheduled Software Protection service for re-start at 2126-06-07T13:07:19Z. Reason: RulesEngine.\\\"}\"}"
+    },
+    {
+      "id": 6,
+      "timestamp": "2026-07-01T13:06:49.390Z",
+      "level": "INFO",
+      "source": "Microsoft-Windows-Security-SPP",
+      "message": "Offline downlevel migration succeeded.",
+      "metadata": {
+        "source": "Microsoft-Windows-Security-SPP",
+        "metadata": {
+          "eventId": 16394,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782911209390)/\",\"Id\":16394,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Microsoft-Windows-Security-SPP\",\"Message\":\"Offline downlevel migration succeeded.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:06:49.390Z\",\"level\":\"INFO\",\"source\":\"Microsoft-Windows-Security-SPP\",\"message\":\"Offline downlevel migration succeeded.\",\"metadata\":{\"eventId\":16394,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782911209390)/\\\",\\\"Id\\\":16394,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-Security-SPP\\\",\\\"Message\\\":\\\"Offline downlevel migration succeeded.\\\"}\"}"
+    },
+    {
+      "id": 7,
+      "timestamp": "2026-07-01T13:06:20.767Z",
+      "level": "INFO",
+      "source": "Microsoft-Windows-Time-Service",
+      "message": "The time provider 'VMICTimeProvider' has indicated that the current hardware and operating environment is not supported and has stopped. This behavior is expected for VMICTimeProvider on non-HyperV-guest environments. This may be the expected behavior for the current provider in the current operating environment as well.",
+      "metadata": {
+        "source": "Microsoft-Windows-Time-Service",
+        "metadata": {
+          "eventId": 158,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782911180767)/\",\"Id\":158,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Microsoft-Windows-Time-Service\",\"Message\":\"The time provider 'VMICTimeProvider' has indicated that the current hardware and operating environment is not supported and has stopped. This behavior is expected for VMICTimeProvider on non-HyperV-guest environments. This may be the expected behavior for the current provider in the current operating environment as well.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:06:20.767Z\",\"level\":\"INFO\",\"source\":\"Microsoft-Windows-Time-Service\",\"message\":\"The time provider 'VMICTimeProvider' has indicated that the current hardware and operating environment is not supported and has stopped. This behavior is expected for VMICTimeProvider on non-HyperV-guest environments. This may be the expected behavior for the current provider in the current operating environment as well.\",\"metadata\":{\"eventId\":158,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782911180767)/\\\",\\\"Id\\\":158,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-Time-Service\\\",\\\"Message\\\":\\\"The time provider 'VMICTimeProvider' has indicated that the current hardware and operating environment is not supported and has stopped. This behavior is expected for VMICTimeProvider on non-HyperV-guest environments. This may be the expected behavior for the current provider in the current operating environment as well.\\\"}\"}"
+    },
+    {
+      "id": 8,
+      "timestamp": "2026-07-01T13:06:15.653Z",
+      "level": "INFO",
+      "source": "Microsoft-Windows-Security-SPP",
+      "message": "Successfully scheduled Software Protection service for re-start at 2126-06-07T13:06:15Z. Reason: RulesEngine.",
+      "metadata": {
+        "source": "Microsoft-Windows-Security-SPP",
+        "metadata": {
+          "eventId": 16384,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782911175653)/\",\"Id\":16384,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Microsoft-Windows-Security-SPP\",\"Message\":\"Successfully scheduled Software Protection service for re-start at 2126-06-07T13:06:15Z. Reason: RulesEngine.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:06:15.653Z\",\"level\":\"INFO\",\"source\":\"Microsoft-Windows-Security-SPP\",\"message\":\"Successfully scheduled Software Protection service for re-start at 2126-06-07T13:06:15Z. Reason: RulesEngine.\",\"metadata\":{\"eventId\":16384,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782911175653)/\\\",\\\"Id\\\":16384,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-Security-SPP\\\",\\\"Message\\\":\\\"Successfully scheduled Software Protection service for re-start at 2126-06-07T13:06:15Z. Reason: RulesEngine.\\\"}\"}"
+    },
+    {
+      "id": 9,
+      "timestamp": "2026-07-01T13:05:36.245Z",
+      "level": "INFO",
+      "source": "Microsoft-Windows-Security-SPP",
+      "message": "Offline downlevel migration succeeded.",
+      "metadata": {
+        "source": "Microsoft-Windows-Security-SPP",
+        "metadata": {
+          "eventId": 16394,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782911136245)/\",\"Id\":16394,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Microsoft-Windows-Security-SPP\",\"Message\":\"Offline downlevel migration succeeded.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:05:36.245Z\",\"level\":\"INFO\",\"source\":\"Microsoft-Windows-Security-SPP\",\"message\":\"Offline downlevel migration succeeded.\",\"metadata\":{\"eventId\":16394,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782911136245)/\\\",\\\"Id\\\":16394,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-Security-SPP\\\",\\\"Message\\\":\\\"Offline downlevel migration succeeded.\\\"}\"}"
+    },
+    {
+      "id": 10,
+      "timestamp": "2024-01-15T10:28:01.234Z",
+      "level": "INFO",
+      "source": "api-service",
+      "message": "[api-service] Server started on port 8080 request_id=boot",
+      "metadata": {
+        "request_id": "boot"
+      },
+      "raw": "2024-01-15T10:28:01.234Z INFO  [api-service] Server started on port 8080 request_id=boot"
+    },
+    {
+      "id": 11,
+      "timestamp": "2024-01-15T10:28:15.112Z",
+      "level": "INFO",
+      "source": "api-service",
+      "message": "[api-service] GET /api/users status=200 duration=45ms user_id=alice request_id=req-001",
+      "metadata": {
+        "status": "200",
+        "duration": "45ms",
+        "user_id": "alice",
+        "request_id": "req-001"
+      },
+      "raw": "2024-01-15T10:28:15.112Z INFO  [api-service] GET /api/users status=200 duration=45ms user_id=alice request_id=req-001"
+    },
+    {
+      "id": 12,
+      "timestamp": "2024-01-15T10:28:22.008Z",
+      "level": "INFO",
+      "source": "api-service",
+      "message": "[api-service] POST /api/orders status=201 duration=123ms user_id=bob request_id=req-002",
+      "metadata": {
+        "status": "201",
+        "duration": "123ms",
+        "user_id": "bob",
+        "request_id": "req-002"
+      },
+      "raw": "2024-01-15T10:28:22.008Z INFO  [api-service] POST /api/orders status=201 duration=123ms user_id=bob request_id=req-002"
+    },
+    {
+      "id": 13,
+      "timestamp": "2024-01-15T10:28:30.555Z",
+      "level": "WARN",
+      "source": "api-service",
+      "message": "[api-service] Slow database query detected duration=850ms query=SELECT_orders request_id=req-003",
+      "metadata": {
+        "duration": "850ms",
+        "query": "SELECT_orders",
+        "request_id": "req-003"
+      },
+      "raw": "2024-01-15T10:28:30.555Z WARN  [api-service] Slow database query detected duration=850ms query=SELECT_orders request_id=req-003"
+    },
+    {
+      "id": 14,
+      "timestamp": "2024-01-15T10:29:00.000Z",
+      "level": "ERROR",
+      "source": "api-service",
+      "message": "[api-service] Database connection timeout after 5000ms request_id=req-010 host=db.internal",
+      "metadata": {
+        "request_id": "req-010",
+        "host": "db.internal"
+      },
+      "raw": "2024-01-15T10:29:00.000Z ERROR [api-service] Database connection timeout after 5000ms request_id=req-010 host=db.internal"
+    },
+    {
+      "id": 15,
+      "timestamp": "2024-01-15T10:29:01.100Z",
+      "level": "ERROR",
+      "source": "api-service",
+      "message": "[api-service] Database connection timeout after 5000ms request_id=req-011 host=db.internal",
+      "metadata": {
+        "request_id": "req-011",
+        "host": "db.internal"
+      },
+      "raw": "2024-01-15T10:29:01.100Z ERROR [api-service] Database connection timeout after 5000ms request_id=req-011 host=db.internal"
+    },
+    {
+      "id": 16,
+      "timestamp": "2024-01-15T10:29:02.230Z",
+      "level": "ERROR",
+      "source": "api-service",
+      "message": "[api-service] Failed to process order: connection pool exhausted user_id=charlie request_id=req-012",
+      "metadata": {
+        "user_id": "charlie",
+        "request_id": "req-012"
+      },
+      "raw": "2024-01-15T10:29:02.230Z ERROR [api-service] Failed to process order: connection pool exhausted user_id=charlie request_id=req-012"
+    },
+    {
+      "id": 17,
+      "timestamp": "2024-01-15T10:29:03.445Z",
+      "level": "ERROR",
+      "source": "api-service",
+      "message": "[api-service] Database connection timeout after 5000ms request_id=req-013 host=db.internal",
+      "metadata": {
+        "request_id": "req-013",
+        "host": "db.internal"
+      },
+      "raw": "2024-01-15T10:29:03.445Z ERROR [api-service] Database connection timeout after 5000ms request_id=req-013 host=db.internal"
+    },
+    {
+      "id": 18,
+      "timestamp": "2024-01-15T10:29:04.102Z",
+      "level": "ERROR",
+      "source": "api-service",
+      "message": "[api-service] Circuit breaker OPEN for database service request_id=req-014",
+      "metadata": {
+        "request_id": "req-014"
+      },
+      "raw": "2024-01-15T10:29:04.102Z ERROR [api-service] Circuit breaker OPEN for database service request_id=req-014"
+    },
+    {
+      "id": 19,
+      "timestamp": "2024-01-15T10:29:05.225Z",
+      "level": "WARN",
+      "source": "api-service",
+      "message": "[api-service] Returning cached response due to circuit breaker request_id=req-015",
+      "metadata": {
+        "request_id": "req-015"
+      },
+      "raw": "2024-01-15T10:29:05.225Z WARN  [api-service] Returning cached response due to circuit breaker request_id=req-015"
+    },
+    {
+      "id": 20,
+      "timestamp": "2024-01-15T10:29:10.000Z",
+      "level": "ERROR",
+      "source": "api-service",
+      "message": "[api-service] Authentication failed for user_id=dave: token expired request_id=req-020",
+      "metadata": {
+        "user_id": "dave:",
+        "request_id": "req-020"
+      },
+      "raw": "2024-01-15T10:29:10.000Z ERROR [api-service] Authentication failed for user_id=dave: token expired request_id=req-020"
+    },
+    {
+      "id": 21,
+      "timestamp": "2024-01-15T10:29:15.500Z",
+      "level": "INFO",
+      "source": "api-service",
+      "message": "[api-service] GET /api/health status=200 duration=5ms request_id=req-021",
+      "metadata": {
+        "status": "200",
+        "duration": "5ms",
+        "request_id": "req-021"
+      },
+      "raw": "2024-01-15T10:29:15.500Z INFO  [api-service] GET /api/health status=200 duration=5ms request_id=req-021"
+    },
+    {
+      "id": 22,
+      "timestamp": "2024-01-15T10:30:00.000Z",
+      "level": "ERROR",
+      "source": "api-service",
+      "message": "[api-service] OutOfMemoryError: Java heap space thread=worker-3 request_id=req-030",
+      "metadata": {
+        "thread": "worker-3",
+        "request_id": "req-030"
+      },
+      "raw": "2024-01-15T10:30:00.000Z ERROR [api-service] OutOfMemoryError: Java heap space thread=worker-3 request_id=req-030"
+    },
+    {
+      "id": 23,
+      "timestamp": "2024-01-15T10:30:01.111Z",
+      "level": "ERROR",
+      "source": "api-service",
+      "message": "[api-service] NullPointerException in OrderService.createOrder line=234 request_id=req-031",
+      "metadata": {
+        "line": "234",
+        "request_id": "req-031"
+      },
+      "raw": "2024-01-15T10:30:01.111Z ERROR [api-service] NullPointerException in OrderService.createOrder line=234 request_id=req-031"
+    },
+    {
+      "id": 24,
+      "timestamp": "2024-01-15T10:30:05.000Z",
+      "level": "WARN",
+      "source": "api-service",
+      "message": "[api-service] Memory usage at 89% threshold=80 request_id=health-check",
+      "metadata": {
+        "threshold": "80",
+        "request_id": "health-check"
+      },
+      "raw": "2024-01-15T10:30:05.000Z WARN  [api-service] Memory usage at 89% threshold=80 request_id=health-check"
+    },
+    {
+      "id": 25,
+      "timestamp": "2024-01-15T10:30:10.000Z",
+      "level": "INFO",
+      "source": "api-service",
+      "message": "[api-service] Circuit breaker HALF_OPEN testing database request_id=req-040",
+      "metadata": {
+        "request_id": "req-040"
+      },
+      "raw": "2024-01-15T10:30:10.000Z INFO  [api-service] Circuit breaker HALF_OPEN testing database request_id=req-040"
+    },
+    {
+      "id": 26,
+      "timestamp": "2024-01-15T10:30:15.000Z",
+      "level": "INFO",
+      "source": "api-service",
+      "message": "[api-service] Database connection restored duration=230ms request_id=req-041",
+      "metadata": {
+        "duration": "230ms",
+        "request_id": "req-041"
+      },
+      "raw": "2024-01-15T10:30:15.000Z INFO  [api-service] Database connection restored duration=230ms request_id=req-041"
+    },
+    {
+      "id": 27,
+      "timestamp": "2024-01-15T10:30:20.000Z",
+      "level": "INFO",
+      "source": "api-service",
+      "message": "[api-service] Circuit breaker CLOSED normal operations resumed request_id=req-042",
+      "metadata": {
+        "request_id": "req-042"
+      },
+      "raw": "2024-01-15T10:30:20.000Z INFO  [api-service] Circuit breaker CLOSED normal operations resumed request_id=req-042"
+    },
+    {
+      "id": 28,
+      "timestamp": "2024-01-15T10:31:00.000Z",
+      "level": "INFO",
+      "source": "api-service",
+      "message": "[api-service] GET /api/users status=200 duration=67ms user_id=alice request_id=req-050",
+      "metadata": {
+        "status": "200",
+        "duration": "67ms",
+        "user_id": "alice",
+        "request_id": "req-050"
+      },
+      "raw": "2024-01-15T10:31:00.000Z INFO  [api-service] GET /api/users status=200 duration=67ms user_id=alice request_id=req-050"
+    },
+    {
+      "id": 29,
+      "timestamp": "2026-07-01T13:18:19.892Z",
+      "level": "INFO",
+      "source": "nginx",
+      "message": "GET /api/users HTTP/1.1 \u2192 200",
+      "metadata": {
+        "ip": "192.168.1.100",
+        "method": "GET",
+        "path": "/api/users",
+        "status": 200,
+        "bytes": "1234"
+      },
+      "raw": "192.168.1.100 - - [15/Jan/2024:10:28:00 +0000] \"GET /api/users HTTP/1.1\" 200 1234"
+    },
+    {
+      "id": 30,
+      "timestamp": "2026-07-01T13:18:19.893Z",
+      "level": "INFO",
+      "source": "nginx",
+      "message": "POST /api/orders HTTP/1.1 \u2192 201",
+      "metadata": {
+        "ip": "192.168.1.101",
+        "method": "POST",
+        "path": "/api/orders",
+        "status": 201,
+        "bytes": "567"
+      },
+      "raw": "192.168.1.101 - - [15/Jan/2024:10:28:05 +0000] \"POST /api/orders HTTP/1.1\" 201 567"
+    },
+    {
+      "id": 31,
+      "timestamp": "2026-07-01T13:18:19.893Z",
+      "level": "INFO",
+      "source": "nginx",
+      "message": "GET /api/profile HTTP/1.1 \u2192 200",
+      "metadata": {
+        "ip": "192.168.1.102",
+        "method": "GET",
+        "path": "/api/profile",
+        "status": 200,
+        "bytes": "890"
+      },
+      "raw": "192.168.1.102 - alice [15/Jan/2024:10:28:10 +0000] \"GET /api/profile HTTP/1.1\" 200 890"
+    },
+    {
+      "id": 32,
+      "timestamp": "2026-07-01T13:18:19.893Z",
+      "level": "ERROR",
+      "source": "nginx",
+      "message": "GET /api/orders HTTP/1.1 \u2192 503",
+      "metadata": {
+        "ip": "10.0.0.5",
+        "method": "GET",
+        "path": "/api/orders",
+        "status": 503,
+        "bytes": "45"
+      },
+      "raw": "10.0.0.5 - - [15/Jan/2024:10:29:00 +0000] \"GET /api/orders HTTP/1.1\" 503 45"
+    },
+    {
+      "id": 33,
+      "timestamp": "2026-07-01T13:18:19.893Z",
+      "level": "ERROR",
+      "source": "nginx",
+      "message": "POST /api/checkout HTTP/1.1 \u2192 503",
+      "metadata": {
+        "ip": "10.0.0.5",
+        "method": "POST",
+        "path": "/api/checkout",
+        "status": 503,
+        "bytes": "45"
+      },
+      "raw": "10.0.0.5 - - [15/Jan/2024:10:29:01 +0000] \"POST /api/checkout HTTP/1.1\" 503 45"
+    },
+    {
+      "id": 34,
+      "timestamp": "2026-07-01T13:18:19.893Z",
+      "level": "ERROR",
+      "source": "nginx",
+      "message": "GET /api/inventory HTTP/1.1 \u2192 500",
+      "metadata": {
+        "ip": "10.0.0.5",
+        "method": "GET",
+        "path": "/api/inventory",
+        "status": 500,
+        "bytes": "89"
+      },
+      "raw": "10.0.0.5 - - [15/Jan/2024:10:29:02 +0000] \"GET /api/inventory HTTP/1.1\" 500 89"
+    },
+    {
+      "id": 35,
+      "timestamp": "2026-07-01T13:18:19.893Z",
+      "level": "WARN",
+      "source": "nginx",
+      "message": "GET /api/users/profile HTTP/1.1 \u2192 404",
+      "metadata": {
+        "ip": "192.168.1.103",
+        "method": "GET",
+        "path": "/api/users/profile",
+        "status": 404,
+        "bytes": "23"
+      },
+      "raw": "192.168.1.103 - bob [15/Jan/2024:10:29:10 +0000] \"GET /api/users/profile HTTP/1.1\" 404 23"
+    },
+    {
+      "id": 36,
+      "timestamp": "2026-07-01T13:18:19.893Z",
+      "level": "WARN",
+      "source": "nginx",
+      "message": "DELETE /api/session HTTP/1.1 \u2192 401",
+      "metadata": {
+        "ip": "192.168.1.100",
+        "method": "DELETE",
+        "path": "/api/session",
+        "status": 401,
+        "bytes": "12"
+      },
+      "raw": "192.168.1.100 - - [15/Jan/2024:10:29:15 +0000] \"DELETE /api/session HTTP/1.1\" 401 12"
+    },
+    {
+      "id": 37,
+      "timestamp": "2026-07-01T13:18:19.893Z",
+      "level": "INFO",
+      "source": "nginx",
+      "message": "GET /static/app.js HTTP/1.1 \u2192 200",
+      "metadata": {
+        "ip": "192.168.1.104",
+        "method": "GET",
+        "path": "/static/app.js",
+        "status": 200,
+        "bytes": "45678"
+      },
+      "raw": "192.168.1.104 - - [15/Jan/2024:10:30:00 +0000] \"GET /static/app.js HTTP/1.1\" 200 45678"
+    },
+    {
+      "id": 38,
+      "timestamp": "2026-07-01T13:18:19.893Z",
+      "level": "INFO",
+      "source": "nginx",
+      "message": "GET /api/users HTTP/1.1 \u2192 200",
+      "metadata": {
+        "ip": "192.168.1.100",
+        "method": "GET",
+        "path": "/api/users",
+        "status": 200,
+        "bytes": "1234"
+      },
+      "raw": "192.168.1.100 - alice [15/Jan/2024:10:31:00 +0000] \"GET /api/users HTTP/1.1\" 200 1234"
+    },
+    {
+      "id": 39,
+      "timestamp": "2026-07-01T13:19:10.886Z",
+      "level": "INFO",
+      "source": "Microsoft-Windows-Security-SPP",
+      "message": "Offline downlevel migration succeeded.",
+      "metadata": {
+        "source": "Microsoft-Windows-Security-SPP",
+        "metadata": {
+          "eventId": 16394,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782911950886)/\",\"Id\":16394,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Microsoft-Windows-Security-SPP\",\"Message\":\"Offline downlevel migration succeeded.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:19:10.886Z\",\"level\":\"INFO\",\"source\":\"Microsoft-Windows-Security-SPP\",\"message\":\"Offline downlevel migration succeeded.\",\"metadata\":{\"eventId\":16394,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782911950886)/\\\",\\\"Id\\\":16394,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-Security-SPP\\\",\\\"Message\\\":\\\"Offline downlevel migration succeeded.\\\"}\"}"
+    },
+    {
+      "id": 40,
+      "timestamp": "2026-07-01T13:19:41.169Z",
+      "level": "INFO",
+      "source": "Microsoft-Windows-Security-SPP",
+      "message": "Successfully scheduled Software Protection service for re-start at 2126-06-07T13:19:41Z. Reason: RulesEngine.",
+      "metadata": {
+        "source": "Microsoft-Windows-Security-SPP",
+        "metadata": {
+          "eventId": 16384,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782911981169)/\",\"Id\":16384,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Microsoft-Windows-Security-SPP\",\"Message\":\"Successfully scheduled Software Protection service for re-start at 2126-06-07T13:19:41Z. Reason: RulesEngine.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:19:41.169Z\",\"level\":\"INFO\",\"source\":\"Microsoft-Windows-Security-SPP\",\"message\":\"Successfully scheduled Software Protection service for re-start at 2126-06-07T13:19:41Z. Reason: RulesEngine.\",\"metadata\":{\"eventId\":16384,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782911981169)/\\\",\\\"Id\\\":16384,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-Security-SPP\\\",\\\"Message\\\":\\\"Successfully scheduled Software Protection service for re-start at 2126-06-07T13:19:41Z. Reason: RulesEngine.\\\"}\"}"
+    },
+    {
+      "id": 41,
+      "timestamp": "2026-07-01T13:21:23.564Z",
+      "level": "WARN",
+      "source": "BTHUSB",
+      "message": "A command sent to the adapter has timed out. The adapter did not respond.",
+      "metadata": {
+        "source": "BTHUSB",
+        "metadata": {
+          "eventId": 3,
+          "winLevel": "Warning"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782912083564)/\",\"Id\":3,\"LevelDisplayName\":\"Warning\",\"ProviderName\":\"BTHUSB\",\"Message\":\"A command sent to the adapter has timed out. The adapter did not respond.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:21:23.564Z\",\"level\":\"WARN\",\"source\":\"BTHUSB\",\"message\":\"A command sent to the adapter has timed out. The adapter did not respond.\",\"metadata\":{\"eventId\":3,\"winLevel\":\"Warning\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782912083564)/\\\",\\\"Id\\\":3,\\\"LevelDisplayName\\\":\\\"Warning\\\",\\\"ProviderName\\\":\\\"BTHUSB\\\",\\\"Message\\\":\\\"A command sent to the adapter has timed out. The adapter did not respond.\\\"}\"}"
+    },
+    {
+      "id": 42,
+      "timestamp": "2026-07-01T13:21:35.211Z",
+      "level": "INFO",
+      "source": "Microsoft-Windows-Kernel-General",
+      "message": "The access history in hive \\??\\C:\\Users\\keshav\\AppData\\Local\\Packages\\Microsoft.ScreenSketch_8wekyb3d8bbwe\\Settings\\settings.dat was cleared updating 2 keys and creating 1 modified pages.",
+      "metadata": {
+        "source": "Microsoft-Windows-Kernel-General",
+        "metadata": {
+          "eventId": 16,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782912095211)/\",\"Id\":16,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Microsoft-Windows-Kernel-General\",\"Message\":\"The access history in hive \\\\??\\\\C:\\\\Users\\\\keshav\\\\AppData\\\\Local\\\\Packages\\\\Microsoft.ScreenSketch_8wekyb3d8bbwe\\\\Settings\\\\settings.dat was cleared updating 2 keys and creating 1 modified pages.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:21:35.211Z\",\"level\":\"INFO\",\"source\":\"Microsoft-Windows-Kernel-General\",\"message\":\"The access history in hive \\\\??\\\\C:\\\\Users\\\\keshav\\\\AppData\\\\Local\\\\Packages\\\\Microsoft.ScreenSketch_8wekyb3d8bbwe\\\\Settings\\\\settings.dat was cleared updating 2 keys and creating 1 modified pages.\",\"metadata\":{\"eventId\":16,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782912095211)/\\\",\\\"Id\\\":16,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-Kernel-General\\\",\\\"Message\\\":\\\"The access history in hive \\\\\\\\??\\\\\\\\C:\\\\\\\\Users\\\\\\\\keshav\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Packages\\\\\\\\Microsoft.ScreenSketch_8wekyb3d8bbwe\\\\\\\\Settings\\\\\\\\settings.dat was cleared updating 2 keys and creating 1 modified pages.\\\"}\"}"
+    },
+    {
+      "id": 43,
+      "timestamp": "2026-07-01T13:21:35.009Z",
+      "level": "INFO",
+      "source": "Microsoft-Windows-Kernel-General",
+      "message": "The access history in hive \\??\\C:\\Users\\keshav\\AppData\\Local\\Packages\\Microsoft.ScreenSketch_8wekyb3d8bbwe\\SystemAppData\\Helium\\UserClasses.dat was cleared updating 3 keys and creating 1 modified pages.",
+      "metadata": {
+        "source": "Microsoft-Windows-Kernel-General",
+        "metadata": {
+          "eventId": 16,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782912095009)/\",\"Id\":16,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Microsoft-Windows-Kernel-General\",\"Message\":\"The access history in hive \\\\??\\\\C:\\\\Users\\\\keshav\\\\AppData\\\\Local\\\\Packages\\\\Microsoft.ScreenSketch_8wekyb3d8bbwe\\\\SystemAppData\\\\Helium\\\\UserClasses.dat was cleared updating 3 keys and creating 1 modified pages.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:21:35.009Z\",\"level\":\"INFO\",\"source\":\"Microsoft-Windows-Kernel-General\",\"message\":\"The access history in hive \\\\??\\\\C:\\\\Users\\\\keshav\\\\AppData\\\\Local\\\\Packages\\\\Microsoft.ScreenSketch_8wekyb3d8bbwe\\\\SystemAppData\\\\Helium\\\\UserClasses.dat was cleared updating 3 keys and creating 1 modified pages.\",\"metadata\":{\"eventId\":16,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782912095009)/\\\",\\\"Id\\\":16,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-Kernel-General\\\",\\\"Message\\\":\\\"The access history in hive \\\\\\\\??\\\\\\\\C:\\\\\\\\Users\\\\\\\\keshav\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Packages\\\\\\\\Microsoft.ScreenSketch_8wekyb3d8bbwe\\\\\\\\SystemAppData\\\\\\\\Helium\\\\\\\\UserClasses.dat was cleared updating 3 keys and creating 1 modified pages.\\\"}\"}"
+    },
+    {
+      "id": 44,
+      "timestamp": "2026-07-01T13:21:35.002Z",
+      "level": "INFO",
+      "source": "Microsoft-Windows-Kernel-General",
+      "message": "The access history in hive \\??\\C:\\Users\\keshav\\AppData\\Local\\Packages\\Microsoft.ScreenSketch_8wekyb3d8bbwe\\SystemAppData\\Helium\\User.dat was cleared updating 9 keys and creating 1 modified pages.",
+      "metadata": {
+        "source": "Microsoft-Windows-Kernel-General",
+        "metadata": {
+          "eventId": 16,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782912095002)/\",\"Id\":16,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Microsoft-Windows-Kernel-General\",\"Message\":\"The access history in hive \\\\??\\\\C:\\\\Users\\\\keshav\\\\AppData\\\\Local\\\\Packages\\\\Microsoft.ScreenSketch_8wekyb3d8bbwe\\\\SystemAppData\\\\Helium\\\\User.dat was cleared updating 9 keys and creating 1 modified pages.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:21:35.002Z\",\"level\":\"INFO\",\"source\":\"Microsoft-Windows-Kernel-General\",\"message\":\"The access history in hive \\\\??\\\\C:\\\\Users\\\\keshav\\\\AppData\\\\Local\\\\Packages\\\\Microsoft.ScreenSketch_8wekyb3d8bbwe\\\\SystemAppData\\\\Helium\\\\User.dat was cleared updating 9 keys and creating 1 modified pages.\",\"metadata\":{\"eventId\":16,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782912095002)/\\\",\\\"Id\\\":16,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-Kernel-General\\\",\\\"Message\\\":\\\"The access history in hive \\\\\\\\??\\\\\\\\C:\\\\\\\\Users\\\\\\\\keshav\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Packages\\\\\\\\Microsoft.ScreenSketch_8wekyb3d8bbwe\\\\\\\\SystemAppData\\\\\\\\Helium\\\\\\\\User.dat was cleared updating 9 keys and creating 1 modified pages.\\\"}\"}"
+    },
+    {
+      "id": 45,
+      "timestamp": "2026-07-01T13:21:23.564Z",
+      "level": "WARN",
+      "source": "BTHUSB",
+      "message": "A command sent to the adapter has timed out. The adapter did not respond.",
+      "metadata": {
+        "source": "BTHUSB",
+        "metadata": {
+          "eventId": 3,
+          "winLevel": "Warning"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782912083564)/\",\"Id\":3,\"LevelDisplayName\":\"Warning\",\"ProviderName\":\"BTHUSB\",\"Message\":\"A command sent to the adapter has timed out. The adapter did not respond.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:21:23.564Z\",\"level\":\"WARN\",\"source\":\"BTHUSB\",\"message\":\"A command sent to the adapter has timed out. The adapter did not respond.\",\"metadata\":{\"eventId\":3,\"winLevel\":\"Warning\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782912083564)/\\\",\\\"Id\\\":3,\\\"LevelDisplayName\\\":\\\"Warning\\\",\\\"ProviderName\\\":\\\"BTHUSB\\\",\\\"Message\\\":\\\"A command sent to the adapter has timed out. The adapter did not respond.\\\"}\"}"
+    },
+    {
+      "id": 46,
+      "timestamp": "2026-07-01T13:21:35.211Z",
+      "level": "INFO",
+      "source": "Microsoft-Windows-Kernel-General",
+      "message": "The access history in hive \\??\\C:\\Users\\keshav\\AppData\\Local\\Packages\\Microsoft.ScreenSketch_8wekyb3d8bbwe\\Settings\\settings.dat was cleared updating 2 keys and creating 1 modified pages.",
+      "metadata": {
+        "source": "Microsoft-Windows-Kernel-General",
+        "metadata": {
+          "eventId": 16,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782912095211)/\",\"Id\":16,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Microsoft-Windows-Kernel-General\",\"Message\":\"The access history in hive \\\\??\\\\C:\\\\Users\\\\keshav\\\\AppData\\\\Local\\\\Packages\\\\Microsoft.ScreenSketch_8wekyb3d8bbwe\\\\Settings\\\\settings.dat was cleared updating 2 keys and creating 1 modified pages.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:21:35.211Z\",\"level\":\"INFO\",\"source\":\"Microsoft-Windows-Kernel-General\",\"message\":\"The access history in hive \\\\??\\\\C:\\\\Users\\\\keshav\\\\AppData\\\\Local\\\\Packages\\\\Microsoft.ScreenSketch_8wekyb3d8bbwe\\\\Settings\\\\settings.dat was cleared updating 2 keys and creating 1 modified pages.\",\"metadata\":{\"eventId\":16,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782912095211)/\\\",\\\"Id\\\":16,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-Kernel-General\\\",\\\"Message\\\":\\\"The access history in hive \\\\\\\\??\\\\\\\\C:\\\\\\\\Users\\\\\\\\keshav\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Packages\\\\\\\\Microsoft.ScreenSketch_8wekyb3d8bbwe\\\\\\\\Settings\\\\\\\\settings.dat was cleared updating 2 keys and creating 1 modified pages.\\\"}\"}"
+    },
+    {
+      "id": 47,
+      "timestamp": "2026-07-01T13:21:35.009Z",
+      "level": "INFO",
+      "source": "Microsoft-Windows-Kernel-General",
+      "message": "The access history in hive \\??\\C:\\Users\\keshav\\AppData\\Local\\Packages\\Microsoft.ScreenSketch_8wekyb3d8bbwe\\SystemAppData\\Helium\\UserClasses.dat was cleared updating 3 keys and creating 1 modified pages.",
+      "metadata": {
+        "source": "Microsoft-Windows-Kernel-General",
+        "metadata": {
+          "eventId": 16,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782912095009)/\",\"Id\":16,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Microsoft-Windows-Kernel-General\",\"Message\":\"The access history in hive \\\\??\\\\C:\\\\Users\\\\keshav\\\\AppData\\\\Local\\\\Packages\\\\Microsoft.ScreenSketch_8wekyb3d8bbwe\\\\SystemAppData\\\\Helium\\\\UserClasses.dat was cleared updating 3 keys and creating 1 modified pages.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:21:35.009Z\",\"level\":\"INFO\",\"source\":\"Microsoft-Windows-Kernel-General\",\"message\":\"The access history in hive \\\\??\\\\C:\\\\Users\\\\keshav\\\\AppData\\\\Local\\\\Packages\\\\Microsoft.ScreenSketch_8wekyb3d8bbwe\\\\SystemAppData\\\\Helium\\\\UserClasses.dat was cleared updating 3 keys and creating 1 modified pages.\",\"metadata\":{\"eventId\":16,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782912095009)/\\\",\\\"Id\\\":16,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-Kernel-General\\\",\\\"Message\\\":\\\"The access history in hive \\\\\\\\??\\\\\\\\C:\\\\\\\\Users\\\\\\\\keshav\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Packages\\\\\\\\Microsoft.ScreenSketch_8wekyb3d8bbwe\\\\\\\\SystemAppData\\\\\\\\Helium\\\\\\\\UserClasses.dat was cleared updating 3 keys and creating 1 modified pages.\\\"}\"}"
+    },
+    {
+      "id": 48,
+      "timestamp": "2026-07-01T13:21:35.002Z",
+      "level": "INFO",
+      "source": "Microsoft-Windows-Kernel-General",
+      "message": "The access history in hive \\??\\C:\\Users\\keshav\\AppData\\Local\\Packages\\Microsoft.ScreenSketch_8wekyb3d8bbwe\\SystemAppData\\Helium\\User.dat was cleared updating 9 keys and creating 1 modified pages.",
+      "metadata": {
+        "source": "Microsoft-Windows-Kernel-General",
+        "metadata": {
+          "eventId": 16,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782912095002)/\",\"Id\":16,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Microsoft-Windows-Kernel-General\",\"Message\":\"The access history in hive \\\\??\\\\C:\\\\Users\\\\keshav\\\\AppData\\\\Local\\\\Packages\\\\Microsoft.ScreenSketch_8wekyb3d8bbwe\\\\SystemAppData\\\\Helium\\\\User.dat was cleared updating 9 keys and creating 1 modified pages.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:21:35.002Z\",\"level\":\"INFO\",\"source\":\"Microsoft-Windows-Kernel-General\",\"message\":\"The access history in hive \\\\??\\\\C:\\\\Users\\\\keshav\\\\AppData\\\\Local\\\\Packages\\\\Microsoft.ScreenSketch_8wekyb3d8bbwe\\\\SystemAppData\\\\Helium\\\\User.dat was cleared updating 9 keys and creating 1 modified pages.\",\"metadata\":{\"eventId\":16,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782912095002)/\\\",\\\"Id\\\":16,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-Kernel-General\\\",\\\"Message\\\":\\\"The access history in hive \\\\\\\\??\\\\\\\\C:\\\\\\\\Users\\\\\\\\keshav\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Packages\\\\\\\\Microsoft.ScreenSketch_8wekyb3d8bbwe\\\\\\\\SystemAppData\\\\\\\\Helium\\\\\\\\User.dat was cleared updating 9 keys and creating 1 modified pages.\\\"}\"}"
+    },
+    {
+      "id": 49,
+      "timestamp": "2026-07-01T13:21:23.564Z",
+      "level": "WARN",
+      "source": "BTHUSB",
+      "message": "A command sent to the adapter has timed out. The adapter did not respond.",
+      "metadata": {
+        "source": "BTHUSB",
+        "metadata": {
+          "eventId": 3,
+          "winLevel": "Warning"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782912083564)/\",\"Id\":3,\"LevelDisplayName\":\"Warning\",\"ProviderName\":\"BTHUSB\",\"Message\":\"A command sent to the adapter has timed out. The adapter did not respond.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:21:23.564Z\",\"level\":\"WARN\",\"source\":\"BTHUSB\",\"message\":\"A command sent to the adapter has timed out. The adapter did not respond.\",\"metadata\":{\"eventId\":3,\"winLevel\":\"Warning\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782912083564)/\\\",\\\"Id\\\":3,\\\"LevelDisplayName\\\":\\\"Warning\\\",\\\"ProviderName\\\":\\\"BTHUSB\\\",\\\"Message\\\":\\\"A command sent to the adapter has timed out. The adapter did not respond.\\\"}\"}"
+    },
+    {
+      "id": 50,
+      "timestamp": "2026-07-01T13:19:41.169Z",
+      "level": "INFO",
+      "source": "Microsoft-Windows-Security-SPP",
+      "message": "Successfully scheduled Software Protection service for re-start at 2126-06-07T13:19:41Z. Reason: RulesEngine.",
+      "metadata": {
+        "source": "Microsoft-Windows-Security-SPP",
+        "metadata": {
+          "eventId": 16384,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782911981169)/\",\"Id\":16384,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Microsoft-Windows-Security-SPP\",\"Message\":\"Successfully scheduled Software Protection service for re-start at 2126-06-07T13:19:41Z. Reason: RulesEngine.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:19:41.169Z\",\"level\":\"INFO\",\"source\":\"Microsoft-Windows-Security-SPP\",\"message\":\"Successfully scheduled Software Protection service for re-start at 2126-06-07T13:19:41Z. Reason: RulesEngine.\",\"metadata\":{\"eventId\":16384,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782911981169)/\\\",\\\"Id\\\":16384,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-Security-SPP\\\",\\\"Message\\\":\\\"Successfully scheduled Software Protection service for re-start at 2126-06-07T13:19:41Z. Reason: RulesEngine.\\\"}\"}"
+    },
+    {
+      "id": 51,
+      "timestamp": "2026-07-01T13:19:10.886Z",
+      "level": "INFO",
+      "source": "Microsoft-Windows-Security-SPP",
+      "message": "Offline downlevel migration succeeded.",
+      "metadata": {
+        "source": "Microsoft-Windows-Security-SPP",
+        "metadata": {
+          "eventId": 16394,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782911950886)/\",\"Id\":16394,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Microsoft-Windows-Security-SPP\",\"Message\":\"Offline downlevel migration succeeded.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:19:10.886Z\",\"level\":\"INFO\",\"source\":\"Microsoft-Windows-Security-SPP\",\"message\":\"Offline downlevel migration succeeded.\",\"metadata\":{\"eventId\":16394,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782911950886)/\\\",\\\"Id\\\":16394,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-Security-SPP\\\",\\\"Message\\\":\\\"Offline downlevel migration succeeded.\\\"}\"}"
+    },
+    {
+      "id": 52,
+      "timestamp": "2026-07-01T13:13:33.700Z",
+      "level": "INFO",
+      "source": "Microsoft-Windows-UserModePowerService",
+      "message": "Process C:\\Program Files\\ASUS\\ARMOURY CRATE Service\\ArmouryCrate.UserSessionHelper.exe (process ID:11132) reset policy scheme from {6fecc5ae-f350-48a5-b669-b472cb895ccf} to {6fecc5ae-f350-48a5-b669-b472cb895ccf}",
+      "metadata": {
+        "source": "Microsoft-Windows-UserModePowerService",
+        "metadata": {
+          "eventId": 12,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782911613700)/\",\"Id\":12,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Microsoft-Windows-UserModePowerService\",\"Message\":\"Process C:\\\\Program Files\\\\ASUS\\\\ARMOURY CRATE Service\\\\ArmouryCrate.UserSessionHelper.exe (process ID:11132) reset policy scheme from {6fecc5ae-f350-48a5-b669-b472cb895ccf} to {6fecc5ae-f350-48a5-b669-b472cb895ccf}\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:13:33.700Z\",\"level\":\"INFO\",\"source\":\"Microsoft-Windows-UserModePowerService\",\"message\":\"Process C:\\\\Program Files\\\\ASUS\\\\ARMOURY CRATE Service\\\\ArmouryCrate.UserSessionHelper.exe (process ID:11132) reset policy scheme from {6fecc5ae-f350-48a5-b669-b472cb895ccf} to {6fecc5ae-f350-48a5-b669-b472cb895ccf}\",\"metadata\":{\"eventId\":12,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782911613700)/\\\",\\\"Id\\\":12,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-UserModePowerService\\\",\\\"Message\\\":\\\"Process C:\\\\\\\\Program Files\\\\\\\\ASUS\\\\\\\\ARMOURY CRATE Service\\\\\\\\ArmouryCrate.UserSessionHelper.exe (process ID:11132) reset policy scheme from {6fecc5ae-f350-48a5-b669-b472cb895ccf} to {6fecc5ae-f350-48a5-b669-b472cb895ccf}\\\"}\"}"
+    },
+    {
+      "id": 53,
+      "timestamp": "2026-07-01T13:13:26.625Z",
+      "level": "INFO",
+      "source": "Microsoft-Windows-UserModePowerService",
+      "message": "Process C:\\Program Files\\ASUS\\ARMOURY CRATE Service\\ArmouryCrate.UserSessionHelper.exe (process ID:11132) reset policy scheme from {27fa6203-3987-4dcc-918d-748559d549ec} to {6fecc5ae-f350-48a5-b669-b472cb895ccf}",
+      "metadata": {
+        "source": "Microsoft-Windows-UserModePowerService",
+        "metadata": {
+          "eventId": 12,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782911606625)/\",\"Id\":12,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Microsoft-Windows-UserModePowerService\",\"Message\":\"Process C:\\\\Program Files\\\\ASUS\\\\ARMOURY CRATE Service\\\\ArmouryCrate.UserSessionHelper.exe (process ID:11132) reset policy scheme from {27fa6203-3987-4dcc-918d-748559d549ec} to {6fecc5ae-f350-48a5-b669-b472cb895ccf}\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:13:26.625Z\",\"level\":\"INFO\",\"source\":\"Microsoft-Windows-UserModePowerService\",\"message\":\"Process C:\\\\Program Files\\\\ASUS\\\\ARMOURY CRATE Service\\\\ArmouryCrate.UserSessionHelper.exe (process ID:11132) reset policy scheme from {27fa6203-3987-4dcc-918d-748559d549ec} to {6fecc5ae-f350-48a5-b669-b472cb895ccf}\",\"metadata\":{\"eventId\":12,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782911606625)/\\\",\\\"Id\\\":12,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-UserModePowerService\\\",\\\"Message\\\":\\\"Process C:\\\\\\\\Program Files\\\\\\\\ASUS\\\\\\\\ARMOURY CRATE Service\\\\\\\\ArmouryCrate.UserSessionHelper.exe (process ID:11132) reset policy scheme from {27fa6203-3987-4dcc-918d-748559d549ec} to {6fecc5ae-f350-48a5-b669-b472cb895ccf}\\\"}\"}"
+    },
+    {
+      "id": 54,
+      "timestamp": "2026-07-01T13:13:26.201Z",
+      "level": "INFO",
+      "source": "Microsoft-Windows-Kernel-Power",
+      "message": "Power source change.",
+      "metadata": {
+        "source": "Microsoft-Windows-Kernel-Power",
+        "metadata": {
+          "eventId": 105,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782911606201)/\",\"Id\":105,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Microsoft-Windows-Kernel-Power\",\"Message\":\"Power source change.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:13:26.201Z\",\"level\":\"INFO\",\"source\":\"Microsoft-Windows-Kernel-Power\",\"message\":\"Power source change.\",\"metadata\":{\"eventId\":105,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782911606201)/\\\",\\\"Id\\\":105,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-Kernel-Power\\\",\\\"Message\\\":\\\"Power source change.\\\"}\"}"
+    },
+    {
+      "id": 55,
+      "timestamp": "2026-07-01T13:23:24.784Z",
+      "level": "INFO",
+      "source": "Microsoft-Windows-Time-Service",
+      "message": "The time provider 'VMICTimeProvider' has indicated that the current hardware and operating environment is not supported and has stopped. This behavior is expected for VMICTimeProvider on non-HyperV-guest environments. This may be the expected behavior for the current provider in the current operating environment as well.",
+      "metadata": {
+        "source": "Microsoft-Windows-Time-Service",
+        "metadata": {
+          "eventId": 158,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782912204784)/\",\"Id\":158,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Microsoft-Windows-Time-Service\",\"Message\":\"The time provider 'VMICTimeProvider' has indicated that the current hardware and operating environment is not supported and has stopped. This behavior is expected for VMICTimeProvider on non-HyperV-guest environments. This may be the expected behavior for the current provider in the current operating environment as well.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:23:24.784Z\",\"level\":\"INFO\",\"source\":\"Microsoft-Windows-Time-Service\",\"message\":\"The time provider 'VMICTimeProvider' has indicated that the current hardware and operating environment is not supported and has stopped. This behavior is expected for VMICTimeProvider on non-HyperV-guest environments. This may be the expected behavior for the current provider in the current operating environment as well.\",\"metadata\":{\"eventId\":158,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782912204784)/\\\",\\\"Id\\\":158,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-Time-Service\\\",\\\"Message\\\":\\\"The time provider 'VMICTimeProvider' has indicated that the current hardware and operating environment is not supported and has stopped. This behavior is expected for VMICTimeProvider on non-HyperV-guest environments. This may be the expected behavior for the current provider in the current operating environment as well.\\\"}\"}"
+    },
+    {
+      "id": 56,
+      "timestamp": "2026-07-01T13:23:24.784Z",
+      "level": "INFO",
+      "source": "Microsoft-Windows-Time-Service",
+      "message": "The time provider 'VMICTimeProvider' has indicated that the current hardware and operating environment is not supported and has stopped. This behavior is expected for VMICTimeProvider on non-HyperV-guest environments. This may be the expected behavior for the current provider in the current operating environment as well.",
+      "metadata": {
+        "source": "Microsoft-Windows-Time-Service",
+        "metadata": {
+          "eventId": 158,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782912204784)/\",\"Id\":158,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Microsoft-Windows-Time-Service\",\"Message\":\"The time provider 'VMICTimeProvider' has indicated that the current hardware and operating environment is not supported and has stopped. This behavior is expected for VMICTimeProvider on non-HyperV-guest environments. This may be the expected behavior for the current provider in the current operating environment as well.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:23:24.784Z\",\"level\":\"INFO\",\"source\":\"Microsoft-Windows-Time-Service\",\"message\":\"The time provider 'VMICTimeProvider' has indicated that the current hardware and operating environment is not supported and has stopped. This behavior is expected for VMICTimeProvider on non-HyperV-guest environments. This may be the expected behavior for the current provider in the current operating environment as well.\",\"metadata\":{\"eventId\":158,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782912204784)/\\\",\\\"Id\\\":158,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-Time-Service\\\",\\\"Message\\\":\\\"The time provider 'VMICTimeProvider' has indicated that the current hardware and operating environment is not supported and has stopped. This behavior is expected for VMICTimeProvider on non-HyperV-guest environments. This may be the expected behavior for the current provider in the current operating environment as well.\\\"}\"}"
+    },
+    {
+      "id": 57,
+      "timestamp": "2026-07-01T13:06:20.767Z",
+      "level": "INFO",
+      "source": "Microsoft-Windows-Time-Service",
+      "message": "The time provider 'VMICTimeProvider' has indicated that the current hardware and operating environment is not supported and has stopped. This behavior is expected for VMICTimeProvider on non-HyperV-guest environments. This may be the expected behavior for the current provider in the current operating environment as well.",
+      "metadata": {
+        "source": "Microsoft-Windows-Time-Service",
+        "metadata": {
+          "eventId": 158,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782911180767)/\",\"Id\":158,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Microsoft-Windows-Time-Service\",\"Message\":\"The time provider 'VMICTimeProvider' has indicated that the current hardware and operating environment is not supported and has stopped. This behavior is expected for VMICTimeProvider on non-HyperV-guest environments. This may be the expected behavior for the current provider in the current operating environment as well.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:06:20.767Z\",\"level\":\"INFO\",\"source\":\"Microsoft-Windows-Time-Service\",\"message\":\"The time provider 'VMICTimeProvider' has indicated that the current hardware and operating environment is not supported and has stopped. This behavior is expected for VMICTimeProvider on non-HyperV-guest environments. This may be the expected behavior for the current provider in the current operating environment as well.\",\"metadata\":{\"eventId\":158,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782911180767)/\\\",\\\"Id\\\":158,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-Time-Service\\\",\\\"Message\\\":\\\"The time provider 'VMICTimeProvider' has indicated that the current hardware and operating environment is not supported and has stopped. This behavior is expected for VMICTimeProvider on non-HyperV-guest environments. This may be the expected behavior for the current provider in the current operating environment as well.\\\"}\"}"
+    },
+    {
+      "id": 58,
+      "timestamp": "2026-07-01T13:23:24.784Z",
+      "level": "INFO",
+      "source": "Microsoft-Windows-Time-Service",
+      "message": "The time provider 'VMICTimeProvider' has indicated that the current hardware and operating environment is not supported and has stopped. This behavior is expected for VMICTimeProvider on non-HyperV-guest environments. This may be the expected behavior for the current provider in the current operating environment as well.",
+      "metadata": {
+        "source": "Microsoft-Windows-Time-Service",
+        "metadata": {
+          "eventId": 158,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782912204784)/\",\"Id\":158,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Microsoft-Windows-Time-Service\",\"Message\":\"The time provider 'VMICTimeProvider' has indicated that the current hardware and operating environment is not supported and has stopped. This behavior is expected for VMICTimeProvider on non-HyperV-guest environments. This may be the expected behavior for the current provider in the current operating environment as well.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:23:24.784Z\",\"level\":\"INFO\",\"source\":\"Microsoft-Windows-Time-Service\",\"message\":\"The time provider 'VMICTimeProvider' has indicated that the current hardware and operating environment is not supported and has stopped. This behavior is expected for VMICTimeProvider on non-HyperV-guest environments. This may be the expected behavior for the current provider in the current operating environment as well.\",\"metadata\":{\"eventId\":158,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782912204784)/\\\",\\\"Id\\\":158,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-Time-Service\\\",\\\"Message\\\":\\\"The time provider 'VMICTimeProvider' has indicated that the current hardware and operating environment is not supported and has stopped. This behavior is expected for VMICTimeProvider on non-HyperV-guest environments. This may be the expected behavior for the current provider in the current operating environment as well.\\\"}\"}"
+    },
+    {
+      "id": 59,
+      "timestamp": "2026-07-01T13:21:35.211Z",
+      "level": "INFO",
+      "source": "Microsoft-Windows-Kernel-General",
+      "message": "The access history in hive \\??\\C:\\Users\\keshav\\AppData\\Local\\Packages\\Microsoft.ScreenSketch_8wekyb3d8bbwe\\Settings\\settings.dat was cleared updating 2 keys and creating 1 modified pages.",
+      "metadata": {
+        "source": "Microsoft-Windows-Kernel-General",
+        "metadata": {
+          "eventId": 16,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782912095211)/\",\"Id\":16,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Microsoft-Windows-Kernel-General\",\"Message\":\"The access history in hive \\\\??\\\\C:\\\\Users\\\\keshav\\\\AppData\\\\Local\\\\Packages\\\\Microsoft.ScreenSketch_8wekyb3d8bbwe\\\\Settings\\\\settings.dat was cleared updating 2 keys and creating 1 modified pages.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:21:35.211Z\",\"level\":\"INFO\",\"source\":\"Microsoft-Windows-Kernel-General\",\"message\":\"The access history in hive \\\\??\\\\C:\\\\Users\\\\keshav\\\\AppData\\\\Local\\\\Packages\\\\Microsoft.ScreenSketch_8wekyb3d8bbwe\\\\Settings\\\\settings.dat was cleared updating 2 keys and creating 1 modified pages.\",\"metadata\":{\"eventId\":16,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782912095211)/\\\",\\\"Id\\\":16,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-Kernel-General\\\",\\\"Message\\\":\\\"The access history in hive \\\\\\\\??\\\\\\\\C:\\\\\\\\Users\\\\\\\\keshav\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Packages\\\\\\\\Microsoft.ScreenSketch_8wekyb3d8bbwe\\\\\\\\Settings\\\\\\\\settings.dat was cleared updating 2 keys and creating 1 modified pages.\\\"}\"}"
+    },
+    {
+      "id": 60,
+      "timestamp": "2026-07-01T13:21:35.009Z",
+      "level": "INFO",
+      "source": "Microsoft-Windows-Kernel-General",
+      "message": "The access history in hive \\??\\C:\\Users\\keshav\\AppData\\Local\\Packages\\Microsoft.ScreenSketch_8wekyb3d8bbwe\\SystemAppData\\Helium\\UserClasses.dat was cleared updating 3 keys and creating 1 modified pages.",
+      "metadata": {
+        "source": "Microsoft-Windows-Kernel-General",
+        "metadata": {
+          "eventId": 16,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782912095009)/\",\"Id\":16,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Microsoft-Windows-Kernel-General\",\"Message\":\"The access history in hive \\\\??\\\\C:\\\\Users\\\\keshav\\\\AppData\\\\Local\\\\Packages\\\\Microsoft.ScreenSketch_8wekyb3d8bbwe\\\\SystemAppData\\\\Helium\\\\UserClasses.dat was cleared updating 3 keys and creating 1 modified pages.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:21:35.009Z\",\"level\":\"INFO\",\"source\":\"Microsoft-Windows-Kernel-General\",\"message\":\"The access history in hive \\\\??\\\\C:\\\\Users\\\\keshav\\\\AppData\\\\Local\\\\Packages\\\\Microsoft.ScreenSketch_8wekyb3d8bbwe\\\\SystemAppData\\\\Helium\\\\UserClasses.dat was cleared updating 3 keys and creating 1 modified pages.\",\"metadata\":{\"eventId\":16,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782912095009)/\\\",\\\"Id\\\":16,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-Kernel-General\\\",\\\"Message\\\":\\\"The access history in hive \\\\\\\\??\\\\\\\\C:\\\\\\\\Users\\\\\\\\keshav\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Packages\\\\\\\\Microsoft.ScreenSketch_8wekyb3d8bbwe\\\\\\\\SystemAppData\\\\\\\\Helium\\\\\\\\UserClasses.dat was cleared updating 3 keys and creating 1 modified pages.\\\"}\"}"
+    },
+    {
+      "id": 61,
+      "timestamp": "2026-07-01T13:21:35.002Z",
+      "level": "INFO",
+      "source": "Microsoft-Windows-Kernel-General",
+      "message": "The access history in hive \\??\\C:\\Users\\keshav\\AppData\\Local\\Packages\\Microsoft.ScreenSketch_8wekyb3d8bbwe\\SystemAppData\\Helium\\User.dat was cleared updating 9 keys and creating 1 modified pages.",
+      "metadata": {
+        "source": "Microsoft-Windows-Kernel-General",
+        "metadata": {
+          "eventId": 16,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782912095002)/\",\"Id\":16,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Microsoft-Windows-Kernel-General\",\"Message\":\"The access history in hive \\\\??\\\\C:\\\\Users\\\\keshav\\\\AppData\\\\Local\\\\Packages\\\\Microsoft.ScreenSketch_8wekyb3d8bbwe\\\\SystemAppData\\\\Helium\\\\User.dat was cleared updating 9 keys and creating 1 modified pages.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:21:35.002Z\",\"level\":\"INFO\",\"source\":\"Microsoft-Windows-Kernel-General\",\"message\":\"The access history in hive \\\\??\\\\C:\\\\Users\\\\keshav\\\\AppData\\\\Local\\\\Packages\\\\Microsoft.ScreenSketch_8wekyb3d8bbwe\\\\SystemAppData\\\\Helium\\\\User.dat was cleared updating 9 keys and creating 1 modified pages.\",\"metadata\":{\"eventId\":16,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782912095002)/\\\",\\\"Id\\\":16,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-Kernel-General\\\",\\\"Message\\\":\\\"The access history in hive \\\\\\\\??\\\\\\\\C:\\\\\\\\Users\\\\\\\\keshav\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Packages\\\\\\\\Microsoft.ScreenSketch_8wekyb3d8bbwe\\\\\\\\SystemAppData\\\\\\\\Helium\\\\\\\\User.dat was cleared updating 9 keys and creating 1 modified pages.\\\"}\"}"
+    },
+    {
+      "id": 62,
+      "timestamp": "2026-07-01T13:21:23.564Z",
+      "level": "WARN",
+      "source": "BTHUSB",
+      "message": "A command sent to the adapter has timed out. The adapter did not respond.",
+      "metadata": {
+        "source": "BTHUSB",
+        "metadata": {
+          "eventId": 3,
+          "winLevel": "Warning"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782912083564)/\",\"Id\":3,\"LevelDisplayName\":\"Warning\",\"ProviderName\":\"BTHUSB\",\"Message\":\"A command sent to the adapter has timed out. The adapter did not respond.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:21:23.564Z\",\"level\":\"WARN\",\"source\":\"BTHUSB\",\"message\":\"A command sent to the adapter has timed out. The adapter did not respond.\",\"metadata\":{\"eventId\":3,\"winLevel\":\"Warning\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782912083564)/\\\",\\\"Id\\\":3,\\\"LevelDisplayName\\\":\\\"Warning\\\",\\\"ProviderName\\\":\\\"BTHUSB\\\",\\\"Message\\\":\\\"A command sent to the adapter has timed out. The adapter did not respond.\\\"}\"}"
+    },
+    {
+      "id": 63,
+      "timestamp": "2026-07-01T13:19:41.169Z",
+      "level": "INFO",
+      "source": "Microsoft-Windows-Security-SPP",
+      "message": "Successfully scheduled Software Protection service for re-start at 2126-06-07T13:19:41Z. Reason: RulesEngine.",
+      "metadata": {
+        "source": "Microsoft-Windows-Security-SPP",
+        "metadata": {
+          "eventId": 16384,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782911981169)/\",\"Id\":16384,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Microsoft-Windows-Security-SPP\",\"Message\":\"Successfully scheduled Software Protection service for re-start at 2126-06-07T13:19:41Z. Reason: RulesEngine.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:19:41.169Z\",\"level\":\"INFO\",\"source\":\"Microsoft-Windows-Security-SPP\",\"message\":\"Successfully scheduled Software Protection service for re-start at 2126-06-07T13:19:41Z. Reason: RulesEngine.\",\"metadata\":{\"eventId\":16384,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782911981169)/\\\",\\\"Id\\\":16384,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-Security-SPP\\\",\\\"Message\\\":\\\"Successfully scheduled Software Protection service for re-start at 2126-06-07T13:19:41Z. Reason: RulesEngine.\\\"}\"}"
+    },
+    {
+      "id": 64,
+      "timestamp": "2026-07-01T13:19:10.886Z",
+      "level": "INFO",
+      "source": "Microsoft-Windows-Security-SPP",
+      "message": "Offline downlevel migration succeeded.",
+      "metadata": {
+        "source": "Microsoft-Windows-Security-SPP",
+        "metadata": {
+          "eventId": 16394,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782911950886)/\",\"Id\":16394,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Microsoft-Windows-Security-SPP\",\"Message\":\"Offline downlevel migration succeeded.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:19:10.886Z\",\"level\":\"INFO\",\"source\":\"Microsoft-Windows-Security-SPP\",\"message\":\"Offline downlevel migration succeeded.\",\"metadata\":{\"eventId\":16394,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782911950886)/\\\",\\\"Id\\\":16394,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-Security-SPP\\\",\\\"Message\\\":\\\"Offline downlevel migration succeeded.\\\"}\"}"
+    },
+    {
+      "id": 65,
+      "timestamp": "2026-07-01T13:31:53.573Z",
+      "level": "WARN",
+      "source": "BTHUSB",
+      "message": "A command sent to the adapter has timed out. The adapter did not respond.",
+      "metadata": {
+        "source": "BTHUSB",
+        "metadata": {
+          "eventId": 3,
+          "winLevel": "Warning"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782912713573)/\",\"Id\":3,\"LevelDisplayName\":\"Warning\",\"ProviderName\":\"BTHUSB\",\"Message\":\"A command sent to the adapter has timed out. The adapter did not respond.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:31:53.573Z\",\"level\":\"WARN\",\"source\":\"BTHUSB\",\"message\":\"A command sent to the adapter has timed out. The adapter did not respond.\",\"metadata\":{\"eventId\":3,\"winLevel\":\"Warning\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782912713573)/\\\",\\\"Id\\\":3,\\\"LevelDisplayName\\\":\\\"Warning\\\",\\\"ProviderName\\\":\\\"BTHUSB\\\",\\\"Message\\\":\\\"A command sent to the adapter has timed out. The adapter did not respond.\\\"}\"}"
+    },
+    {
+      "id": 66,
+      "timestamp": "2026-07-01T13:47:56.091Z",
+      "level": "INFO",
+      "source": "Windows Error Reporting",
+      "message": "Fault bucket , type 0\r\nEvent Name: APPCRASH\r\nResponse: Not available\r\nCab Id: 0\r\n\r\nProblem signature:\r\nP1: netcut_windows.exe\r\nP2: 0.0.0.0\r\nP3: 690bb565\r\nP4: packet.dll\r\nP5: 4.1.0.2980\r\nP6: 5130043c\r\nP7: c0000005\r\nP8: 00001e2a\r\nP9: \r\nP10: \r\n\r\nAttached files:\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.11f27aba-3952-4884-9106-6a667ab1215b.tmp.mdmp\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.390c7968-f3e6-41ed-b5bf-d89300de1fd4.tmp.WERInternalMetadata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.56cd1a33-2f08-4db8-882c-ee8ed723a46c.tmp.etl\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\ReportQueue\\AppCrash_netcut_windows.e_9464d045f33293e33e31bf07748f67a62441e3c_c6783028_cab_d5db5082-061d-4422-b98c-0e060bf4eccb\\WPR_initiated_DiagTrackMiniLogger_WPR System Collector_inject.etl\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.46c0baac-3ccc-4a88-a5ba-1ac9a15a894e.tmp.etl\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.9691a5bd-fd31-41c5-a1c9-219ada95f1d8.tmp.csv\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.ec433bdd-bbfc-450b-81f8-cbc5f605e25e.tmp.txt\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.3ea3b927-7812-47cc-b8fc-ecce12a2c540.tmp.xml\r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.a1aeb21f-fda4-43ee-b6b4-bb7232b6445e.tmp.appcompat.txt\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\ReportQueue\\AppCrash_netcut_windows.e_9464d045f33293e33e31bf07748f67a62441e3c_c6783028_cab_d5db5082-061d-4422-b98c-0e060bf4eccb\\memory.hdmp\r\n\r\nThese files may be available here:\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\ReportQueue\\AppCrash_netcut_windows.e_9464d045f33293e33e31bf07748f67a62441e3c_c6783028_cab_d5db5082-061d-4422-b98c-0e060bf4eccb\r\n\r\nAnalysis symbol: \r\nRechecking for solution: 0\r\nReport Id: 558224c8-33a4-4fd3-8d54-f6e313587559\r\nReport Status: 6\r\nHashed bucket: \r\nCab Guid: 0",
+      "metadata": {
+        "source": "Windows Error Reporting",
+        "metadata": {
+          "eventId": 1001,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782913676091)/\",\"Id\":1001,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Windows Error Reporting\",\"Message\":\"Fault bucket , type 0\\r\\nEvent Name: APPCRASH\\r\\nResponse: Not available\\r\\nCab Id: 0\\r\\n\\r\\nProblem signature:\\r\\nP1: netcut_windows.exe\\r\\nP2: 0.0.0.0\\r\\nP3: 690bb565\\r\\nP4: packet.dll\\r\\nP5: 4.1.0.2980\\r\\nP6: 5130043c\\r\\nP7: c0000005\\r\\nP8: 00001e2a\\r\\nP9: \\r\\nP10: \\r\\n\\r\\nAttached files:\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\Temp\\\\WER.11f27aba-3952-4884-9106-6a667ab1215b.tmp.mdmp\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\Temp\\\\WER.390c7968-f3e6-41ed-b5bf-d89300de1fd4.tmp.WERInternalMetadata.xml\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\Temp\\\\WER.56cd1a33-2f08-4db8-882c-ee8ed723a46c.tmp.etl\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\ReportQueue\\\\AppCrash_netcut_windows.e_9464d045f33293e33e31bf07748f67a62441e3c_c6783028_cab_d5db5082-061d-4422-b98c-0e060bf4eccb\\\\WPR_initiated_DiagTrackMiniLogger_WPR System Collector_inject.etl\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\Temp\\\\WER.46c0baac-3ccc-4a88-a5ba-1ac9a15a894e.tmp.etl\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\Temp\\\\WER.9691a5bd-fd31-41c5-a1c9-219ada95f1d8.tmp.csv\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\Temp\\\\WER.ec433bdd-bbfc-450b-81f8-cbc5f605e25e.tmp.txt\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\Temp\\\\WER.3ea3b927-7812-47cc-b8fc-ecce12a2c540.tmp.xml\\r\\n\\\\\\\\?\\\\C:\\\\Windows\\\\SystemTemp\\\\WER.a1aeb21f-fda4-43ee-b6b4-bb7232b6445e.tmp.appcompat.txt\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\ReportQueue\\\\AppCrash_netcut_windows.e_9464d045f33293e33e31bf07748f67a62441e3c_c6783028_cab_d5db5082-061d-4422-b98c-0e060bf4eccb\\\\memory.hdmp\\r\\n\\r\\nThese files may be available here:\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\ReportQueue\\\\AppCrash_netcut_windows.e_9464d045f33293e33e31bf07748f67a62441e3c_c6783028_cab_d5db5082-061d-4422-b98c-0e060bf4eccb\\r\\n\\r\\nAnalysis symbol: \\r\\nRechecking for solution: 0\\r\\nReport Id: 558224c8-33a4-4fd3-8d54-f6e313587559\\r\\nReport Status: 6\\r\\nHashed bucket: \\r\\nCab Guid: 0\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:47:56.091Z\",\"level\":\"INFO\",\"source\":\"Windows Error Reporting\",\"message\":\"Fault bucket , type 0\\r\\nEvent Name: APPCRASH\\r\\nResponse: Not available\\r\\nCab Id: 0\\r\\n\\r\\nProblem signature:\\r\\nP1: netcut_windows.exe\\r\\nP2: 0.0.0.0\\r\\nP3: 690bb565\\r\\nP4: packet.dll\\r\\nP5: 4.1.0.2980\\r\\nP6: 5130043c\\r\\nP7: c0000005\\r\\nP8: 00001e2a\\r\\nP9: \\r\\nP10: \\r\\n\\r\\nAttached files:\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\Temp\\\\WER.11f27aba-3952-4884-9106-6a667ab1215b.tmp.mdmp\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\Temp\\\\WER.390c7968-f3e6-41ed-b5bf-d89300de1fd4.tmp.WERInternalMetadata.xml\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\Temp\\\\WER.56cd1a33-2f08-4db8-882c-ee8ed723a46c.tmp.etl\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\ReportQueue\\\\AppCrash_netcut_windows.e_9464d045f33293e33e31bf07748f67a62441e3c_c6783028_cab_d5db5082-061d-4422-b98c-0e060bf4eccb\\\\WPR_initiated_DiagTrackMiniLogger_WPR System Collector_inject.etl\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\Temp\\\\WER.46c0baac-3ccc-4a88-a5ba-1ac9a15a894e.tmp.etl\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\Temp\\\\WER.9691a5bd-fd31-41c5-a1c9-219ada95f1d8.tmp.csv\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\Temp\\\\WER.ec433bdd-bbfc-450b-81f8-cbc5f605e25e.tmp.txt\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\Temp\\\\WER.3ea3b927-7812-47cc-b8fc-ecce12a2c540.tmp.xml\\r\\n\\\\\\\\?\\\\C:\\\\Windows\\\\SystemTemp\\\\WER.a1aeb21f-fda4-43ee-b6b4-bb7232b6445e.tmp.appcompat.txt\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\ReportQueue\\\\AppCrash_netcut_windows.e_9464d045f33293e33e31bf07748f67a62441e3c_c6783028_cab_d5db5082-061d-4422-b98c-0e060bf4eccb\\\\memory.hdmp\\r\\n\\r\\nThese files may be available here:\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\ReportQueue\\\\AppCrash_netcut_windows.e_9464d045f33293e33e31bf07748f67a62441e3c_c6783028_cab_d5db5082-061d-4422-b98c-0e060bf4eccb\\r\\n\\r\\nAnalysis symbol: \\r\\nRechecking for solution: 0\\r\\nReport Id: 558224c8-33a4-4fd3-8d54-f6e313587559\\r\\nReport Status: 6\\r\\nHashed bucket: \\r\\nCab Guid: 0\",\"metadata\":{\"eventId\":1001,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782913676091)/\\\",\\\"Id\\\":1001,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Windows Error Reporting\\\",\\\"Message\\\":\\\"Fault bucket , type 0\\\\r\\\\nEvent Name: APPCRASH\\\\r\\\\nResponse: Not available\\\\r\\\\nCab Id: 0\\\\r\\\\n\\\\r\\\\nProblem signature:\\\\r\\\\nP1: netcut_windows.exe\\\\r\\\\nP2: 0.0.0.0\\\\r\\\\nP3: 690bb565\\\\r\\\\nP4: packet.dll\\\\r\\\\nP5: 4.1.0.2980\\\\r\\\\nP6: 5130043c\\\\r\\\\nP7: c0000005\\\\r\\\\nP8: 00001e2a\\\\r\\\\nP9: \\\\r\\\\nP10: \\\\r\\\\n\\\\r\\\\nAttached files:\\\\r\\\\n\\\\\\\\\\\\\\\\?\\\\\\\\C:\\\\\\\\ProgramData\\\\\\\\Microsoft\\\\\\\\Windows\\\\\\\\WER\\\\\\\\Temp\\\\\\\\WER.11f27aba-3952-4884-9106-6a667ab1215b.tmp.mdmp\\\\r\\\\n\\\\\\\\\\\\\\\\?\\\\\\\\C:\\\\\\\\ProgramData\\\\\\\\Microsoft\\\\\\\\Windows\\\\\\\\WER\\\\\\\\Temp\\\\\\\\WER.390c7968-f3e6-41ed-b5bf-d89300de1fd4.tmp.WERInternalMetadata.xml\\\\r\\\\n\\\\\\\\\\\\\\\\?\\\\\\\\C:\\\\\\\\ProgramData\\\\\\\\Microsoft\\\\\\\\Windows\\\\\\\\WER\\\\\\\\Temp\\\\\\\\WER.56cd1a33-2f08-4db8-882c-ee8ed723a46c.tmp.etl\\\\r\\\\n\\\\\\\\\\\\\\\\?\\\\\\\\C:\\\\\\\\ProgramData\\\\\\\\Microsoft\\\\\\\\Windows\\\\\\\\WER\\\\\\\\ReportQueue\\\\\\\\AppCrash_netcut_windows.e_9464d045f33293e33e31bf07748f67a62441e3c_c6783028_cab_d5db5082-061d-4422-b98c-0e060bf4eccb\\\\\\\\WPR_initiated_DiagTrackMiniLogger_WPR System Collector_inject.etl\\\\r\\\\n\\\\\\\\\\\\\\\\?\\\\\\\\C:\\\\\\\\ProgramData\\\\\\\\Microsoft\\\\\\\\Windows\\\\\\\\WER\\\\\\\\Temp\\\\\\\\WER.46c0baac-3ccc-4a88-a5ba-1ac9a15a894e.tmp.etl\\\\r\\\\n\\\\\\\\\\\\\\\\?\\\\\\\\C:\\\\\\\\ProgramData\\\\\\\\Microsoft\\\\\\\\Windows\\\\\\\\WER\\\\\\\\Temp\\\\\\\\WER.9691a5bd-fd31-41c5-a1c9-219ada95f1d8.tmp.csv\\\\r\\\\n\\\\\\\\\\\\\\\\?\\\\\\\\C:\\\\\\\\ProgramData\\\\\\\\Microsoft\\\\\\\\Windows\\\\\\\\WER\\\\\\\\Temp\\\\\\\\WER.ec433bdd-bbfc-450b-81f8-cbc5f605e25e.tmp.txt\\\\r\\\\n\\\\\\\\\\\\\\\\?\\\\\\\\C:\\\\\\\\ProgramData\\\\\\\\Microsoft\\\\\\\\Windows\\\\\\\\WER\\\\\\\\Temp\\\\\\\\WER.3ea3b927-7812-47cc-b8fc-ecce12a2c540.tmp.xml\\\\r\\\\n\\\\\\\\\\\\\\\\?\\\\\\\\C:\\\\\\\\Windows\\\\\\\\SystemTemp\\\\\\\\WER.a1aeb21f-fda4-43ee-b6b4-bb7232b6445e.tmp.appcompat.txt\\\\r\\\\n\\\\\\\\\\\\\\\\?\\\\\\\\C:\\\\\\\\ProgramData\\\\\\\\Microsoft\\\\\\\\Windows\\\\\\\\WER\\\\\\\\ReportQueue\\\\\\\\AppCrash_netcut_windows.e_9464d045f33293e33e31bf07748f67a62441e3c_c6783028_cab_d5db5082-061d-4422-b98c-0e060bf4eccb\\\\\\\\memory.hdmp\\\\r\\\\n\\\\r\\\\nThese files may be available here:\\\\r\\\\n\\\\\\\\\\\\\\\\?\\\\\\\\C:\\\\\\\\ProgramData\\\\\\\\Microsoft\\\\\\\\Windows\\\\\\\\WER\\\\\\\\ReportQueue\\\\\\\\AppCrash_netcut_windows.e_9464d045f33293e33e31bf07748f67a62441e3c_c6783028_cab_d5db5082-061d-4422-b98c-0e060bf4eccb\\\\r\\\\n\\\\r\\\\nAnalysis symbol: \\\\r\\\\nRechecking for solution: 0\\\\r\\\\nReport Id: 558224c8-33a4-4fd3-8d54-f6e313587559\\\\r\\\\nReport Status: 6\\\\r\\\\nHashed bucket: \\\\r\\\\nCab Guid: 0\\\"}\"}"
+    },
+    {
+      "id": 67,
+      "timestamp": "2026-07-01T13:47:49.750Z",
+      "level": "INFO",
+      "source": "Microsoft-Windows-Kernel-Power",
+      "message": "The system is entering Modern Standby \r\n\r\nReason: Austerity Battery Drain Budget Exceeded.",
+      "metadata": {
+        "source": "Microsoft-Windows-Kernel-Power",
+        "metadata": {
+          "eventId": 506,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782913669750)/\",\"Id\":506,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Microsoft-Windows-Kernel-Power\",\"Message\":\"The system is entering Modern Standby \\r\\n\\r\\nReason: Austerity Battery Drain Budget Exceeded.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:47:49.750Z\",\"level\":\"INFO\",\"source\":\"Microsoft-Windows-Kernel-Power\",\"message\":\"The system is entering Modern Standby \\r\\n\\r\\nReason: Austerity Battery Drain Budget Exceeded.\",\"metadata\":{\"eventId\":506,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782913669750)/\\\",\\\"Id\\\":506,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-Kernel-Power\\\",\\\"Message\\\":\\\"The system is entering Modern Standby \\\\r\\\\n\\\\r\\\\nReason: Austerity Battery Drain Budget Exceeded.\\\"}\"}"
+    },
+    {
+      "id": 68,
+      "timestamp": "2026-07-01T13:47:49.748Z",
+      "level": "INFO",
+      "source": "Microsoft-Windows-Kernel-Power",
+      "message": "The system session has transitioned from 7 to 8.\r\n\r\nReason 55 \r\n\r\nBootId: 389",
+      "metadata": {
+        "source": "Microsoft-Windows-Kernel-Power",
+        "metadata": {
+          "eventId": 566,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782913669748)/\",\"Id\":566,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Microsoft-Windows-Kernel-Power\",\"Message\":\"The system session has transitioned from 7 to 8.\\r\\n\\r\\nReason 55 \\r\\n\\r\\nBootId: 389\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:47:49.748Z\",\"level\":\"INFO\",\"source\":\"Microsoft-Windows-Kernel-Power\",\"message\":\"The system session has transitioned from 7 to 8.\\r\\n\\r\\nReason 55 \\r\\n\\r\\nBootId: 389\",\"metadata\":{\"eventId\":566,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782913669748)/\\\",\\\"Id\\\":566,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-Kernel-Power\\\",\\\"Message\\\":\\\"The system session has transitioned from 7 to 8.\\\\r\\\\n\\\\r\\\\nReason 55 \\\\r\\\\n\\\\r\\\\nBootId: 389\\\"}\"}"
+    },
+    {
+      "id": 69,
+      "timestamp": "2026-07-01T13:47:49.747Z",
+      "level": "INFO",
+      "source": "Microsoft-Windows-Kernel-Power",
+      "message": "The system is exiting Modern Standby \r\n\r\nReason: Austerity Battery Drain Budget Exceeded.",
+      "metadata": {
+        "source": "Microsoft-Windows-Kernel-Power",
+        "metadata": {
+          "eventId": 507,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782913669747)/\",\"Id\":507,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Microsoft-Windows-Kernel-Power\",\"Message\":\"The system is exiting Modern Standby \\r\\n\\r\\nReason: Austerity Battery Drain Budget Exceeded.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:47:49.747Z\",\"level\":\"INFO\",\"source\":\"Microsoft-Windows-Kernel-Power\",\"message\":\"The system is exiting Modern Standby \\r\\n\\r\\nReason: Austerity Battery Drain Budget Exceeded.\",\"metadata\":{\"eventId\":507,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782913669747)/\\\",\\\"Id\\\":507,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-Kernel-Power\\\",\\\"Message\\\":\\\"The system is exiting Modern Standby \\\\r\\\\n\\\\r\\\\nReason: Austerity Battery Drain Budget Exceeded.\\\"}\"}"
+    },
+    {
+      "id": 70,
+      "timestamp": "2026-07-01T13:47:49.738Z",
+      "level": "INFO",
+      "source": "Microsoft-Windows-Kernel-Power",
+      "message": "Connectivity state in standby: Connected, Reason: None",
+      "metadata": {
+        "source": "Microsoft-Windows-Kernel-Power",
+        "metadata": {
+          "eventId": 172,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782913669738)/\",\"Id\":172,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Microsoft-Windows-Kernel-Power\",\"Message\":\"Connectivity state in standby: Connected, Reason: None\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:47:49.738Z\",\"level\":\"INFO\",\"source\":\"Microsoft-Windows-Kernel-Power\",\"message\":\"Connectivity state in standby: Connected, Reason: None\",\"metadata\":{\"eventId\":172,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782913669738)/\\\",\\\"Id\\\":172,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-Kernel-Power\\\",\\\"Message\\\":\\\"Connectivity state in standby: Connected, Reason: None\\\"}\"}"
+    },
+    {
+      "id": 71,
+      "timestamp": "2026-07-01T13:45:56.571Z",
+      "level": "INFO",
+      "source": "BTHUSB",
+      "message": "Windows cannot store Bluetooth authentication codes (link keys) on the local adapter. Bluetooth keyboards might not work in the system BIOS during startup.",
+      "metadata": {
+        "source": "BTHUSB",
+        "metadata": {
+          "eventId": 18,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782913556571)/\",\"Id\":18,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"BTHUSB\",\"Message\":\"Windows cannot store Bluetooth authentication codes (link keys) on the local adapter. Bluetooth keyboards might not work in the system BIOS during startup.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:45:56.571Z\",\"level\":\"INFO\",\"source\":\"BTHUSB\",\"message\":\"Windows cannot store Bluetooth authentication codes (link keys) on the local adapter. Bluetooth keyboards might not work in the system BIOS during startup.\",\"metadata\":{\"eventId\":18,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782913556571)/\\\",\\\"Id\\\":18,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"BTHUSB\\\",\\\"Message\\\":\\\"Windows cannot store Bluetooth authentication codes (link keys) on the local adapter. Bluetooth keyboards might not work in the system BIOS during startup.\\\"}\"}"
+    },
+    {
+      "id": 72,
+      "timestamp": "2026-07-01T13:45:37.121Z",
+      "level": "ERROR",
+      "source": "Application Error",
+      "message": "Faulting application name: netcut_windows.exe, version: 0.0.0.0, time stamp: 0x690bb565\r\nFaulting module name: packet.dll, version: 4.1.0.2980, time stamp: 0x5130043c\r\nException code: 0xc0000005\r\nFault offset: 0x00001e2a\r\nFaulting process id: 0x25F0\r\nFaulting application start time: 0x1DD09580F84DCE9\r\nFaulting application path: F:\\arcai.com\\arcai.com\\netcut_windows.exe\r\nFaulting module path: C:\\WINDOWS\\SYSTEM32\\packet.dll\r\nReport Id: 558224c8-33a4-4fd3-8d54-f6e313587559\r\nFaulting package full name: \r\nFaulting package-relative application ID: ",
+      "metadata": {
+        "source": "Application Error",
+        "metadata": {
+          "eventId": 1000,
+          "winLevel": "Error"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782913537121)/\",\"Id\":1000,\"LevelDisplayName\":\"Error\",\"ProviderName\":\"Application Error\",\"Message\":\"Faulting application name: netcut_windows.exe, version: 0.0.0.0, time stamp: 0x690bb565\\r\\nFaulting module name: packet.dll, version: 4.1.0.2980, time stamp: 0x5130043c\\r\\nException code: 0xc0000005\\r\\nFault offset: 0x00001e2a\\r\\nFaulting process id: 0x25F0\\r\\nFaulting application start time: 0x1DD09580F84DCE9\\r\\nFaulting application path: F:\\\\arcai.com\\\\arcai.com\\\\netcut_windows.exe\\r\\nFaulting module path: C:\\\\WINDOWS\\\\SYSTEM32\\\\packet.dll\\r\\nReport Id: 558224c8-33a4-4fd3-8d54-f6e313587559\\r\\nFaulting package full name: \\r\\nFaulting package-relative application ID: \"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:45:37.121Z\",\"level\":\"ERROR\",\"source\":\"Application Error\",\"message\":\"Faulting application name: netcut_windows.exe, version: 0.0.0.0, time stamp: 0x690bb565\\r\\nFaulting module name: packet.dll, version: 4.1.0.2980, time stamp: 0x5130043c\\r\\nException code: 0xc0000005\\r\\nFault offset: 0x00001e2a\\r\\nFaulting process id: 0x25F0\\r\\nFaulting application start time: 0x1DD09580F84DCE9\\r\\nFaulting application path: F:\\\\arcai.com\\\\arcai.com\\\\netcut_windows.exe\\r\\nFaulting module path: C:\\\\WINDOWS\\\\SYSTEM32\\\\packet.dll\\r\\nReport Id: 558224c8-33a4-4fd3-8d54-f6e313587559\\r\\nFaulting package full name: \\r\\nFaulting package-relative application ID: \",\"metadata\":{\"eventId\":1000,\"winLevel\":\"Error\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782913537121)/\\\",\\\"Id\\\":1000,\\\"LevelDisplayName\\\":\\\"Error\\\",\\\"ProviderName\\\":\\\"Application Error\\\",\\\"Message\\\":\\\"Faulting application name: netcut_windows.exe, version: 0.0.0.0, time stamp: 0x690bb565\\\\r\\\\nFaulting module name: packet.dll, version: 4.1.0.2980, time stamp: 0x5130043c\\\\r\\\\nException code: 0xc0000005\\\\r\\\\nFault offset: 0x00001e2a\\\\r\\\\nFaulting process id: 0x25F0\\\\r\\\\nFaulting application start time: 0x1DD09580F84DCE9\\\\r\\\\nFaulting application path: F:\\\\\\\\arcai.com\\\\\\\\arcai.com\\\\\\\\netcut_windows.exe\\\\r\\\\nFaulting module path: C:\\\\\\\\WINDOWS\\\\\\\\SYSTEM32\\\\\\\\packet.dll\\\\r\\\\nReport Id: 558224c8-33a4-4fd3-8d54-f6e313587559\\\\r\\\\nFaulting package full name: \\\\r\\\\nFaulting package-relative application ID: \\\"}\"}"
+    },
+    {
+      "id": 73,
+      "timestamp": "2026-07-01T13:45:06.236Z",
+      "level": "INFO",
+      "source": "BTHUSB",
+      "message": "Windows cannot store Bluetooth authentication codes (link keys) on the local adapter. Bluetooth keyboards might not work in the system BIOS during startup.",
+      "metadata": {
+        "source": "BTHUSB",
+        "metadata": {
+          "eventId": 18,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782913506236)/\",\"Id\":18,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"BTHUSB\",\"Message\":\"Windows cannot store Bluetooth authentication codes (link keys) on the local adapter. Bluetooth keyboards might not work in the system BIOS during startup.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:45:06.236Z\",\"level\":\"INFO\",\"source\":\"BTHUSB\",\"message\":\"Windows cannot store Bluetooth authentication codes (link keys) on the local adapter. Bluetooth keyboards might not work in the system BIOS during startup.\",\"metadata\":{\"eventId\":18,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782913506236)/\\\",\\\"Id\\\":18,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"BTHUSB\\\",\\\"Message\\\":\\\"Windows cannot store Bluetooth authentication codes (link keys) on the local adapter. Bluetooth keyboards might not work in the system BIOS during startup.\\\"}\"}"
+    },
+    {
+      "id": 74,
+      "timestamp": "2026-07-01T13:43:24.418Z",
+      "level": "ERROR",
+      "source": "Microsoft-Windows-DistributedCOM",
+      "message": "The server {00000000-0000-0000-0000-000000000000} did not register with DCOM within the required timeout.",
+      "metadata": {
+        "source": "Microsoft-Windows-DistributedCOM",
+        "metadata": {
+          "eventId": 10010,
+          "winLevel": "Error"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782913404418)/\",\"Id\":10010,\"LevelDisplayName\":\"Error\",\"ProviderName\":\"Microsoft-Windows-DistributedCOM\",\"Message\":\"The server {00000000-0000-0000-0000-000000000000} did not register with DCOM within the required timeout.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:43:24.418Z\",\"level\":\"ERROR\",\"source\":\"Microsoft-Windows-DistributedCOM\",\"message\":\"The server {00000000-0000-0000-0000-000000000000} did not register with DCOM within the required timeout.\",\"metadata\":{\"eventId\":10010,\"winLevel\":\"Error\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782913404418)/\\\",\\\"Id\\\":10010,\\\"LevelDisplayName\\\":\\\"Error\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-DistributedCOM\\\",\\\"Message\\\":\\\"The server {00000000-0000-0000-0000-000000000000} did not register with DCOM within the required timeout.\\\"}\"}"
+    },
+    {
+      "id": 75,
+      "timestamp": "2026-07-01T13:42:31.279Z",
+      "level": "INFO",
+      "source": "Microsoft-Windows-Time-Service",
+      "message": "The time provider 'VMICTimeProvider' has indicated that the current hardware and operating environment is not supported and has stopped. This behavior is expected for VMICTimeProvider on non-HyperV-guest environments. This may be the expected behavior for the current provider in the current operating environment as well.",
+      "metadata": {
+        "source": "Microsoft-Windows-Time-Service",
+        "metadata": {
+          "eventId": 158,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782913351279)/\",\"Id\":158,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Microsoft-Windows-Time-Service\",\"Message\":\"The time provider 'VMICTimeProvider' has indicated that the current hardware and operating environment is not supported and has stopped. This behavior is expected for VMICTimeProvider on non-HyperV-guest environments. This may be the expected behavior for the current provider in the current operating environment as well.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:42:31.279Z\",\"level\":\"INFO\",\"source\":\"Microsoft-Windows-Time-Service\",\"message\":\"The time provider 'VMICTimeProvider' has indicated that the current hardware and operating environment is not supported and has stopped. This behavior is expected for VMICTimeProvider on non-HyperV-guest environments. This may be the expected behavior for the current provider in the current operating environment as well.\",\"metadata\":{\"eventId\":158,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782913351279)/\\\",\\\"Id\\\":158,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-Time-Service\\\",\\\"Message\\\":\\\"The time provider 'VMICTimeProvider' has indicated that the current hardware and operating environment is not supported and has stopped. This behavior is expected for VMICTimeProvider on non-HyperV-guest environments. This may be the expected behavior for the current provider in the current operating environment as well.\\\"}\"}"
+    },
+    {
+      "id": 76,
+      "timestamp": "2026-07-01T13:36:53.716Z",
+      "level": "ERROR",
+      "source": "Microsoft-Windows-DistributedCOM",
+      "message": "The server {00000000-0000-0000-0000-000000000000} did not register with DCOM within the required timeout.",
+      "metadata": {
+        "source": "Microsoft-Windows-DistributedCOM",
+        "metadata": {
+          "eventId": 10010,
+          "winLevel": "Error"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782913013716)/\",\"Id\":10010,\"LevelDisplayName\":\"Error\",\"ProviderName\":\"Microsoft-Windows-DistributedCOM\",\"Message\":\"The server {00000000-0000-0000-0000-000000000000} did not register with DCOM within the required timeout.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:36:53.716Z\",\"level\":\"ERROR\",\"source\":\"Microsoft-Windows-DistributedCOM\",\"message\":\"The server {00000000-0000-0000-0000-000000000000} did not register with DCOM within the required timeout.\",\"metadata\":{\"eventId\":10010,\"winLevel\":\"Error\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782913013716)/\\\",\\\"Id\\\":10010,\\\"LevelDisplayName\\\":\\\"Error\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-DistributedCOM\\\",\\\"Message\\\":\\\"The server {00000000-0000-0000-0000-000000000000} did not register with DCOM within the required timeout.\\\"}\"}"
+    },
+    {
+      "id": 77,
+      "timestamp": "2026-07-01T13:35:53.364Z",
+      "level": "ERROR",
+      "source": "Service Control Manager",
+      "message": "The Device Setup Manager service failed to start due to the following error: \r\nThe service did not respond to the start or control request in a timely fashion.",
+      "metadata": {
+        "source": "Service Control Manager",
+        "metadata": {
+          "eventId": 7000,
+          "winLevel": "Error"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782912953364)/\",\"Id\":7000,\"LevelDisplayName\":\"Error\",\"ProviderName\":\"Service Control Manager\",\"Message\":\"The Device Setup Manager service failed to start due to the following error: \\r\\nThe service did not respond to the start or control request in a timely fashion.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:35:53.364Z\",\"level\":\"ERROR\",\"source\":\"Service Control Manager\",\"message\":\"The Device Setup Manager service failed to start due to the following error: \\r\\nThe service did not respond to the start or control request in a timely fashion.\",\"metadata\":{\"eventId\":7000,\"winLevel\":\"Error\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782912953364)/\\\",\\\"Id\\\":7000,\\\"LevelDisplayName\\\":\\\"Error\\\",\\\"ProviderName\\\":\\\"Service Control Manager\\\",\\\"Message\\\":\\\"The Device Setup Manager service failed to start due to the following error: \\\\r\\\\nThe service did not respond to the start or control request in a timely fashion.\\\"}\"}"
+    },
+    {
+      "id": 78,
+      "timestamp": "2026-07-01T13:35:53.356Z",
+      "level": "ERROR",
+      "source": "Service Control Manager",
+      "message": "A timeout was reached (30000 milliseconds) while waiting for the Device Setup Manager service to connect.",
+      "metadata": {
+        "source": "Service Control Manager",
+        "metadata": {
+          "eventId": 7009,
+          "winLevel": "Error"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782912953356)/\",\"Id\":7009,\"LevelDisplayName\":\"Error\",\"ProviderName\":\"Service Control Manager\",\"Message\":\"A timeout was reached (30000 milliseconds) while waiting for the Device Setup Manager service to connect.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:35:53.356Z\",\"level\":\"ERROR\",\"source\":\"Service Control Manager\",\"message\":\"A timeout was reached (30000 milliseconds) while waiting for the Device Setup Manager service to connect.\",\"metadata\":{\"eventId\":7009,\"winLevel\":\"Error\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782912953356)/\\\",\\\"Id\\\":7009,\\\"LevelDisplayName\\\":\\\"Error\\\",\\\"ProviderName\\\":\\\"Service Control Manager\\\",\\\"Message\\\":\\\"A timeout was reached (30000 milliseconds) while waiting for the Device Setup Manager service to connect.\\\"}\"}"
+    },
+    {
+      "id": 79,
+      "timestamp": "2026-07-01T13:35:10.038Z",
+      "level": "WARN",
+      "source": "BTHUSB",
+      "message": "A command sent to the adapter has timed out. The adapter did not respond.",
+      "metadata": {
+        "source": "BTHUSB",
+        "metadata": {
+          "eventId": 3,
+          "winLevel": "Warning"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782912910038)/\",\"Id\":3,\"LevelDisplayName\":\"Warning\",\"ProviderName\":\"BTHUSB\",\"Message\":\"A command sent to the adapter has timed out. The adapter did not respond.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:35:10.038Z\",\"level\":\"WARN\",\"source\":\"BTHUSB\",\"message\":\"A command sent to the adapter has timed out. The adapter did not respond.\",\"metadata\":{\"eventId\":3,\"winLevel\":\"Warning\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782912910038)/\\\",\\\"Id\\\":3,\\\"LevelDisplayName\\\":\\\"Warning\\\",\\\"ProviderName\\\":\\\"BTHUSB\\\",\\\"Message\\\":\\\"A command sent to the adapter has timed out. The adapter did not respond.\\\"}\"}"
+    },
+    {
+      "id": 80,
+      "timestamp": "2026-07-01T13:34:15.373Z",
+      "level": "INFO",
+      "source": "Microsoft-Windows-Kernel-Power",
+      "message": "Connectivity state in standby: Disconnected, Reason: Policy Setting",
+      "metadata": {
+        "source": "Microsoft-Windows-Kernel-Power",
+        "metadata": {
+          "eventId": 172,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782912855373)/\",\"Id\":172,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Microsoft-Windows-Kernel-Power\",\"Message\":\"Connectivity state in standby: Disconnected, Reason: Policy Setting\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:34:15.373Z\",\"level\":\"INFO\",\"source\":\"Microsoft-Windows-Kernel-Power\",\"message\":\"Connectivity state in standby: Disconnected, Reason: Policy Setting\",\"metadata\":{\"eventId\":172,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782912855373)/\\\",\\\"Id\\\":172,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-Kernel-Power\\\",\\\"Message\\\":\\\"Connectivity state in standby: Disconnected, Reason: Policy Setting\\\"}\"}"
+    },
+    {
+      "id": 81,
+      "timestamp": "2026-07-01T13:34:11.040Z",
+      "level": "INFO",
+      "source": "VSS",
+      "message": "Volume Shadow Copy Service information: Snapshot creation initiated for Snapshot Set {4f9e785f-9427-4f10-be6b-b24a6a5a286e}.\r\n Process command line: taskhostw.exe\r\n Process Caller Stack:\r\n Process[0]: taskhostw.exe\r\n Process[1]: svchost.exe\r\n Process[2]: services.exe\r\n",
+      "metadata": {
+        "source": "VSS",
+        "metadata": {
+          "eventId": 8231,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782912851040)/\",\"Id\":8231,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"VSS\",\"Message\":\"Volume Shadow Copy Service information: Snapshot creation initiated for Snapshot Set {4f9e785f-9427-4f10-be6b-b24a6a5a286e}.\\r\\n Process command line: taskhostw.exe\\r\\n Process Caller Stack:\\r\\n Process[0]: taskhostw.exe\\r\\n Process[1]: svchost.exe\\r\\n Process[2]: services.exe\\r\\n\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:34:11.040Z\",\"level\":\"INFO\",\"source\":\"VSS\",\"message\":\"Volume Shadow Copy Service information: Snapshot creation initiated for Snapshot Set {4f9e785f-9427-4f10-be6b-b24a6a5a286e}.\\r\\n Process command line: taskhostw.exe\\r\\n Process Caller Stack:\\r\\n Process[0]: taskhostw.exe\\r\\n Process[1]: svchost.exe\\r\\n Process[2]: services.exe\\r\\n\",\"metadata\":{\"eventId\":8231,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782912851040)/\\\",\\\"Id\\\":8231,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"VSS\\\",\\\"Message\\\":\\\"Volume Shadow Copy Service information: Snapshot creation initiated for Snapshot Set {4f9e785f-9427-4f10-be6b-b24a6a5a286e}.\\\\r\\\\n Process command line: taskhostw.exe\\\\r\\\\n Process Caller Stack:\\\\r\\\\n Process[0]: taskhostw.exe\\\\r\\\\n Process[1]: svchost.exe\\\\r\\\\n Process[2]: services.exe\\\\r\\\\n\\\"}\"}"
+    },
+    {
+      "id": 82,
+      "timestamp": "2026-07-01T13:34:09.975Z",
+      "level": "INFO",
+      "source": "Microsoft-Windows-Kernel-Power",
+      "message": "The system session has transitioned from 6 to 7.\r\n\r\nReason PolicyChange \r\n\r\nBootId: 389",
+      "metadata": {
+        "source": "Microsoft-Windows-Kernel-Power",
+        "metadata": {
+          "eventId": 566,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782912849975)/\",\"Id\":566,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Microsoft-Windows-Kernel-Power\",\"Message\":\"The system session has transitioned from 6 to 7.\\r\\n\\r\\nReason PolicyChange \\r\\n\\r\\nBootId: 389\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:34:09.975Z\",\"level\":\"INFO\",\"source\":\"Microsoft-Windows-Kernel-Power\",\"message\":\"The system session has transitioned from 6 to 7.\\r\\n\\r\\nReason PolicyChange \\r\\n\\r\\nBootId: 389\",\"metadata\":{\"eventId\":566,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782912849975)/\\\",\\\"Id\\\":566,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-Kernel-Power\\\",\\\"Message\\\":\\\"The system session has transitioned from 6 to 7.\\\\r\\\\n\\\\r\\\\nReason PolicyChange \\\\r\\\\n\\\\r\\\\nBootId: 389\\\"}\"}"
+    },
+    {
+      "id": 83,
+      "timestamp": "2026-07-01T13:34:07.452Z",
+      "level": "WARN",
+      "source": "Win32k",
+      "message": "Power Manager has requested suppression of all input (INPUT_SUPPRESS_REQUEST=1)",
+      "metadata": {
+        "source": "Win32k",
+        "metadata": {
+          "eventId": 700,
+          "winLevel": "Warning"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782912847452)/\",\"Id\":700,\"LevelDisplayName\":\"Warning\",\"ProviderName\":\"Win32k\",\"Message\":\"Power Manager has requested suppression of all input (INPUT_SUPPRESS_REQUEST=1)\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:34:07.452Z\",\"level\":\"WARN\",\"source\":\"Win32k\",\"message\":\"Power Manager has requested suppression of all input (INPUT_SUPPRESS_REQUEST=1)\",\"metadata\":{\"eventId\":700,\"winLevel\":\"Warning\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782912847452)/\\\",\\\"Id\\\":700,\\\"LevelDisplayName\\\":\\\"Warning\\\",\\\"ProviderName\\\":\\\"Win32k\\\",\\\"Message\\\":\\\"Power Manager has requested suppression of all input (INPUT_SUPPRESS_REQUEST=1)\\\"}\"}"
+    },
+    {
+      "id": 84,
+      "timestamp": "2026-07-01T13:34:07.452Z",
+      "level": "WARN",
+      "source": "Win32k",
+      "message": "Power Manager has requested suppression of all input (INPUT_SUPPRESS_REQUEST=1)",
+      "metadata": {
+        "source": "Win32k",
+        "metadata": {
+          "eventId": 700,
+          "winLevel": "Warning"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782912847452)/\",\"Id\":700,\"LevelDisplayName\":\"Warning\",\"ProviderName\":\"Win32k\",\"Message\":\"Power Manager has requested suppression of all input (INPUT_SUPPRESS_REQUEST=1)\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:34:07.452Z\",\"level\":\"WARN\",\"source\":\"Win32k\",\"message\":\"Power Manager has requested suppression of all input (INPUT_SUPPRESS_REQUEST=1)\",\"metadata\":{\"eventId\":700,\"winLevel\":\"Warning\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782912847452)/\\\",\\\"Id\\\":700,\\\"LevelDisplayName\\\":\\\"Warning\\\",\\\"ProviderName\\\":\\\"Win32k\\\",\\\"Message\\\":\\\"Power Manager has requested suppression of all input (INPUT_SUPPRESS_REQUEST=1)\\\"}\"}"
+    },
+    {
+      "id": 85,
+      "timestamp": "2026-07-01T13:34:07.440Z",
+      "level": "INFO",
+      "source": "Microsoft-Windows-Kernel-Power",
+      "message": "The system is entering Modern Standby \r\n\r\nReason: Lid.",
+      "metadata": {
+        "source": "Microsoft-Windows-Kernel-Power",
+        "metadata": {
+          "eventId": 506,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782912847440)/\",\"Id\":506,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Microsoft-Windows-Kernel-Power\",\"Message\":\"The system is entering Modern Standby \\r\\n\\r\\nReason: Lid.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:34:07.440Z\",\"level\":\"INFO\",\"source\":\"Microsoft-Windows-Kernel-Power\",\"message\":\"The system is entering Modern Standby \\r\\n\\r\\nReason: Lid.\",\"metadata\":{\"eventId\":506,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782912847440)/\\\",\\\"Id\\\":506,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-Kernel-Power\\\",\\\"Message\\\":\\\"The system is entering Modern Standby \\\\r\\\\n\\\\r\\\\nReason: Lid.\\\"}\"}"
+    },
+    {
+      "id": 86,
+      "timestamp": "2026-07-01T13:34:07.439Z",
+      "level": "INFO",
+      "source": "Microsoft-Windows-Kernel-Power",
+      "message": "The system session has transitioned from 5 to 6.\r\n\r\nReason PolicyChange \r\n\r\nBootId: 389",
+      "metadata": {
+        "source": "Microsoft-Windows-Kernel-Power",
+        "metadata": {
+          "eventId": 566,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782912847439)/\",\"Id\":566,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Microsoft-Windows-Kernel-Power\",\"Message\":\"The system session has transitioned from 5 to 6.\\r\\n\\r\\nReason PolicyChange \\r\\n\\r\\nBootId: 389\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:34:07.439Z\",\"level\":\"INFO\",\"source\":\"Microsoft-Windows-Kernel-Power\",\"message\":\"The system session has transitioned from 5 to 6.\\r\\n\\r\\nReason PolicyChange \\r\\n\\r\\nBootId: 389\",\"metadata\":{\"eventId\":566,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782912847439)/\\\",\\\"Id\\\":566,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-Kernel-Power\\\",\\\"Message\\\":\\\"The system session has transitioned from 5 to 6.\\\\r\\\\n\\\\r\\\\nReason PolicyChange \\\\r\\\\n\\\\r\\\\nBootId: 389\\\"}\"}"
+    },
+    {
+      "id": 87,
+      "timestamp": "2026-07-01T13:34:04.417Z",
+      "level": "INFO",
+      "source": "Microsoft-Windows-UserModePowerService",
+      "message": "Process C:\\Program Files\\ASUS\\ARMOURY CRATE Service\\ArmouryCrate.UserSessionHelper.exe (process ID:11132) reset policy scheme from {6fecc5ae-f350-48a5-b669-b472cb895ccf} to {27fa6203-3987-4dcc-918d-748559d549ec}",
+      "metadata": {
+        "source": "Microsoft-Windows-UserModePowerService",
+        "metadata": {
+          "eventId": 12,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782912844417)/\",\"Id\":12,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Microsoft-Windows-UserModePowerService\",\"Message\":\"Process C:\\\\Program Files\\\\ASUS\\\\ARMOURY CRATE Service\\\\ArmouryCrate.UserSessionHelper.exe (process ID:11132) reset policy scheme from {6fecc5ae-f350-48a5-b669-b472cb895ccf} to {27fa6203-3987-4dcc-918d-748559d549ec}\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:34:04.417Z\",\"level\":\"INFO\",\"source\":\"Microsoft-Windows-UserModePowerService\",\"message\":\"Process C:\\\\Program Files\\\\ASUS\\\\ARMOURY CRATE Service\\\\ArmouryCrate.UserSessionHelper.exe (process ID:11132) reset policy scheme from {6fecc5ae-f350-48a5-b669-b472cb895ccf} to {27fa6203-3987-4dcc-918d-748559d549ec}\",\"metadata\":{\"eventId\":12,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782912844417)/\\\",\\\"Id\\\":12,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-UserModePowerService\\\",\\\"Message\\\":\\\"Process C:\\\\\\\\Program Files\\\\\\\\ASUS\\\\\\\\ARMOURY CRATE Service\\\\\\\\ArmouryCrate.UserSessionHelper.exe (process ID:11132) reset policy scheme from {6fecc5ae-f350-48a5-b669-b472cb895ccf} to {27fa6203-3987-4dcc-918d-748559d549ec}\\\"}\"}"
+    },
+    {
+      "id": 88,
+      "timestamp": "2026-07-01T13:34:02.881Z",
+      "level": "INFO",
+      "source": "Microsoft-Windows-Kernel-Power",
+      "message": "Power source change.",
+      "metadata": {
+        "source": "Microsoft-Windows-Kernel-Power",
+        "metadata": {
+          "eventId": 105,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782912842881)/\",\"Id\":105,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Microsoft-Windows-Kernel-Power\",\"Message\":\"Power source change.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:34:02.881Z\",\"level\":\"INFO\",\"source\":\"Microsoft-Windows-Kernel-Power\",\"message\":\"Power source change.\",\"metadata\":{\"eventId\":105,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782912842881)/\\\",\\\"Id\\\":105,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-Kernel-Power\\\",\\\"Message\\\":\\\"Power source change.\\\"}\"}"
+    },
+    {
+      "id": 89,
+      "timestamp": "2026-07-01T16:39:07.595Z",
+      "level": "INFO",
+      "source": "Microsoft-Windows-UserModePowerService",
+      "message": "Process C:\\Program Files\\ASUS\\ARMOURY CRATE Service\\ArmouryCrate.UserSessionHelper.exe (process ID:11132) reset policy scheme from {27fa6203-3987-4dcc-918d-748559d549ec} to {27fa6203-3987-4dcc-918d-748559d549ec}",
+      "metadata": {
+        "source": "Microsoft-Windows-UserModePowerService",
+        "metadata": {
+          "eventId": 12,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782923947595)/\",\"Id\":12,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Microsoft-Windows-UserModePowerService\",\"Message\":\"Process C:\\\\Program Files\\\\ASUS\\\\ARMOURY CRATE Service\\\\ArmouryCrate.UserSessionHelper.exe (process ID:11132) reset policy scheme from {27fa6203-3987-4dcc-918d-748559d549ec} to {27fa6203-3987-4dcc-918d-748559d549ec}\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T16:39:07.595Z\",\"level\":\"INFO\",\"source\":\"Microsoft-Windows-UserModePowerService\",\"message\":\"Process C:\\\\Program Files\\\\ASUS\\\\ARMOURY CRATE Service\\\\ArmouryCrate.UserSessionHelper.exe (process ID:11132) reset policy scheme from {27fa6203-3987-4dcc-918d-748559d549ec} to {27fa6203-3987-4dcc-918d-748559d549ec}\",\"metadata\":{\"eventId\":12,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782923947595)/\\\",\\\"Id\\\":12,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-UserModePowerService\\\",\\\"Message\\\":\\\"Process C:\\\\\\\\Program Files\\\\\\\\ASUS\\\\\\\\ARMOURY CRATE Service\\\\\\\\ArmouryCrate.UserSessionHelper.exe (process ID:11132) reset policy scheme from {27fa6203-3987-4dcc-918d-748559d549ec} to {27fa6203-3987-4dcc-918d-748559d549ec}\\\"}\"}"
+    },
+    {
+      "id": 90,
+      "timestamp": "2026-07-01T16:39:04.930Z",
+      "level": "INFO",
+      "source": "BTHUSB",
+      "message": "Windows cannot store Bluetooth authentication codes (link keys) on the local adapter. Bluetooth keyboards might not work in the system BIOS during startup.",
+      "metadata": {
+        "source": "BTHUSB",
+        "metadata": {
+          "eventId": 18,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782923944930)/\",\"Id\":18,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"BTHUSB\",\"Message\":\"Windows cannot store Bluetooth authentication codes (link keys) on the local adapter. Bluetooth keyboards might not work in the system BIOS during startup.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T16:39:04.930Z\",\"level\":\"INFO\",\"source\":\"BTHUSB\",\"message\":\"Windows cannot store Bluetooth authentication codes (link keys) on the local adapter. Bluetooth keyboards might not work in the system BIOS during startup.\",\"metadata\":{\"eventId\":18,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782923944930)/\\\",\\\"Id\\\":18,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"BTHUSB\\\",\\\"Message\\\":\\\"Windows cannot store Bluetooth authentication codes (link keys) on the local adapter. Bluetooth keyboards might not work in the system BIOS during startup.\\\"}\"}"
+    },
+    {
+      "id": 91,
+      "timestamp": "2026-07-01T16:39:04.710Z",
+      "level": "INFO",
+      "source": "Microsoft-Windows-Kernel-Power",
+      "message": "The system session has transitioned from 9 to 10.\r\n\r\nReason Unknown \r\n\r\nBootId: 389",
+      "metadata": {
+        "source": "Microsoft-Windows-Kernel-Power",
+        "metadata": {
+          "eventId": 566,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782923944710)/\",\"Id\":566,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Microsoft-Windows-Kernel-Power\",\"Message\":\"The system session has transitioned from 9 to 10.\\r\\n\\r\\nReason Unknown \\r\\n\\r\\nBootId: 389\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T16:39:04.710Z\",\"level\":\"INFO\",\"source\":\"Microsoft-Windows-Kernel-Power\",\"message\":\"The system session has transitioned from 9 to 10.\\r\\n\\r\\nReason Unknown \\r\\n\\r\\nBootId: 389\",\"metadata\":{\"eventId\":566,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782923944710)/\\\",\\\"Id\\\":566,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-Kernel-Power\\\",\\\"Message\\\":\\\"The system session has transitioned from 9 to 10.\\\\r\\\\n\\\\r\\\\nReason Unknown \\\\r\\\\n\\\\r\\\\nBootId: 389\\\"}\"}"
+    },
+    {
+      "id": 92,
+      "timestamp": "2026-07-01T16:39:04.709Z",
+      "level": "INFO",
+      "source": "Microsoft-Windows-Kernel-Power",
+      "message": "The system is exiting Modern Standby \r\n\r\nReason: Power Button.",
+      "metadata": {
+        "source": "Microsoft-Windows-Kernel-Power",
+        "metadata": {
+          "eventId": 507,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782923944709)/\",\"Id\":507,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Microsoft-Windows-Kernel-Power\",\"Message\":\"The system is exiting Modern Standby \\r\\n\\r\\nReason: Power Button.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T16:39:04.709Z\",\"level\":\"INFO\",\"source\":\"Microsoft-Windows-Kernel-Power\",\"message\":\"The system is exiting Modern Standby \\r\\n\\r\\nReason: Power Button.\",\"metadata\":{\"eventId\":507,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782923944709)/\\\",\\\"Id\\\":507,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-Kernel-Power\\\",\\\"Message\\\":\\\"The system is exiting Modern Standby \\\\r\\\\n\\\\r\\\\nReason: Power Button.\\\"}\"}"
+    },
+    {
+      "id": 93,
+      "timestamp": "2026-07-01T16:39:04.450Z",
+      "level": "ERROR",
+      "source": "rt68cx21",
+      "message": "Realtek PCIe GbE Family Controller has a Hardware IO error.",
+      "metadata": {
+        "source": "rt68cx21",
+        "metadata": {
+          "eventId": 2,
+          "winLevel": "Error"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782923944450)/\",\"Id\":2,\"LevelDisplayName\":\"Error\",\"ProviderName\":\"rt68cx21\",\"Message\":\"Realtek PCIe GbE Family Controller has a Hardware IO error.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T16:39:04.450Z\",\"level\":\"ERROR\",\"source\":\"rt68cx21\",\"message\":\"Realtek PCIe GbE Family Controller has a Hardware IO error.\",\"metadata\":{\"eventId\":2,\"winLevel\":\"Error\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782923944450)/\\\",\\\"Id\\\":2,\\\"LevelDisplayName\\\":\\\"Error\\\",\\\"ProviderName\\\":\\\"rt68cx21\\\",\\\"Message\\\":\\\"Realtek PCIe GbE Family Controller has a Hardware IO error.\\\"}\"}"
+    },
+    {
+      "id": 94,
+      "timestamp": "2026-07-01T16:39:04.450Z",
+      "level": "ERROR",
+      "source": "rt68cx21",
+      "message": "Realtek PCIe GbE Family Controller has a Hardware IO error.",
+      "metadata": {
+        "source": "rt68cx21",
+        "metadata": {
+          "eventId": 2,
+          "winLevel": "Error"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782923944450)/\",\"Id\":2,\"LevelDisplayName\":\"Error\",\"ProviderName\":\"rt68cx21\",\"Message\":\"Realtek PCIe GbE Family Controller has a Hardware IO error.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T16:39:04.450Z\",\"level\":\"ERROR\",\"source\":\"rt68cx21\",\"message\":\"Realtek PCIe GbE Family Controller has a Hardware IO error.\",\"metadata\":{\"eventId\":2,\"winLevel\":\"Error\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782923944450)/\\\",\\\"Id\\\":2,\\\"LevelDisplayName\\\":\\\"Error\\\",\\\"ProviderName\\\":\\\"rt68cx21\\\",\\\"Message\\\":\\\"Realtek PCIe GbE Family Controller has a Hardware IO error.\\\"}\"}"
+    },
+    {
+      "id": 95,
+      "timestamp": "2026-07-01T16:39:04.155Z",
+      "level": "INFO",
+      "source": "Microsoft-Windows-Kernel-Power",
+      "message": "Connectivity state in standby: Connected, Reason: None",
+      "metadata": {
+        "source": "Microsoft-Windows-Kernel-Power",
+        "metadata": {
+          "eventId": 172,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782923944155)/\",\"Id\":172,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Microsoft-Windows-Kernel-Power\",\"Message\":\"Connectivity state in standby: Connected, Reason: None\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T16:39:04.155Z\",\"level\":\"INFO\",\"source\":\"Microsoft-Windows-Kernel-Power\",\"message\":\"Connectivity state in standby: Connected, Reason: None\",\"metadata\":{\"eventId\":172,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782923944155)/\\\",\\\"Id\\\":172,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-Kernel-Power\\\",\\\"Message\\\":\\\"Connectivity state in standby: Connected, Reason: None\\\"}\"}"
+    },
+    {
+      "id": 96,
+      "timestamp": "2026-07-01T16:39:04.090Z",
+      "level": "WARN",
+      "source": "Win32k",
+      "message": "Power Manager has not requested suppression of all input (INPUT_SUPPRESS_REQUEST=0)",
+      "metadata": {
+        "source": "Win32k",
+        "metadata": {
+          "eventId": 701,
+          "winLevel": "Warning"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782923944090)/\",\"Id\":701,\"LevelDisplayName\":\"Warning\",\"ProviderName\":\"Win32k\",\"Message\":\"Power Manager has not requested suppression of all input (INPUT_SUPPRESS_REQUEST=0)\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T16:39:04.090Z\",\"level\":\"WARN\",\"source\":\"Win32k\",\"message\":\"Power Manager has not requested suppression of all input (INPUT_SUPPRESS_REQUEST=0)\",\"metadata\":{\"eventId\":701,\"winLevel\":\"Warning\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782923944090)/\\\",\\\"Id\\\":701,\\\"LevelDisplayName\\\":\\\"Warning\\\",\\\"ProviderName\\\":\\\"Win32k\\\",\\\"Message\\\":\\\"Power Manager has not requested suppression of all input (INPUT_SUPPRESS_REQUEST=0)\\\"}\"}"
+    },
+    {
+      "id": 97,
+      "timestamp": "2026-07-01T16:39:04.090Z",
+      "level": "WARN",
+      "source": "Win32k",
+      "message": "Power Manager has not requested suppression of all input (INPUT_SUPPRESS_REQUEST=0)",
+      "metadata": {
+        "source": "Win32k",
+        "metadata": {
+          "eventId": 701,
+          "winLevel": "Warning"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782923944090)/\",\"Id\":701,\"LevelDisplayName\":\"Warning\",\"ProviderName\":\"Win32k\",\"Message\":\"Power Manager has not requested suppression of all input (INPUT_SUPPRESS_REQUEST=0)\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T16:39:04.090Z\",\"level\":\"WARN\",\"source\":\"Win32k\",\"message\":\"Power Manager has not requested suppression of all input (INPUT_SUPPRESS_REQUEST=0)\",\"metadata\":{\"eventId\":701,\"winLevel\":\"Warning\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782923944090)/\\\",\\\"Id\\\":701,\\\"LevelDisplayName\\\":\\\"Warning\\\",\\\"ProviderName\\\":\\\"Win32k\\\",\\\"Message\\\":\\\"Power Manager has not requested suppression of all input (INPUT_SUPPRESS_REQUEST=0)\\\"}\"}"
+    },
+    {
+      "id": 98,
+      "timestamp": "2026-07-01T16:10:50.889Z",
+      "level": "ERROR",
+      "source": "rt68cx21",
+      "message": "Realtek PCIe GbE Family Controller has a Hardware IO error.",
+      "metadata": {
+        "source": "rt68cx21",
+        "metadata": {
+          "eventId": 2,
+          "winLevel": "Error"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782922250889)/\",\"Id\":2,\"LevelDisplayName\":\"Error\",\"ProviderName\":\"rt68cx21\",\"Message\":\"Realtek PCIe GbE Family Controller has a Hardware IO error.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T16:10:50.889Z\",\"level\":\"ERROR\",\"source\":\"rt68cx21\",\"message\":\"Realtek PCIe GbE Family Controller has a Hardware IO error.\",\"metadata\":{\"eventId\":2,\"winLevel\":\"Error\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782922250889)/\\\",\\\"Id\\\":2,\\\"LevelDisplayName\\\":\\\"Error\\\",\\\"ProviderName\\\":\\\"rt68cx21\\\",\\\"Message\\\":\\\"Realtek PCIe GbE Family Controller has a Hardware IO error.\\\"}\"}"
+    },
+    {
+      "id": 99,
+      "timestamp": "2026-07-01T16:10:50.889Z",
+      "level": "ERROR",
+      "source": "rt68cx21",
+      "message": "Realtek PCIe GbE Family Controller has a Hardware IO error.",
+      "metadata": {
+        "source": "rt68cx21",
+        "metadata": {
+          "eventId": 2,
+          "winLevel": "Error"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782922250889)/\",\"Id\":2,\"LevelDisplayName\":\"Error\",\"ProviderName\":\"rt68cx21\",\"Message\":\"Realtek PCIe GbE Family Controller has a Hardware IO error.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T16:10:50.889Z\",\"level\":\"ERROR\",\"source\":\"rt68cx21\",\"message\":\"Realtek PCIe GbE Family Controller has a Hardware IO error.\",\"metadata\":{\"eventId\":2,\"winLevel\":\"Error\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782922250889)/\\\",\\\"Id\\\":2,\\\"LevelDisplayName\\\":\\\"Error\\\",\\\"ProviderName\\\":\\\"rt68cx21\\\",\\\"Message\\\":\\\"Realtek PCIe GbE Family Controller has a Hardware IO error.\\\"}\"}"
+    },
+    {
+      "id": 100,
+      "timestamp": "2026-07-01T16:07:00.204Z",
+      "level": "ERROR",
+      "source": "rt68cx21",
+      "message": "Realtek PCIe GbE Family Controller has a Hardware IO error.",
+      "metadata": {
+        "source": "rt68cx21",
+        "metadata": {
+          "eventId": 2,
+          "winLevel": "Error"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782922020204)/\",\"Id\":2,\"LevelDisplayName\":\"Error\",\"ProviderName\":\"rt68cx21\",\"Message\":\"Realtek PCIe GbE Family Controller has a Hardware IO error.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T16:07:00.204Z\",\"level\":\"ERROR\",\"source\":\"rt68cx21\",\"message\":\"Realtek PCIe GbE Family Controller has a Hardware IO error.\",\"metadata\":{\"eventId\":2,\"winLevel\":\"Error\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782922020204)/\\\",\\\"Id\\\":2,\\\"LevelDisplayName\\\":\\\"Error\\\",\\\"ProviderName\\\":\\\"rt68cx21\\\",\\\"Message\\\":\\\"Realtek PCIe GbE Family Controller has a Hardware IO error.\\\"}\"}"
+    },
+    {
+      "id": 101,
+      "timestamp": "2026-07-01T16:07:00.204Z",
+      "level": "ERROR",
+      "source": "rt68cx21",
+      "message": "Realtek PCIe GbE Family Controller has a Hardware IO error.",
+      "metadata": {
+        "source": "rt68cx21",
+        "metadata": {
+          "eventId": 2,
+          "winLevel": "Error"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782922020204)/\",\"Id\":2,\"LevelDisplayName\":\"Error\",\"ProviderName\":\"rt68cx21\",\"Message\":\"Realtek PCIe GbE Family Controller has a Hardware IO error.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T16:07:00.204Z\",\"level\":\"ERROR\",\"source\":\"rt68cx21\",\"message\":\"Realtek PCIe GbE Family Controller has a Hardware IO error.\",\"metadata\":{\"eventId\":2,\"winLevel\":\"Error\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782922020204)/\\\",\\\"Id\\\":2,\\\"LevelDisplayName\\\":\\\"Error\\\",\\\"ProviderName\\\":\\\"rt68cx21\\\",\\\"Message\\\":\\\"Realtek PCIe GbE Family Controller has a Hardware IO error.\\\"}\"}"
+    },
+    {
+      "id": 102,
+      "timestamp": "2026-07-01T15:27:12.205Z",
+      "level": "ERROR",
+      "source": "rt68cx21",
+      "message": "Realtek PCIe GbE Family Controller has a Hardware IO error.",
+      "metadata": {
+        "source": "rt68cx21",
+        "metadata": {
+          "eventId": 2,
+          "winLevel": "Error"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782919632205)/\",\"Id\":2,\"LevelDisplayName\":\"Error\",\"ProviderName\":\"rt68cx21\",\"Message\":\"Realtek PCIe GbE Family Controller has a Hardware IO error.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T15:27:12.205Z\",\"level\":\"ERROR\",\"source\":\"rt68cx21\",\"message\":\"Realtek PCIe GbE Family Controller has a Hardware IO error.\",\"metadata\":{\"eventId\":2,\"winLevel\":\"Error\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782919632205)/\\\",\\\"Id\\\":2,\\\"LevelDisplayName\\\":\\\"Error\\\",\\\"ProviderName\\\":\\\"rt68cx21\\\",\\\"Message\\\":\\\"Realtek PCIe GbE Family Controller has a Hardware IO error.\\\"}\"}"
+    },
+    {
+      "id": 103,
+      "timestamp": "2026-07-01T15:27:12.205Z",
+      "level": "ERROR",
+      "source": "rt68cx21",
+      "message": "Realtek PCIe GbE Family Controller has a Hardware IO error.",
+      "metadata": {
+        "source": "rt68cx21",
+        "metadata": {
+          "eventId": 2,
+          "winLevel": "Error"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782919632205)/\",\"Id\":2,\"LevelDisplayName\":\"Error\",\"ProviderName\":\"rt68cx21\",\"Message\":\"Realtek PCIe GbE Family Controller has a Hardware IO error.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T15:27:12.205Z\",\"level\":\"ERROR\",\"source\":\"rt68cx21\",\"message\":\"Realtek PCIe GbE Family Controller has a Hardware IO error.\",\"metadata\":{\"eventId\":2,\"winLevel\":\"Error\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782919632205)/\\\",\\\"Id\\\":2,\\\"LevelDisplayName\\\":\\\"Error\\\",\\\"ProviderName\\\":\\\"rt68cx21\\\",\\\"Message\\\":\\\"Realtek PCIe GbE Family Controller has a Hardware IO error.\\\"}\"}"
+    },
+    {
+      "id": 104,
+      "timestamp": "2026-07-01T14:51:42.420Z",
+      "level": "ERROR",
+      "source": "rt68cx21",
+      "message": "Realtek PCIe GbE Family Controller has a Hardware IO error.",
+      "metadata": {
+        "source": "rt68cx21",
+        "metadata": {
+          "eventId": 2,
+          "winLevel": "Error"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782917502420)/\",\"Id\":2,\"LevelDisplayName\":\"Error\",\"ProviderName\":\"rt68cx21\",\"Message\":\"Realtek PCIe GbE Family Controller has a Hardware IO error.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T14:51:42.420Z\",\"level\":\"ERROR\",\"source\":\"rt68cx21\",\"message\":\"Realtek PCIe GbE Family Controller has a Hardware IO error.\",\"metadata\":{\"eventId\":2,\"winLevel\":\"Error\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782917502420)/\\\",\\\"Id\\\":2,\\\"LevelDisplayName\\\":\\\"Error\\\",\\\"ProviderName\\\":\\\"rt68cx21\\\",\\\"Message\\\":\\\"Realtek PCIe GbE Family Controller has a Hardware IO error.\\\"}\"}"
+    },
+    {
+      "id": 105,
+      "timestamp": "2026-07-01T14:51:42.420Z",
+      "level": "ERROR",
+      "source": "rt68cx21",
+      "message": "Realtek PCIe GbE Family Controller has a Hardware IO error.",
+      "metadata": {
+        "source": "rt68cx21",
+        "metadata": {
+          "eventId": 2,
+          "winLevel": "Error"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782917502420)/\",\"Id\":2,\"LevelDisplayName\":\"Error\",\"ProviderName\":\"rt68cx21\",\"Message\":\"Realtek PCIe GbE Family Controller has a Hardware IO error.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T14:51:42.420Z\",\"level\":\"ERROR\",\"source\":\"rt68cx21\",\"message\":\"Realtek PCIe GbE Family Controller has a Hardware IO error.\",\"metadata\":{\"eventId\":2,\"winLevel\":\"Error\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782917502420)/\\\",\\\"Id\\\":2,\\\"LevelDisplayName\\\":\\\"Error\\\",\\\"ProviderName\\\":\\\"rt68cx21\\\",\\\"Message\\\":\\\"Realtek PCIe GbE Family Controller has a Hardware IO error.\\\"}\"}"
+    },
+    {
+      "id": 106,
+      "timestamp": "2026-07-01T14:47:30.539Z",
+      "level": "ERROR",
+      "source": "rt68cx21",
+      "message": "Realtek PCIe GbE Family Controller has a Hardware IO error.",
+      "metadata": {
+        "source": "rt68cx21",
+        "metadata": {
+          "eventId": 2,
+          "winLevel": "Error"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782917250539)/\",\"Id\":2,\"LevelDisplayName\":\"Error\",\"ProviderName\":\"rt68cx21\",\"Message\":\"Realtek PCIe GbE Family Controller has a Hardware IO error.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T14:47:30.539Z\",\"level\":\"ERROR\",\"source\":\"rt68cx21\",\"message\":\"Realtek PCIe GbE Family Controller has a Hardware IO error.\",\"metadata\":{\"eventId\":2,\"winLevel\":\"Error\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782917250539)/\\\",\\\"Id\\\":2,\\\"LevelDisplayName\\\":\\\"Error\\\",\\\"ProviderName\\\":\\\"rt68cx21\\\",\\\"Message\\\":\\\"Realtek PCIe GbE Family Controller has a Hardware IO error.\\\"}\"}"
+    },
+    {
+      "id": 107,
+      "timestamp": "2026-07-01T14:47:30.539Z",
+      "level": "ERROR",
+      "source": "rt68cx21",
+      "message": "Realtek PCIe GbE Family Controller has a Hardware IO error.",
+      "metadata": {
+        "source": "rt68cx21",
+        "metadata": {
+          "eventId": 2,
+          "winLevel": "Error"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782917250539)/\",\"Id\":2,\"LevelDisplayName\":\"Error\",\"ProviderName\":\"rt68cx21\",\"Message\":\"Realtek PCIe GbE Family Controller has a Hardware IO error.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T14:47:30.539Z\",\"level\":\"ERROR\",\"source\":\"rt68cx21\",\"message\":\"Realtek PCIe GbE Family Controller has a Hardware IO error.\",\"metadata\":{\"eventId\":2,\"winLevel\":\"Error\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782917250539)/\\\",\\\"Id\\\":2,\\\"LevelDisplayName\\\":\\\"Error\\\",\\\"ProviderName\\\":\\\"rt68cx21\\\",\\\"Message\\\":\\\"Realtek PCIe GbE Family Controller has a Hardware IO error.\\\"}\"}"
+    },
+    {
+      "id": 108,
+      "timestamp": "2026-07-01T14:07:49.083Z",
+      "level": "ERROR",
+      "source": "rt68cx21",
+      "message": "Realtek PCIe GbE Family Controller has a Hardware IO error.",
+      "metadata": {
+        "source": "rt68cx21",
+        "metadata": {
+          "eventId": 2,
+          "winLevel": "Error"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782914869083)/\",\"Id\":2,\"LevelDisplayName\":\"Error\",\"ProviderName\":\"rt68cx21\",\"Message\":\"Realtek PCIe GbE Family Controller has a Hardware IO error.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T14:07:49.083Z\",\"level\":\"ERROR\",\"source\":\"rt68cx21\",\"message\":\"Realtek PCIe GbE Family Controller has a Hardware IO error.\",\"metadata\":{\"eventId\":2,\"winLevel\":\"Error\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782914869083)/\\\",\\\"Id\\\":2,\\\"LevelDisplayName\\\":\\\"Error\\\",\\\"ProviderName\\\":\\\"rt68cx21\\\",\\\"Message\\\":\\\"Realtek PCIe GbE Family Controller has a Hardware IO error.\\\"}\"}"
+    },
+    {
+      "id": 109,
+      "timestamp": "2026-07-01T14:07:49.083Z",
+      "level": "ERROR",
+      "source": "rt68cx21",
+      "message": "Realtek PCIe GbE Family Controller has a Hardware IO error.",
+      "metadata": {
+        "source": "rt68cx21",
+        "metadata": {
+          "eventId": 2,
+          "winLevel": "Error"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782914869083)/\",\"Id\":2,\"LevelDisplayName\":\"Error\",\"ProviderName\":\"rt68cx21\",\"Message\":\"Realtek PCIe GbE Family Controller has a Hardware IO error.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T14:07:49.083Z\",\"level\":\"ERROR\",\"source\":\"rt68cx21\",\"message\":\"Realtek PCIe GbE Family Controller has a Hardware IO error.\",\"metadata\":{\"eventId\":2,\"winLevel\":\"Error\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782914869083)/\\\",\\\"Id\\\":2,\\\"LevelDisplayName\\\":\\\"Error\\\",\\\"ProviderName\\\":\\\"rt68cx21\\\",\\\"Message\\\":\\\"Realtek PCIe GbE Family Controller has a Hardware IO error.\\\"}\"}"
+    },
+    {
+      "id": 110,
+      "timestamp": "2026-07-01T13:48:06.731Z",
+      "level": "INFO",
+      "source": "BTHUSB",
+      "message": "Windows cannot store Bluetooth authentication codes (link keys) on the local adapter. Bluetooth keyboards might not work in the system BIOS during startup.",
+      "metadata": {
+        "source": "BTHUSB",
+        "metadata": {
+          "eventId": 18,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782913686731)/\",\"Id\":18,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"BTHUSB\",\"Message\":\"Windows cannot store Bluetooth authentication codes (link keys) on the local adapter. Bluetooth keyboards might not work in the system BIOS during startup.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:48:06.731Z\",\"level\":\"INFO\",\"source\":\"BTHUSB\",\"message\":\"Windows cannot store Bluetooth authentication codes (link keys) on the local adapter. Bluetooth keyboards might not work in the system BIOS during startup.\",\"metadata\":{\"eventId\":18,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782913686731)/\\\",\\\"Id\\\":18,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"BTHUSB\\\",\\\"Message\\\":\\\"Windows cannot store Bluetooth authentication codes (link keys) on the local adapter. Bluetooth keyboards might not work in the system BIOS during startup.\\\"}\"}"
+    },
+    {
+      "id": 111,
+      "timestamp": "2026-07-01T13:48:06.194Z",
+      "level": "INFO",
+      "source": "Microsoft-Windows-Kernel-Power",
+      "message": "Connectivity state in standby: Disconnected, Reason: Policy Setting",
+      "metadata": {
+        "source": "Microsoft-Windows-Kernel-Power",
+        "metadata": {
+          "eventId": 172,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782913686194)/\",\"Id\":172,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Microsoft-Windows-Kernel-Power\",\"Message\":\"Connectivity state in standby: Disconnected, Reason: Policy Setting\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:48:06.194Z\",\"level\":\"INFO\",\"source\":\"Microsoft-Windows-Kernel-Power\",\"message\":\"Connectivity state in standby: Disconnected, Reason: Policy Setting\",\"metadata\":{\"eventId\":172,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782913686194)/\\\",\\\"Id\\\":172,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-Kernel-Power\\\",\\\"Message\\\":\\\"Connectivity state in standby: Disconnected, Reason: Policy Setting\\\"}\"}"
+    },
+    {
+      "id": 112,
+      "timestamp": "2026-07-01T13:48:00.109Z",
+      "level": "INFO",
+      "source": "Windows Error Reporting",
+      "message": "Fault bucket , type 0\r\nEvent Name: APPCRASH\r\nResponse: Not available\r\nCab Id: 0\r\n\r\nProblem signature:\r\nP1: netcut_windows.exe\r\nP2: 0.0.0.0\r\nP3: 690bb565\r\nP4: packet.dll\r\nP5: 4.1.0.2980\r\nP6: 5130043c\r\nP7: c0000005\r\nP8: 00001e2a\r\nP9: \r\nP10: \r\n\r\nAttached files:\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.11f27aba-3952-4884-9106-6a667ab1215b.tmp.mdmp\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.390c7968-f3e6-41ed-b5bf-d89300de1fd4.tmp.WERInternalMetadata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.56cd1a33-2f08-4db8-882c-ee8ed723a46c.tmp.etl\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\ReportQueue\\AppCrash_netcut_windows.e_9464d045f33293e33e31bf07748f67a62441e3c_c6783028_cab_d5db5082-061d-4422-b98c-0e060bf4eccb\\WPR_initiated_DiagTrackMiniLogger_WPR System Collector_inject.etl\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.46c0baac-3ccc-4a88-a5ba-1ac9a15a894e.tmp.etl\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.9691a5bd-fd31-41c5-a1c9-219ada95f1d8.tmp.csv\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.ec433bdd-bbfc-450b-81f8-cbc5f605e25e.tmp.txt\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.3ea3b927-7812-47cc-b8fc-ecce12a2c540.tmp.xml\r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.a1aeb21f-fda4-43ee-b6b4-bb7232b6445e.tmp.appcompat.txt\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\ReportQueue\\AppCrash_netcut_windows.e_9464d045f33293e33e31bf07748f67a62441e3c_c6783028_cab_d5db5082-061d-4422-b98c-0e060bf4eccb\\memory.hdmp\r\n\r\nThese files may be available here:\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\ReportQueue\\AppCrash_netcut_windows.e_9464d045f33293e33e31bf07748f67a62441e3c_c6783028_cab_d5db5082-061d-4422-b98c-0e060bf4eccb\r\n\r\nAnalysis symbol: \r\nRechecking for solution: 0\r\nReport Id: 558224c8-33a4-4fd3-8d54-f6e313587559\r\nReport Status: 6\r\nHashed bucket: \r\nCab Guid: 0",
+      "metadata": {
+        "source": "Windows Error Reporting",
+        "metadata": {
+          "eventId": 1001,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782913680109)/\",\"Id\":1001,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Windows Error Reporting\",\"Message\":\"Fault bucket , type 0\\r\\nEvent Name: APPCRASH\\r\\nResponse: Not available\\r\\nCab Id: 0\\r\\n\\r\\nProblem signature:\\r\\nP1: netcut_windows.exe\\r\\nP2: 0.0.0.0\\r\\nP3: 690bb565\\r\\nP4: packet.dll\\r\\nP5: 4.1.0.2980\\r\\nP6: 5130043c\\r\\nP7: c0000005\\r\\nP8: 00001e2a\\r\\nP9: \\r\\nP10: \\r\\n\\r\\nAttached files:\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\Temp\\\\WER.11f27aba-3952-4884-9106-6a667ab1215b.tmp.mdmp\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\Temp\\\\WER.390c7968-f3e6-41ed-b5bf-d89300de1fd4.tmp.WERInternalMetadata.xml\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\Temp\\\\WER.56cd1a33-2f08-4db8-882c-ee8ed723a46c.tmp.etl\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\ReportQueue\\\\AppCrash_netcut_windows.e_9464d045f33293e33e31bf07748f67a62441e3c_c6783028_cab_d5db5082-061d-4422-b98c-0e060bf4eccb\\\\WPR_initiated_DiagTrackMiniLogger_WPR System Collector_inject.etl\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\Temp\\\\WER.46c0baac-3ccc-4a88-a5ba-1ac9a15a894e.tmp.etl\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\Temp\\\\WER.9691a5bd-fd31-41c5-a1c9-219ada95f1d8.tmp.csv\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\Temp\\\\WER.ec433bdd-bbfc-450b-81f8-cbc5f605e25e.tmp.txt\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\Temp\\\\WER.3ea3b927-7812-47cc-b8fc-ecce12a2c540.tmp.xml\\r\\n\\\\\\\\?\\\\C:\\\\Windows\\\\SystemTemp\\\\WER.a1aeb21f-fda4-43ee-b6b4-bb7232b6445e.tmp.appcompat.txt\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\ReportQueue\\\\AppCrash_netcut_windows.e_9464d045f33293e33e31bf07748f67a62441e3c_c6783028_cab_d5db5082-061d-4422-b98c-0e060bf4eccb\\\\memory.hdmp\\r\\n\\r\\nThese files may be available here:\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\ReportQueue\\\\AppCrash_netcut_windows.e_9464d045f33293e33e31bf07748f67a62441e3c_c6783028_cab_d5db5082-061d-4422-b98c-0e060bf4eccb\\r\\n\\r\\nAnalysis symbol: \\r\\nRechecking for solution: 0\\r\\nReport Id: 558224c8-33a4-4fd3-8d54-f6e313587559\\r\\nReport Status: 6\\r\\nHashed bucket: \\r\\nCab Guid: 0\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:48:00.109Z\",\"level\":\"INFO\",\"source\":\"Windows Error Reporting\",\"message\":\"Fault bucket , type 0\\r\\nEvent Name: APPCRASH\\r\\nResponse: Not available\\r\\nCab Id: 0\\r\\n\\r\\nProblem signature:\\r\\nP1: netcut_windows.exe\\r\\nP2: 0.0.0.0\\r\\nP3: 690bb565\\r\\nP4: packet.dll\\r\\nP5: 4.1.0.2980\\r\\nP6: 5130043c\\r\\nP7: c0000005\\r\\nP8: 00001e2a\\r\\nP9: \\r\\nP10: \\r\\n\\r\\nAttached files:\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\Temp\\\\WER.11f27aba-3952-4884-9106-6a667ab1215b.tmp.mdmp\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\Temp\\\\WER.390c7968-f3e6-41ed-b5bf-d89300de1fd4.tmp.WERInternalMetadata.xml\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\Temp\\\\WER.56cd1a33-2f08-4db8-882c-ee8ed723a46c.tmp.etl\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\ReportQueue\\\\AppCrash_netcut_windows.e_9464d045f33293e33e31bf07748f67a62441e3c_c6783028_cab_d5db5082-061d-4422-b98c-0e060bf4eccb\\\\WPR_initiated_DiagTrackMiniLogger_WPR System Collector_inject.etl\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\Temp\\\\WER.46c0baac-3ccc-4a88-a5ba-1ac9a15a894e.tmp.etl\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\Temp\\\\WER.9691a5bd-fd31-41c5-a1c9-219ada95f1d8.tmp.csv\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\Temp\\\\WER.ec433bdd-bbfc-450b-81f8-cbc5f605e25e.tmp.txt\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\Temp\\\\WER.3ea3b927-7812-47cc-b8fc-ecce12a2c540.tmp.xml\\r\\n\\\\\\\\?\\\\C:\\\\Windows\\\\SystemTemp\\\\WER.a1aeb21f-fda4-43ee-b6b4-bb7232b6445e.tmp.appcompat.txt\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\ReportQueue\\\\AppCrash_netcut_windows.e_9464d045f33293e33e31bf07748f67a62441e3c_c6783028_cab_d5db5082-061d-4422-b98c-0e060bf4eccb\\\\memory.hdmp\\r\\n\\r\\nThese files may be available here:\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\ReportQueue\\\\AppCrash_netcut_windows.e_9464d045f33293e33e31bf07748f67a62441e3c_c6783028_cab_d5db5082-061d-4422-b98c-0e060bf4eccb\\r\\n\\r\\nAnalysis symbol: \\r\\nRechecking for solution: 0\\r\\nReport Id: 558224c8-33a4-4fd3-8d54-f6e313587559\\r\\nReport Status: 6\\r\\nHashed bucket: \\r\\nCab Guid: 0\",\"metadata\":{\"eventId\":1001,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782913680109)/\\\",\\\"Id\\\":1001,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Windows Error Reporting\\\",\\\"Message\\\":\\\"Fault bucket , type 0\\\\r\\\\nEvent Name: APPCRASH\\\\r\\\\nResponse: Not available\\\\r\\\\nCab Id: 0\\\\r\\\\n\\\\r\\\\nProblem signature:\\\\r\\\\nP1: netcut_windows.exe\\\\r\\\\nP2: 0.0.0.0\\\\r\\\\nP3: 690bb565\\\\r\\\\nP4: packet.dll\\\\r\\\\nP5: 4.1.0.2980\\\\r\\\\nP6: 5130043c\\\\r\\\\nP7: c0000005\\\\r\\\\nP8: 00001e2a\\\\r\\\\nP9: \\\\r\\\\nP10: \\\\r\\\\n\\\\r\\\\nAttached files:\\\\r\\\\n\\\\\\\\\\\\\\\\?\\\\\\\\C:\\\\\\\\ProgramData\\\\\\\\Microsoft\\\\\\\\Windows\\\\\\\\WER\\\\\\\\Temp\\\\\\\\WER.11f27aba-3952-4884-9106-6a667ab1215b.tmp.mdmp\\\\r\\\\n\\\\\\\\\\\\\\\\?\\\\\\\\C:\\\\\\\\ProgramData\\\\\\\\Microsoft\\\\\\\\Windows\\\\\\\\WER\\\\\\\\Temp\\\\\\\\WER.390c7968-f3e6-41ed-b5bf-d89300de1fd4.tmp.WERInternalMetadata.xml\\\\r\\\\n\\\\\\\\\\\\\\\\?\\\\\\\\C:\\\\\\\\ProgramData\\\\\\\\Microsoft\\\\\\\\Windows\\\\\\\\WER\\\\\\\\Temp\\\\\\\\WER.56cd1a33-2f08-4db8-882c-ee8ed723a46c.tmp.etl\\\\r\\\\n\\\\\\\\\\\\\\\\?\\\\\\\\C:\\\\\\\\ProgramData\\\\\\\\Microsoft\\\\\\\\Windows\\\\\\\\WER\\\\\\\\ReportQueue\\\\\\\\AppCrash_netcut_windows.e_9464d045f33293e33e31bf07748f67a62441e3c_c6783028_cab_d5db5082-061d-4422-b98c-0e060bf4eccb\\\\\\\\WPR_initiated_DiagTrackMiniLogger_WPR System Collector_inject.etl\\\\r\\\\n\\\\\\\\\\\\\\\\?\\\\\\\\C:\\\\\\\\ProgramData\\\\\\\\Microsoft\\\\\\\\Windows\\\\\\\\WER\\\\\\\\Temp\\\\\\\\WER.46c0baac-3ccc-4a88-a5ba-1ac9a15a894e.tmp.etl\\\\r\\\\n\\\\\\\\\\\\\\\\?\\\\\\\\C:\\\\\\\\ProgramData\\\\\\\\Microsoft\\\\\\\\Windows\\\\\\\\WER\\\\\\\\Temp\\\\\\\\WER.9691a5bd-fd31-41c5-a1c9-219ada95f1d8.tmp.csv\\\\r\\\\n\\\\\\\\\\\\\\\\?\\\\\\\\C:\\\\\\\\ProgramData\\\\\\\\Microsoft\\\\\\\\Windows\\\\\\\\WER\\\\\\\\Temp\\\\\\\\WER.ec433bdd-bbfc-450b-81f8-cbc5f605e25e.tmp.txt\\\\r\\\\n\\\\\\\\\\\\\\\\?\\\\\\\\C:\\\\\\\\ProgramData\\\\\\\\Microsoft\\\\\\\\Windows\\\\\\\\WER\\\\\\\\Temp\\\\\\\\WER.3ea3b927-7812-47cc-b8fc-ecce12a2c540.tmp.xml\\\\r\\\\n\\\\\\\\\\\\\\\\?\\\\\\\\C:\\\\\\\\Windows\\\\\\\\SystemTemp\\\\\\\\WER.a1aeb21f-fda4-43ee-b6b4-bb7232b6445e.tmp.appcompat.txt\\\\r\\\\n\\\\\\\\\\\\\\\\?\\\\\\\\C:\\\\\\\\ProgramData\\\\\\\\Microsoft\\\\\\\\Windows\\\\\\\\WER\\\\\\\\ReportQueue\\\\\\\\AppCrash_netcut_windows.e_9464d045f33293e33e31bf07748f67a62441e3c_c6783028_cab_d5db5082-061d-4422-b98c-0e060bf4eccb\\\\\\\\memory.hdmp\\\\r\\\\n\\\\r\\\\nThese files may be available here:\\\\r\\\\n\\\\\\\\\\\\\\\\?\\\\\\\\C:\\\\\\\\ProgramData\\\\\\\\Microsoft\\\\\\\\Windows\\\\\\\\WER\\\\\\\\ReportQueue\\\\\\\\AppCrash_netcut_windows.e_9464d045f33293e33e31bf07748f67a62441e3c_c6783028_cab_d5db5082-061d-4422-b98c-0e060bf4eccb\\\\r\\\\n\\\\r\\\\nAnalysis symbol: \\\\r\\\\nRechecking for solution: 0\\\\r\\\\nReport Id: 558224c8-33a4-4fd3-8d54-f6e313587559\\\\r\\\\nReport Status: 6\\\\r\\\\nHashed bucket: \\\\r\\\\nCab Guid: 0\\\"}\"}"
+    },
+    {
+      "id": 113,
+      "timestamp": "2026-07-01T13:47:59.822Z",
+      "level": "INFO",
+      "source": "Microsoft-Windows-Kernel-Power",
+      "message": "The system session has transitioned from 8 to 9.\r\n\r\nReason 55 \r\n\r\nBootId: 389",
+      "metadata": {
+        "source": "Microsoft-Windows-Kernel-Power",
+        "metadata": {
+          "eventId": 566,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782913679822)/\",\"Id\":566,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Microsoft-Windows-Kernel-Power\",\"Message\":\"The system session has transitioned from 8 to 9.\\r\\n\\r\\nReason 55 \\r\\n\\r\\nBootId: 389\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:47:59.822Z\",\"level\":\"INFO\",\"source\":\"Microsoft-Windows-Kernel-Power\",\"message\":\"The system session has transitioned from 8 to 9.\\r\\n\\r\\nReason 55 \\r\\n\\r\\nBootId: 389\",\"metadata\":{\"eventId\":566,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782913679822)/\\\",\\\"Id\\\":566,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-Kernel-Power\\\",\\\"Message\\\":\\\"The system session has transitioned from 8 to 9.\\\\r\\\\n\\\\r\\\\nReason 55 \\\\r\\\\n\\\\r\\\\nBootId: 389\\\"}\"}"
+    },
+    {
+      "id": 114,
+      "timestamp": "2026-07-01T13:47:56.091Z",
+      "level": "INFO",
+      "source": "Windows Error Reporting",
+      "message": "Fault bucket , type 0\r\nEvent Name: APPCRASH\r\nResponse: Not available\r\nCab Id: 0\r\n\r\nProblem signature:\r\nP1: netcut_windows.exe\r\nP2: 0.0.0.0\r\nP3: 690bb565\r\nP4: packet.dll\r\nP5: 4.1.0.2980\r\nP6: 5130043c\r\nP7: c0000005\r\nP8: 00001e2a\r\nP9: \r\nP10: \r\n\r\nAttached files:\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.11f27aba-3952-4884-9106-6a667ab1215b.tmp.mdmp\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.390c7968-f3e6-41ed-b5bf-d89300de1fd4.tmp.WERInternalMetadata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.56cd1a33-2f08-4db8-882c-ee8ed723a46c.tmp.etl\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\ReportQueue\\AppCrash_netcut_windows.e_9464d045f33293e33e31bf07748f67a62441e3c_c6783028_cab_d5db5082-061d-4422-b98c-0e060bf4eccb\\WPR_initiated_DiagTrackMiniLogger_WPR System Collector_inject.etl\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.46c0baac-3ccc-4a88-a5ba-1ac9a15a894e.tmp.etl\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.9691a5bd-fd31-41c5-a1c9-219ada95f1d8.tmp.csv\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.ec433bdd-bbfc-450b-81f8-cbc5f605e25e.tmp.txt\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.3ea3b927-7812-47cc-b8fc-ecce12a2c540.tmp.xml\r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.a1aeb21f-fda4-43ee-b6b4-bb7232b6445e.tmp.appcompat.txt\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\ReportQueue\\AppCrash_netcut_windows.e_9464d045f33293e33e31bf07748f67a62441e3c_c6783028_cab_d5db5082-061d-4422-b98c-0e060bf4eccb\\memory.hdmp\r\n\r\nThese files may be available here:\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\ReportQueue\\AppCrash_netcut_windows.e_9464d045f33293e33e31bf07748f67a62441e3c_c6783028_cab_d5db5082-061d-4422-b98c-0e060bf4eccb\r\n\r\nAnalysis symbol: \r\nRechecking for solution: 0\r\nReport Id: 558224c8-33a4-4fd3-8d54-f6e313587559\r\nReport Status: 6\r\nHashed bucket: \r\nCab Guid: 0",
+      "metadata": {
+        "source": "Windows Error Reporting",
+        "metadata": {
+          "eventId": 1001,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782913676091)/\",\"Id\":1001,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Windows Error Reporting\",\"Message\":\"Fault bucket , type 0\\r\\nEvent Name: APPCRASH\\r\\nResponse: Not available\\r\\nCab Id: 0\\r\\n\\r\\nProblem signature:\\r\\nP1: netcut_windows.exe\\r\\nP2: 0.0.0.0\\r\\nP3: 690bb565\\r\\nP4: packet.dll\\r\\nP5: 4.1.0.2980\\r\\nP6: 5130043c\\r\\nP7: c0000005\\r\\nP8: 00001e2a\\r\\nP9: \\r\\nP10: \\r\\n\\r\\nAttached files:\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\Temp\\\\WER.11f27aba-3952-4884-9106-6a667ab1215b.tmp.mdmp\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\Temp\\\\WER.390c7968-f3e6-41ed-b5bf-d89300de1fd4.tmp.WERInternalMetadata.xml\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\Temp\\\\WER.56cd1a33-2f08-4db8-882c-ee8ed723a46c.tmp.etl\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\ReportQueue\\\\AppCrash_netcut_windows.e_9464d045f33293e33e31bf07748f67a62441e3c_c6783028_cab_d5db5082-061d-4422-b98c-0e060bf4eccb\\\\WPR_initiated_DiagTrackMiniLogger_WPR System Collector_inject.etl\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\Temp\\\\WER.46c0baac-3ccc-4a88-a5ba-1ac9a15a894e.tmp.etl\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\Temp\\\\WER.9691a5bd-fd31-41c5-a1c9-219ada95f1d8.tmp.csv\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\Temp\\\\WER.ec433bdd-bbfc-450b-81f8-cbc5f605e25e.tmp.txt\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\Temp\\\\WER.3ea3b927-7812-47cc-b8fc-ecce12a2c540.tmp.xml\\r\\n\\\\\\\\?\\\\C:\\\\Windows\\\\SystemTemp\\\\WER.a1aeb21f-fda4-43ee-b6b4-bb7232b6445e.tmp.appcompat.txt\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\ReportQueue\\\\AppCrash_netcut_windows.e_9464d045f33293e33e31bf07748f67a62441e3c_c6783028_cab_d5db5082-061d-4422-b98c-0e060bf4eccb\\\\memory.hdmp\\r\\n\\r\\nThese files may be available here:\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\ReportQueue\\\\AppCrash_netcut_windows.e_9464d045f33293e33e31bf07748f67a62441e3c_c6783028_cab_d5db5082-061d-4422-b98c-0e060bf4eccb\\r\\n\\r\\nAnalysis symbol: \\r\\nRechecking for solution: 0\\r\\nReport Id: 558224c8-33a4-4fd3-8d54-f6e313587559\\r\\nReport Status: 6\\r\\nHashed bucket: \\r\\nCab Guid: 0\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:47:56.091Z\",\"level\":\"INFO\",\"source\":\"Windows Error Reporting\",\"message\":\"Fault bucket , type 0\\r\\nEvent Name: APPCRASH\\r\\nResponse: Not available\\r\\nCab Id: 0\\r\\n\\r\\nProblem signature:\\r\\nP1: netcut_windows.exe\\r\\nP2: 0.0.0.0\\r\\nP3: 690bb565\\r\\nP4: packet.dll\\r\\nP5: 4.1.0.2980\\r\\nP6: 5130043c\\r\\nP7: c0000005\\r\\nP8: 00001e2a\\r\\nP9: \\r\\nP10: \\r\\n\\r\\nAttached files:\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\Temp\\\\WER.11f27aba-3952-4884-9106-6a667ab1215b.tmp.mdmp\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\Temp\\\\WER.390c7968-f3e6-41ed-b5bf-d89300de1fd4.tmp.WERInternalMetadata.xml\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\Temp\\\\WER.56cd1a33-2f08-4db8-882c-ee8ed723a46c.tmp.etl\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\ReportQueue\\\\AppCrash_netcut_windows.e_9464d045f33293e33e31bf07748f67a62441e3c_c6783028_cab_d5db5082-061d-4422-b98c-0e060bf4eccb\\\\WPR_initiated_DiagTrackMiniLogger_WPR System Collector_inject.etl\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\Temp\\\\WER.46c0baac-3ccc-4a88-a5ba-1ac9a15a894e.tmp.etl\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\Temp\\\\WER.9691a5bd-fd31-41c5-a1c9-219ada95f1d8.tmp.csv\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\Temp\\\\WER.ec433bdd-bbfc-450b-81f8-cbc5f605e25e.tmp.txt\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\Temp\\\\WER.3ea3b927-7812-47cc-b8fc-ecce12a2c540.tmp.xml\\r\\n\\\\\\\\?\\\\C:\\\\Windows\\\\SystemTemp\\\\WER.a1aeb21f-fda4-43ee-b6b4-bb7232b6445e.tmp.appcompat.txt\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\ReportQueue\\\\AppCrash_netcut_windows.e_9464d045f33293e33e31bf07748f67a62441e3c_c6783028_cab_d5db5082-061d-4422-b98c-0e060bf4eccb\\\\memory.hdmp\\r\\n\\r\\nThese files may be available here:\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\ReportQueue\\\\AppCrash_netcut_windows.e_9464d045f33293e33e31bf07748f67a62441e3c_c6783028_cab_d5db5082-061d-4422-b98c-0e060bf4eccb\\r\\n\\r\\nAnalysis symbol: \\r\\nRechecking for solution: 0\\r\\nReport Id: 558224c8-33a4-4fd3-8d54-f6e313587559\\r\\nReport Status: 6\\r\\nHashed bucket: \\r\\nCab Guid: 0\",\"metadata\":{\"eventId\":1001,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782913676091)/\\\",\\\"Id\\\":1001,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Windows Error Reporting\\\",\\\"Message\\\":\\\"Fault bucket , type 0\\\\r\\\\nEvent Name: APPCRASH\\\\r\\\\nResponse: Not available\\\\r\\\\nCab Id: 0\\\\r\\\\n\\\\r\\\\nProblem signature:\\\\r\\\\nP1: netcut_windows.exe\\\\r\\\\nP2: 0.0.0.0\\\\r\\\\nP3: 690bb565\\\\r\\\\nP4: packet.dll\\\\r\\\\nP5: 4.1.0.2980\\\\r\\\\nP6: 5130043c\\\\r\\\\nP7: c0000005\\\\r\\\\nP8: 00001e2a\\\\r\\\\nP9: \\\\r\\\\nP10: \\\\r\\\\n\\\\r\\\\nAttached files:\\\\r\\\\n\\\\\\\\\\\\\\\\?\\\\\\\\C:\\\\\\\\ProgramData\\\\\\\\Microsoft\\\\\\\\Windows\\\\\\\\WER\\\\\\\\Temp\\\\\\\\WER.11f27aba-3952-4884-9106-6a667ab1215b.tmp.mdmp\\\\r\\\\n\\\\\\\\\\\\\\\\?\\\\\\\\C:\\\\\\\\ProgramData\\\\\\\\Microsoft\\\\\\\\Windows\\\\\\\\WER\\\\\\\\Temp\\\\\\\\WER.390c7968-f3e6-41ed-b5bf-d89300de1fd4.tmp.WERInternalMetadata.xml\\\\r\\\\n\\\\\\\\\\\\\\\\?\\\\\\\\C:\\\\\\\\ProgramData\\\\\\\\Microsoft\\\\\\\\Windows\\\\\\\\WER\\\\\\\\Temp\\\\\\\\WER.56cd1a33-2f08-4db8-882c-ee8ed723a46c.tmp.etl\\\\r\\\\n\\\\\\\\\\\\\\\\?\\\\\\\\C:\\\\\\\\ProgramData\\\\\\\\Microsoft\\\\\\\\Windows\\\\\\\\WER\\\\\\\\ReportQueue\\\\\\\\AppCrash_netcut_windows.e_9464d045f33293e33e31bf07748f67a62441e3c_c6783028_cab_d5db5082-061d-4422-b98c-0e060bf4eccb\\\\\\\\WPR_initiated_DiagTrackMiniLogger_WPR System Collector_inject.etl\\\\r\\\\n\\\\\\\\\\\\\\\\?\\\\\\\\C:\\\\\\\\ProgramData\\\\\\\\Microsoft\\\\\\\\Windows\\\\\\\\WER\\\\\\\\Temp\\\\\\\\WER.46c0baac-3ccc-4a88-a5ba-1ac9a15a894e.tmp.etl\\\\r\\\\n\\\\\\\\\\\\\\\\?\\\\\\\\C:\\\\\\\\ProgramData\\\\\\\\Microsoft\\\\\\\\Windows\\\\\\\\WER\\\\\\\\Temp\\\\\\\\WER.9691a5bd-fd31-41c5-a1c9-219ada95f1d8.tmp.csv\\\\r\\\\n\\\\\\\\\\\\\\\\?\\\\\\\\C:\\\\\\\\ProgramData\\\\\\\\Microsoft\\\\\\\\Windows\\\\\\\\WER\\\\\\\\Temp\\\\\\\\WER.ec433bdd-bbfc-450b-81f8-cbc5f605e25e.tmp.txt\\\\r\\\\n\\\\\\\\\\\\\\\\?\\\\\\\\C:\\\\\\\\ProgramData\\\\\\\\Microsoft\\\\\\\\Windows\\\\\\\\WER\\\\\\\\Temp\\\\\\\\WER.3ea3b927-7812-47cc-b8fc-ecce12a2c540.tmp.xml\\\\r\\\\n\\\\\\\\\\\\\\\\?\\\\\\\\C:\\\\\\\\Windows\\\\\\\\SystemTemp\\\\\\\\WER.a1aeb21f-fda4-43ee-b6b4-bb7232b6445e.tmp.appcompat.txt\\\\r\\\\n\\\\\\\\\\\\\\\\?\\\\\\\\C:\\\\\\\\ProgramData\\\\\\\\Microsoft\\\\\\\\Windows\\\\\\\\WER\\\\\\\\ReportQueue\\\\\\\\AppCrash_netcut_windows.e_9464d045f33293e33e31bf07748f67a62441e3c_c6783028_cab_d5db5082-061d-4422-b98c-0e060bf4eccb\\\\\\\\memory.hdmp\\\\r\\\\n\\\\r\\\\nThese files may be available here:\\\\r\\\\n\\\\\\\\\\\\\\\\?\\\\\\\\C:\\\\\\\\ProgramData\\\\\\\\Microsoft\\\\\\\\Windows\\\\\\\\WER\\\\\\\\ReportQueue\\\\\\\\AppCrash_netcut_windows.e_9464d045f33293e33e31bf07748f67a62441e3c_c6783028_cab_d5db5082-061d-4422-b98c-0e060bf4eccb\\\\r\\\\n\\\\r\\\\nAnalysis symbol: \\\\r\\\\nRechecking for solution: 0\\\\r\\\\nReport Id: 558224c8-33a4-4fd3-8d54-f6e313587559\\\\r\\\\nReport Status: 6\\\\r\\\\nHashed bucket: \\\\r\\\\nCab Guid: 0\\\"}\"}"
+    },
+    {
+      "id": 115,
+      "timestamp": "2026-07-01T13:47:49.750Z",
+      "level": "INFO",
+      "source": "Microsoft-Windows-Kernel-Power",
+      "message": "The system is entering Modern Standby \r\n\r\nReason: Austerity Battery Drain Budget Exceeded.",
+      "metadata": {
+        "source": "Microsoft-Windows-Kernel-Power",
+        "metadata": {
+          "eventId": 506,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782913669750)/\",\"Id\":506,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Microsoft-Windows-Kernel-Power\",\"Message\":\"The system is entering Modern Standby \\r\\n\\r\\nReason: Austerity Battery Drain Budget Exceeded.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:47:49.750Z\",\"level\":\"INFO\",\"source\":\"Microsoft-Windows-Kernel-Power\",\"message\":\"The system is entering Modern Standby \\r\\n\\r\\nReason: Austerity Battery Drain Budget Exceeded.\",\"metadata\":{\"eventId\":506,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782913669750)/\\\",\\\"Id\\\":506,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-Kernel-Power\\\",\\\"Message\\\":\\\"The system is entering Modern Standby \\\\r\\\\n\\\\r\\\\nReason: Austerity Battery Drain Budget Exceeded.\\\"}\"}"
+    },
+    {
+      "id": 116,
+      "timestamp": "2026-07-01T13:47:49.748Z",
+      "level": "INFO",
+      "source": "Microsoft-Windows-Kernel-Power",
+      "message": "The system session has transitioned from 7 to 8.\r\n\r\nReason 55 \r\n\r\nBootId: 389",
+      "metadata": {
+        "source": "Microsoft-Windows-Kernel-Power",
+        "metadata": {
+          "eventId": 566,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782913669748)/\",\"Id\":566,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Microsoft-Windows-Kernel-Power\",\"Message\":\"The system session has transitioned from 7 to 8.\\r\\n\\r\\nReason 55 \\r\\n\\r\\nBootId: 389\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:47:49.748Z\",\"level\":\"INFO\",\"source\":\"Microsoft-Windows-Kernel-Power\",\"message\":\"The system session has transitioned from 7 to 8.\\r\\n\\r\\nReason 55 \\r\\n\\r\\nBootId: 389\",\"metadata\":{\"eventId\":566,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782913669748)/\\\",\\\"Id\\\":566,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-Kernel-Power\\\",\\\"Message\\\":\\\"The system session has transitioned from 7 to 8.\\\\r\\\\n\\\\r\\\\nReason 55 \\\\r\\\\n\\\\r\\\\nBootId: 389\\\"}\"}"
+    },
+    {
+      "id": 117,
+      "timestamp": "2026-07-01T13:47:49.747Z",
+      "level": "INFO",
+      "source": "Microsoft-Windows-Kernel-Power",
+      "message": "The system is exiting Modern Standby \r\n\r\nReason: Austerity Battery Drain Budget Exceeded.",
+      "metadata": {
+        "source": "Microsoft-Windows-Kernel-Power",
+        "metadata": {
+          "eventId": 507,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782913669747)/\",\"Id\":507,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Microsoft-Windows-Kernel-Power\",\"Message\":\"The system is exiting Modern Standby \\r\\n\\r\\nReason: Austerity Battery Drain Budget Exceeded.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:47:49.747Z\",\"level\":\"INFO\",\"source\":\"Microsoft-Windows-Kernel-Power\",\"message\":\"The system is exiting Modern Standby \\r\\n\\r\\nReason: Austerity Battery Drain Budget Exceeded.\",\"metadata\":{\"eventId\":507,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782913669747)/\\\",\\\"Id\\\":507,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-Kernel-Power\\\",\\\"Message\\\":\\\"The system is exiting Modern Standby \\\\r\\\\n\\\\r\\\\nReason: Austerity Battery Drain Budget Exceeded.\\\"}\"}"
+    },
+    {
+      "id": 118,
+      "timestamp": "2026-07-01T13:47:49.738Z",
+      "level": "INFO",
+      "source": "Microsoft-Windows-Kernel-Power",
+      "message": "Connectivity state in standby: Connected, Reason: None",
+      "metadata": {
+        "source": "Microsoft-Windows-Kernel-Power",
+        "metadata": {
+          "eventId": 172,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782913669738)/\",\"Id\":172,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Microsoft-Windows-Kernel-Power\",\"Message\":\"Connectivity state in standby: Connected, Reason: None\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T13:47:49.738Z\",\"level\":\"INFO\",\"source\":\"Microsoft-Windows-Kernel-Power\",\"message\":\"Connectivity state in standby: Connected, Reason: None\",\"metadata\":{\"eventId\":172,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782913669738)/\\\",\\\"Id\\\":172,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-Kernel-Power\\\",\\\"Message\\\":\\\"Connectivity state in standby: Connected, Reason: None\\\"}\"}"
+    },
+    {
+      "id": 119,
+      "timestamp": "2026-07-01T16:39:25.171Z",
+      "level": "INFO",
+      "source": "Microsoft-Windows-Security-SPP",
+      "message": "Offline downlevel migration succeeded.",
+      "metadata": {
+        "source": "Microsoft-Windows-Security-SPP",
+        "metadata": {
+          "eventId": 16394,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782923965171)/\",\"Id\":16394,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Microsoft-Windows-Security-SPP\",\"Message\":\"Offline downlevel migration succeeded.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T16:39:25.171Z\",\"level\":\"INFO\",\"source\":\"Microsoft-Windows-Security-SPP\",\"message\":\"Offline downlevel migration succeeded.\",\"metadata\":{\"eventId\":16394,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782923965171)/\\\",\\\"Id\\\":16394,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-Security-SPP\\\",\\\"Message\\\":\\\"Offline downlevel migration succeeded.\\\"}\"}"
+    },
+    {
+      "id": 120,
+      "timestamp": "2026-07-01T16:39:23.819Z",
+      "level": "INFO",
+      "source": "Windows Error Reporting",
+      "message": "Fault bucket , type 0\r\nEvent Name: APPCRASH\r\nResponse: Not available\r\nCab Id: 0\r\n\r\nProblem signature:\r\nP1: netcut_windows.exe\r\nP2: 0.0.0.0\r\nP3: 690bb565\r\nP4: packet.dll\r\nP5: 4.1.0.2980\r\nP6: 5130043c\r\nP7: c0000005\r\nP8: 00001e2a\r\nP9: \r\nP10: \r\n\r\nAttached files:\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.11f27aba-3952-4884-9106-6a667ab1215b.tmp.mdmp\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.390c7968-f3e6-41ed-b5bf-d89300de1fd4.tmp.WERInternalMetadata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.56cd1a33-2f08-4db8-882c-ee8ed723a46c.tmp.etl\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\ReportQueue\\AppCrash_netcut_windows.e_9464d045f33293e33e31bf07748f67a62441e3c_c6783028_cab_d5db5082-061d-4422-b98c-0e060bf4eccb\\WPR_initiated_DiagTrackMiniLogger_WPR System Collector_inject.etl\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.46c0baac-3ccc-4a88-a5ba-1ac9a15a894e.tmp.etl\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.9691a5bd-fd31-41c5-a1c9-219ada95f1d8.tmp.csv\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.ec433bdd-bbfc-450b-81f8-cbc5f605e25e.tmp.txt\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.3ea3b927-7812-47cc-b8fc-ecce12a2c540.tmp.xml\r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.a1aeb21f-fda4-43ee-b6b4-bb7232b6445e.tmp.appcompat.txt\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\ReportQueue\\AppCrash_netcut_windows.e_9464d045f33293e33e31bf07748f67a62441e3c_c6783028_cab_d5db5082-061d-4422-b98c-0e060bf4eccb\\memory.hdmp\r\n\r\nThese files may be available here:\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\ReportQueue\\AppCrash_netcut_windows.e_9464d045f33293e33e31bf07748f67a62441e3c_c6783028_cab_d5db5082-061d-4422-b98c-0e060bf4eccb\r\n\r\nAnalysis symbol: \r\nRechecking for solution: 0\r\nReport Id: 558224c8-33a4-4fd3-8d54-f6e313587559\r\nReport Status: 6\r\nHashed bucket: \r\nCab Guid: 0",
+      "metadata": {
+        "source": "Windows Error Reporting",
+        "metadata": {
+          "eventId": 1001,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782923963819)/\",\"Id\":1001,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Windows Error Reporting\",\"Message\":\"Fault bucket , type 0\\r\\nEvent Name: APPCRASH\\r\\nResponse: Not available\\r\\nCab Id: 0\\r\\n\\r\\nProblem signature:\\r\\nP1: netcut_windows.exe\\r\\nP2: 0.0.0.0\\r\\nP3: 690bb565\\r\\nP4: packet.dll\\r\\nP5: 4.1.0.2980\\r\\nP6: 5130043c\\r\\nP7: c0000005\\r\\nP8: 00001e2a\\r\\nP9: \\r\\nP10: \\r\\n\\r\\nAttached files:\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\Temp\\\\WER.11f27aba-3952-4884-9106-6a667ab1215b.tmp.mdmp\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\Temp\\\\WER.390c7968-f3e6-41ed-b5bf-d89300de1fd4.tmp.WERInternalMetadata.xml\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\Temp\\\\WER.56cd1a33-2f08-4db8-882c-ee8ed723a46c.tmp.etl\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\ReportQueue\\\\AppCrash_netcut_windows.e_9464d045f33293e33e31bf07748f67a62441e3c_c6783028_cab_d5db5082-061d-4422-b98c-0e060bf4eccb\\\\WPR_initiated_DiagTrackMiniLogger_WPR System Collector_inject.etl\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\Temp\\\\WER.46c0baac-3ccc-4a88-a5ba-1ac9a15a894e.tmp.etl\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\Temp\\\\WER.9691a5bd-fd31-41c5-a1c9-219ada95f1d8.tmp.csv\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\Temp\\\\WER.ec433bdd-bbfc-450b-81f8-cbc5f605e25e.tmp.txt\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\Temp\\\\WER.3ea3b927-7812-47cc-b8fc-ecce12a2c540.tmp.xml\\r\\n\\\\\\\\?\\\\C:\\\\Windows\\\\SystemTemp\\\\WER.a1aeb21f-fda4-43ee-b6b4-bb7232b6445e.tmp.appcompat.txt\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\ReportQueue\\\\AppCrash_netcut_windows.e_9464d045f33293e33e31bf07748f67a62441e3c_c6783028_cab_d5db5082-061d-4422-b98c-0e060bf4eccb\\\\memory.hdmp\\r\\n\\r\\nThese files may be available here:\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\ReportQueue\\\\AppCrash_netcut_windows.e_9464d045f33293e33e31bf07748f67a62441e3c_c6783028_cab_d5db5082-061d-4422-b98c-0e060bf4eccb\\r\\n\\r\\nAnalysis symbol: \\r\\nRechecking for solution: 0\\r\\nReport Id: 558224c8-33a4-4fd3-8d54-f6e313587559\\r\\nReport Status: 6\\r\\nHashed bucket: \\r\\nCab Guid: 0\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T16:39:23.819Z\",\"level\":\"INFO\",\"source\":\"Windows Error Reporting\",\"message\":\"Fault bucket , type 0\\r\\nEvent Name: APPCRASH\\r\\nResponse: Not available\\r\\nCab Id: 0\\r\\n\\r\\nProblem signature:\\r\\nP1: netcut_windows.exe\\r\\nP2: 0.0.0.0\\r\\nP3: 690bb565\\r\\nP4: packet.dll\\r\\nP5: 4.1.0.2980\\r\\nP6: 5130043c\\r\\nP7: c0000005\\r\\nP8: 00001e2a\\r\\nP9: \\r\\nP10: \\r\\n\\r\\nAttached files:\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\Temp\\\\WER.11f27aba-3952-4884-9106-6a667ab1215b.tmp.mdmp\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\Temp\\\\WER.390c7968-f3e6-41ed-b5bf-d89300de1fd4.tmp.WERInternalMetadata.xml\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\Temp\\\\WER.56cd1a33-2f08-4db8-882c-ee8ed723a46c.tmp.etl\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\ReportQueue\\\\AppCrash_netcut_windows.e_9464d045f33293e33e31bf07748f67a62441e3c_c6783028_cab_d5db5082-061d-4422-b98c-0e060bf4eccb\\\\WPR_initiated_DiagTrackMiniLogger_WPR System Collector_inject.etl\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\Temp\\\\WER.46c0baac-3ccc-4a88-a5ba-1ac9a15a894e.tmp.etl\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\Temp\\\\WER.9691a5bd-fd31-41c5-a1c9-219ada95f1d8.tmp.csv\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\Temp\\\\WER.ec433bdd-bbfc-450b-81f8-cbc5f605e25e.tmp.txt\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\Temp\\\\WER.3ea3b927-7812-47cc-b8fc-ecce12a2c540.tmp.xml\\r\\n\\\\\\\\?\\\\C:\\\\Windows\\\\SystemTemp\\\\WER.a1aeb21f-fda4-43ee-b6b4-bb7232b6445e.tmp.appcompat.txt\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\ReportQueue\\\\AppCrash_netcut_windows.e_9464d045f33293e33e31bf07748f67a62441e3c_c6783028_cab_d5db5082-061d-4422-b98c-0e060bf4eccb\\\\memory.hdmp\\r\\n\\r\\nThese files may be available here:\\r\\n\\\\\\\\?\\\\C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\WER\\\\ReportQueue\\\\AppCrash_netcut_windows.e_9464d045f33293e33e31bf07748f67a62441e3c_c6783028_cab_d5db5082-061d-4422-b98c-0e060bf4eccb\\r\\n\\r\\nAnalysis symbol: \\r\\nRechecking for solution: 0\\r\\nReport Id: 558224c8-33a4-4fd3-8d54-f6e313587559\\r\\nReport Status: 6\\r\\nHashed bucket: \\r\\nCab Guid: 0\",\"metadata\":{\"eventId\":1001,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782923963819)/\\\",\\\"Id\\\":1001,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Windows Error Reporting\\\",\\\"Message\\\":\\\"Fault bucket , type 0\\\\r\\\\nEvent Name: APPCRASH\\\\r\\\\nResponse: Not available\\\\r\\\\nCab Id: 0\\\\r\\\\n\\\\r\\\\nProblem signature:\\\\r\\\\nP1: netcut_windows.exe\\\\r\\\\nP2: 0.0.0.0\\\\r\\\\nP3: 690bb565\\\\r\\\\nP4: packet.dll\\\\r\\\\nP5: 4.1.0.2980\\\\r\\\\nP6: 5130043c\\\\r\\\\nP7: c0000005\\\\r\\\\nP8: 00001e2a\\\\r\\\\nP9: \\\\r\\\\nP10: \\\\r\\\\n\\\\r\\\\nAttached files:\\\\r\\\\n\\\\\\\\\\\\\\\\?\\\\\\\\C:\\\\\\\\ProgramData\\\\\\\\Microsoft\\\\\\\\Windows\\\\\\\\WER\\\\\\\\Temp\\\\\\\\WER.11f27aba-3952-4884-9106-6a667ab1215b.tmp.mdmp\\\\r\\\\n\\\\\\\\\\\\\\\\?\\\\\\\\C:\\\\\\\\ProgramData\\\\\\\\Microsoft\\\\\\\\Windows\\\\\\\\WER\\\\\\\\Temp\\\\\\\\WER.390c7968-f3e6-41ed-b5bf-d89300de1fd4.tmp.WERInternalMetadata.xml\\\\r\\\\n\\\\\\\\\\\\\\\\?\\\\\\\\C:\\\\\\\\ProgramData\\\\\\\\Microsoft\\\\\\\\Windows\\\\\\\\WER\\\\\\\\Temp\\\\\\\\WER.56cd1a33-2f08-4db8-882c-ee8ed723a46c.tmp.etl\\\\r\\\\n\\\\\\\\\\\\\\\\?\\\\\\\\C:\\\\\\\\ProgramData\\\\\\\\Microsoft\\\\\\\\Windows\\\\\\\\WER\\\\\\\\ReportQueue\\\\\\\\AppCrash_netcut_windows.e_9464d045f33293e33e31bf07748f67a62441e3c_c6783028_cab_d5db5082-061d-4422-b98c-0e060bf4eccb\\\\\\\\WPR_initiated_DiagTrackMiniLogger_WPR System Collector_inject.etl\\\\r\\\\n\\\\\\\\\\\\\\\\?\\\\\\\\C:\\\\\\\\ProgramData\\\\\\\\Microsoft\\\\\\\\Windows\\\\\\\\WER\\\\\\\\Temp\\\\\\\\WER.46c0baac-3ccc-4a88-a5ba-1ac9a15a894e.tmp.etl\\\\r\\\\n\\\\\\\\\\\\\\\\?\\\\\\\\C:\\\\\\\\ProgramData\\\\\\\\Microsoft\\\\\\\\Windows\\\\\\\\WER\\\\\\\\Temp\\\\\\\\WER.9691a5bd-fd31-41c5-a1c9-219ada95f1d8.tmp.csv\\\\r\\\\n\\\\\\\\\\\\\\\\?\\\\\\\\C:\\\\\\\\ProgramData\\\\\\\\Microsoft\\\\\\\\Windows\\\\\\\\WER\\\\\\\\Temp\\\\\\\\WER.ec433bdd-bbfc-450b-81f8-cbc5f605e25e.tmp.txt\\\\r\\\\n\\\\\\\\\\\\\\\\?\\\\\\\\C:\\\\\\\\ProgramData\\\\\\\\Microsoft\\\\\\\\Windows\\\\\\\\WER\\\\\\\\Temp\\\\\\\\WER.3ea3b927-7812-47cc-b8fc-ecce12a2c540.tmp.xml\\\\r\\\\n\\\\\\\\\\\\\\\\?\\\\\\\\C:\\\\\\\\Windows\\\\\\\\SystemTemp\\\\\\\\WER.a1aeb21f-fda4-43ee-b6b4-bb7232b6445e.tmp.appcompat.txt\\\\r\\\\n\\\\\\\\\\\\\\\\?\\\\\\\\C:\\\\\\\\ProgramData\\\\\\\\Microsoft\\\\\\\\Windows\\\\\\\\WER\\\\\\\\ReportQueue\\\\\\\\AppCrash_netcut_windows.e_9464d045f33293e33e31bf07748f67a62441e3c_c6783028_cab_d5db5082-061d-4422-b98c-0e060bf4eccb\\\\\\\\memory.hdmp\\\\r\\\\n\\\\r\\\\nThese files may be available here:\\\\r\\\\n\\\\\\\\\\\\\\\\?\\\\\\\\C:\\\\\\\\ProgramData\\\\\\\\Microsoft\\\\\\\\Windows\\\\\\\\WER\\\\\\\\ReportQueue\\\\\\\\AppCrash_netcut_windows.e_9464d045f33293e33e31bf07748f67a62441e3c_c6783028_cab_d5db5082-061d-4422-b98c-0e060bf4eccb\\\\r\\\\n\\\\r\\\\nAnalysis symbol: \\\\r\\\\nRechecking for solution: 0\\\\r\\\\nReport Id: 558224c8-33a4-4fd3-8d54-f6e313587559\\\\r\\\\nReport Status: 6\\\\r\\\\nHashed bucket: \\\\r\\\\nCab Guid: 0\\\"}\"}"
+    },
+    {
+      "id": 121,
+      "timestamp": "2026-07-01T16:39:07.595Z",
+      "level": "INFO",
+      "source": "Microsoft-Windows-UserModePowerService",
+      "message": "Process C:\\Program Files\\ASUS\\ARMOURY CRATE Service\\ArmouryCrate.UserSessionHelper.exe (process ID:11132) reset policy scheme from {27fa6203-3987-4dcc-918d-748559d549ec} to {27fa6203-3987-4dcc-918d-748559d549ec}",
+      "metadata": {
+        "source": "Microsoft-Windows-UserModePowerService",
+        "metadata": {
+          "eventId": 12,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782923947595)/\",\"Id\":12,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Microsoft-Windows-UserModePowerService\",\"Message\":\"Process C:\\\\Program Files\\\\ASUS\\\\ARMOURY CRATE Service\\\\ArmouryCrate.UserSessionHelper.exe (process ID:11132) reset policy scheme from {27fa6203-3987-4dcc-918d-748559d549ec} to {27fa6203-3987-4dcc-918d-748559d549ec}\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T16:39:07.595Z\",\"level\":\"INFO\",\"source\":\"Microsoft-Windows-UserModePowerService\",\"message\":\"Process C:\\\\Program Files\\\\ASUS\\\\ARMOURY CRATE Service\\\\ArmouryCrate.UserSessionHelper.exe (process ID:11132) reset policy scheme from {27fa6203-3987-4dcc-918d-748559d549ec} to {27fa6203-3987-4dcc-918d-748559d549ec}\",\"metadata\":{\"eventId\":12,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782923947595)/\\\",\\\"Id\\\":12,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-UserModePowerService\\\",\\\"Message\\\":\\\"Process C:\\\\\\\\Program Files\\\\\\\\ASUS\\\\\\\\ARMOURY CRATE Service\\\\\\\\ArmouryCrate.UserSessionHelper.exe (process ID:11132) reset policy scheme from {27fa6203-3987-4dcc-918d-748559d549ec} to {27fa6203-3987-4dcc-918d-748559d549ec}\\\"}\"}"
+    },
+    {
+      "id": 122,
+      "timestamp": "2026-07-01T16:39:04.930Z",
+      "level": "INFO",
+      "source": "BTHUSB",
+      "message": "Windows cannot store Bluetooth authentication codes (link keys) on the local adapter. Bluetooth keyboards might not work in the system BIOS during startup.",
+      "metadata": {
+        "source": "BTHUSB",
+        "metadata": {
+          "eventId": 18,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782923944930)/\",\"Id\":18,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"BTHUSB\",\"Message\":\"Windows cannot store Bluetooth authentication codes (link keys) on the local adapter. Bluetooth keyboards might not work in the system BIOS during startup.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T16:39:04.930Z\",\"level\":\"INFO\",\"source\":\"BTHUSB\",\"message\":\"Windows cannot store Bluetooth authentication codes (link keys) on the local adapter. Bluetooth keyboards might not work in the system BIOS during startup.\",\"metadata\":{\"eventId\":18,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782923944930)/\\\",\\\"Id\\\":18,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"BTHUSB\\\",\\\"Message\\\":\\\"Windows cannot store Bluetooth authentication codes (link keys) on the local adapter. Bluetooth keyboards might not work in the system BIOS during startup.\\\"}\"}"
+    },
+    {
+      "id": 123,
+      "timestamp": "2026-07-01T16:39:04.710Z",
+      "level": "INFO",
+      "source": "Microsoft-Windows-Kernel-Power",
+      "message": "The system session has transitioned from 9 to 10.\r\n\r\nReason Unknown \r\n\r\nBootId: 389",
+      "metadata": {
+        "source": "Microsoft-Windows-Kernel-Power",
+        "metadata": {
+          "eventId": 566,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782923944710)/\",\"Id\":566,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Microsoft-Windows-Kernel-Power\",\"Message\":\"The system session has transitioned from 9 to 10.\\r\\n\\r\\nReason Unknown \\r\\n\\r\\nBootId: 389\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T16:39:04.710Z\",\"level\":\"INFO\",\"source\":\"Microsoft-Windows-Kernel-Power\",\"message\":\"The system session has transitioned from 9 to 10.\\r\\n\\r\\nReason Unknown \\r\\n\\r\\nBootId: 389\",\"metadata\":{\"eventId\":566,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782923944710)/\\\",\\\"Id\\\":566,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-Kernel-Power\\\",\\\"Message\\\":\\\"The system session has transitioned from 9 to 10.\\\\r\\\\n\\\\r\\\\nReason Unknown \\\\r\\\\n\\\\r\\\\nBootId: 389\\\"}\"}"
+    },
+    {
+      "id": 124,
+      "timestamp": "2026-07-01T16:39:04.709Z",
+      "level": "INFO",
+      "source": "Microsoft-Windows-Kernel-Power",
+      "message": "The system is exiting Modern Standby \r\n\r\nReason: Power Button.",
+      "metadata": {
+        "source": "Microsoft-Windows-Kernel-Power",
+        "metadata": {
+          "eventId": 507,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782923944709)/\",\"Id\":507,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Microsoft-Windows-Kernel-Power\",\"Message\":\"The system is exiting Modern Standby \\r\\n\\r\\nReason: Power Button.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T16:39:04.709Z\",\"level\":\"INFO\",\"source\":\"Microsoft-Windows-Kernel-Power\",\"message\":\"The system is exiting Modern Standby \\r\\n\\r\\nReason: Power Button.\",\"metadata\":{\"eventId\":507,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782923944709)/\\\",\\\"Id\\\":507,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-Kernel-Power\\\",\\\"Message\\\":\\\"The system is exiting Modern Standby \\\\r\\\\n\\\\r\\\\nReason: Power Button.\\\"}\"}"
+    },
+    {
+      "id": 125,
+      "timestamp": "2026-07-01T16:39:04.450Z",
+      "level": "ERROR",
+      "source": "rt68cx21",
+      "message": "Realtek PCIe GbE Family Controller has a Hardware IO error.",
+      "metadata": {
+        "source": "rt68cx21",
+        "metadata": {
+          "eventId": 2,
+          "winLevel": "Error"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782923944450)/\",\"Id\":2,\"LevelDisplayName\":\"Error\",\"ProviderName\":\"rt68cx21\",\"Message\":\"Realtek PCIe GbE Family Controller has a Hardware IO error.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T16:39:04.450Z\",\"level\":\"ERROR\",\"source\":\"rt68cx21\",\"message\":\"Realtek PCIe GbE Family Controller has a Hardware IO error.\",\"metadata\":{\"eventId\":2,\"winLevel\":\"Error\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782923944450)/\\\",\\\"Id\\\":2,\\\"LevelDisplayName\\\":\\\"Error\\\",\\\"ProviderName\\\":\\\"rt68cx21\\\",\\\"Message\\\":\\\"Realtek PCIe GbE Family Controller has a Hardware IO error.\\\"}\"}"
+    },
+    {
+      "id": 126,
+      "timestamp": "2026-07-01T16:39:04.450Z",
+      "level": "ERROR",
+      "source": "rt68cx21",
+      "message": "Realtek PCIe GbE Family Controller has a Hardware IO error.",
+      "metadata": {
+        "source": "rt68cx21",
+        "metadata": {
+          "eventId": 2,
+          "winLevel": "Error"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782923944450)/\",\"Id\":2,\"LevelDisplayName\":\"Error\",\"ProviderName\":\"rt68cx21\",\"Message\":\"Realtek PCIe GbE Family Controller has a Hardware IO error.\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T16:39:04.450Z\",\"level\":\"ERROR\",\"source\":\"rt68cx21\",\"message\":\"Realtek PCIe GbE Family Controller has a Hardware IO error.\",\"metadata\":{\"eventId\":2,\"winLevel\":\"Error\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782923944450)/\\\",\\\"Id\\\":2,\\\"LevelDisplayName\\\":\\\"Error\\\",\\\"ProviderName\\\":\\\"rt68cx21\\\",\\\"Message\\\":\\\"Realtek PCIe GbE Family Controller has a Hardware IO error.\\\"}\"}"
+    },
+    {
+      "id": 127,
+      "timestamp": "2026-07-01T16:39:04.155Z",
+      "level": "INFO",
+      "source": "Microsoft-Windows-Kernel-Power",
+      "message": "Connectivity state in standby: Connected, Reason: None",
+      "metadata": {
+        "source": "Microsoft-Windows-Kernel-Power",
+        "metadata": {
+          "eventId": 172,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782923944155)/\",\"Id\":172,\"LevelDisplayName\":\"Information\",\"ProviderName\":\"Microsoft-Windows-Kernel-Power\",\"Message\":\"Connectivity state in standby: Connected, Reason: None\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T16:39:04.155Z\",\"level\":\"INFO\",\"source\":\"Microsoft-Windows-Kernel-Power\",\"message\":\"Connectivity state in standby: Connected, Reason: None\",\"metadata\":{\"eventId\":172,\"winLevel\":\"Information\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782923944155)/\\\",\\\"Id\\\":172,\\\"LevelDisplayName\\\":\\\"Information\\\",\\\"ProviderName\\\":\\\"Microsoft-Windows-Kernel-Power\\\",\\\"Message\\\":\\\"Connectivity state in standby: Connected, Reason: None\\\"}\"}"
+    },
+    {
+      "id": 128,
+      "timestamp": "2026-07-01T16:39:04.090Z",
+      "level": "WARN",
+      "source": "Win32k",
+      "message": "Power Manager has not requested suppression of all input (INPUT_SUPPRESS_REQUEST=0)",
+      "metadata": {
+        "source": "Win32k",
+        "metadata": {
+          "eventId": 701,
+          "winLevel": "Warning"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782923944090)/\",\"Id\":701,\"LevelDisplayName\":\"Warning\",\"ProviderName\":\"Win32k\",\"Message\":\"Power Manager has not requested suppression of all input (INPUT_SUPPRESS_REQUEST=0)\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T16:39:04.090Z\",\"level\":\"WARN\",\"source\":\"Win32k\",\"message\":\"Power Manager has not requested suppression of all input (INPUT_SUPPRESS_REQUEST=0)\",\"metadata\":{\"eventId\":701,\"winLevel\":\"Warning\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782923944090)/\\\",\\\"Id\\\":701,\\\"LevelDisplayName\\\":\\\"Warning\\\",\\\"ProviderName\\\":\\\"Win32k\\\",\\\"Message\\\":\\\"Power Manager has not requested suppression of all input (INPUT_SUPPRESS_REQUEST=0)\\\"}\"}"
+    },
+    {
+      "id": 129,
+      "timestamp": "2026-07-01T16:39:04.090Z",
+      "level": "WARN",
+      "source": "Win32k",
+      "message": "Power Manager has not requested suppression of all input (INPUT_SUPPRESS_REQUEST=0)",
+      "metadata": {
+        "source": "Win32k",
+        "metadata": {
+          "eventId": 701,
+          "winLevel": "Warning"
+        },
+        "raw": "{\"TimeCreated\":\"/Date(1782923944090)/\",\"Id\":701,\"LevelDisplayName\":\"Warning\",\"ProviderName\":\"Win32k\",\"Message\":\"Power Manager has not requested suppression of all input (INPUT_SUPPRESS_REQUEST=0)\"}"
+      },
+      "raw": "{\"timestamp\":\"2026-07-01T16:39:04.090Z\",\"level\":\"WARN\",\"source\":\"Win32k\",\"message\":\"Power Manager has not requested suppression of all input (INPUT_SUPPRESS_REQUEST=0)\",\"metadata\":{\"eventId\":701,\"winLevel\":\"Warning\"},\"raw\":\"{\\\"TimeCreated\\\":\\\"/Date(1782923944090)/\\\",\\\"Id\\\":701,\\\"LevelDisplayName\\\":\\\"Warning\\\",\\\"ProviderName\\\":\\\"Win32k\\\",\\\"Message\\\":\\\"Power Manager has not requested suppression of all input (INPUT_SUPPRESS_REQUEST=0)\\\"}\"}"
+    },
+    {
+      "id": 130,
+      "timestamp": "2026-07-01T19:57:21.763000+00:00",
+      "level": "INFO",
+      "source": "Microsoft-Windows-Security-SPP",
+      "message": "Successfully scheduled Software Protection service for re-start at 2126-06-07T19:57:21Z. Reason: RulesEngine.",
+      "metadata": {
+        "metadata": {
+          "eventId": 16384,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\": \"/Date(1782935841763)/\", \"Id\": 16384, \"LevelDisplayName\": \"Information\", \"ProviderName\": \"Microsoft-Windows-Security-SPP\", \"Message\": \"Successfully scheduled Software Protection service for re-start at 2126-06-07T19:57:21Z. Reason: RulesEngine.\"}"
+      },
+      "raw": "{\"timestamp\": \"2026-07-01T19:57:21.763000+00:00\", \"level\": \"INFO\", \"source\": \"Microsoft-Windows-Security-SPP\", \"message\": \"Successfully scheduled Software Protection service for re-start at 2126-06-07T19:57:21Z. Reason: RulesEngine.\", \"metadata\": {\"eventId\": 16384, \"winLevel\": \"Information\"}, \"raw\": \"{\\\"TimeCreated\\\": \\\"/Date(1782935841763)/\\\", \\\"Id\\\": 16384, \\\"LevelDisplayName\\\": \\\"Information\\\", \\\"ProviderName\\\": \\\"Microsoft-Windows-Security-SPP\\\", \\\"Message\\\": \\\"Successfully scheduled Software Protection service for re-start at 2126-06-07T19:57:21Z. Reason: RulesEngine.\\\"}\"}"
+    },
+    {
+      "id": 131,
+      "timestamp": "2026-07-01T19:56:51.494000+00:00",
+      "level": "INFO",
+      "source": "Microsoft-Windows-Security-SPP",
+      "message": "Offline downlevel migration succeeded.",
+      "metadata": {
+        "metadata": {
+          "eventId": 16394,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\": \"/Date(1782935811494)/\", \"Id\": 16394, \"LevelDisplayName\": \"Information\", \"ProviderName\": \"Microsoft-Windows-Security-SPP\", \"Message\": \"Offline downlevel migration succeeded.\"}"
+      },
+      "raw": "{\"timestamp\": \"2026-07-01T19:56:51.494000+00:00\", \"level\": \"INFO\", \"source\": \"Microsoft-Windows-Security-SPP\", \"message\": \"Offline downlevel migration succeeded.\", \"metadata\": {\"eventId\": 16394, \"winLevel\": \"Information\"}, \"raw\": \"{\\\"TimeCreated\\\": \\\"/Date(1782935811494)/\\\", \\\"Id\\\": 16394, \\\"LevelDisplayName\\\": \\\"Information\\\", \\\"ProviderName\\\": \\\"Microsoft-Windows-Security-SPP\\\", \\\"Message\\\": \\\"Offline downlevel migration succeeded.\\\"}\"}"
+    },
+    {
+      "id": 132,
+      "timestamp": "2026-07-01T19:50:25.095000+00:00",
+      "level": "INFO",
+      "source": "Microsoft-Windows-Time-Service",
+      "message": "The time provider 'VMICTimeProvider' has indicated that the current hardware and operating environment is not supported and has stopped. This behavior is expected for VMICTimeProvider on non-HyperV-guest environments. This may be the expected behavior for the current provider in the current operating environment as well.",
+      "metadata": {
+        "metadata": {
+          "eventId": 158,
+          "winLevel": "Information"
+        },
+        "raw": "{\"TimeCreated\": \"/Date(1782935425095)/\", \"Id\": 158, \"LevelDisplayName\": \"Information\", \"ProviderName\": \"Microsoft-Windows-Time-Service\", \"Message\": \"The time provider 'VMICTimeProvider' has indicated that the current hardware and operating environment is not supported and has stopped. This behavior is expected for VMICTimeProvider on non-HyperV-guest environments. This may be the expected behavior for the current provider in the current operating environment as well.\"}"
+      },
+      "raw": "{\"timestamp\": \"2026-07-01T19:50:25.095000+00:00\", \"level\": \"INFO\", \"source\": \"Microsoft-Windows-Time-Service\", \"message\": \"The time provider 'VMICTimeProvider' has indicated that the current hardware and operating environment is not supported and has stopped. This behavior is expected for VMICTimeProvider on non-HyperV-guest environments. This may be the expected behavior for the current provider in the current operating environment as well.\", \"metadata\": {\"eventId\": 158, \"winLevel\": \"Information\"}, \"raw\": \"{\\\"TimeCreated\\\": \\\"/Date(1782935425095)/\\\", \\\"Id\\\": 158, \\\"LevelDisplayName\\\": \\\"Information\\\", \\\"ProviderName\\\": \\\"Microsoft-Windows-Time-Service\\\", \\\"Message\\\": \\\"The time provider 'VMICTimeProvider' has indicated that the current hardware and operating environment is not supported and has stopped. This behavior is expected for VMICTimeProvider on non-HyperV-guest environments. This may be the expected behavior for the current provider in the current operating environment as well.\\\"}\"}"
+    },
+    {
+      "id": 133,
+      "timestamp": "2026-07-01T20:00:05.339000+00:00",
+      "level": "INFO",
+      "source": "brave",
+      "message": "Event ID 0",
+      "metadata": {
+        "metadata": {
+          "eventId": 0,
+          "winLevel": null
+        },
+        "raw": "{\"TimeCreated\": \"/Date(1782936005339)/\", \"Id\": 0, \"LevelDisplayName\": null, \"ProviderName\": \"brave\", \"Message\": null}"
+      },
+      "raw": "{\"timestamp\": \"2026-07-01T20:00:05.339000+00:00\", \"level\": \"INFO\", \"source\": \"brave\", \"message\": \"Event ID 0\", \"metadata\": {\"eventId\": 0, \"winLevel\": null}, \"raw\": \"{\\\"TimeCreated\\\": \\\"/Date(1782936005339)/\\\", \\\"Id\\\": 0, \\\"LevelDisplayName\\\": null, \\\"ProviderName\\\": \\\"brave\\\", \\\"Message\\\": null}\"}"
+    }
+  ],
+  "nextId": 134
 }

@@ -535,6 +535,11 @@
       border: 1px solid rgba(34,211,238,0.15); color: var(--accent-cyan);
       border-radius: 4px; font-size: 11px; white-space: nowrap; font-family: 'JetBrains Mono', monospace;
     }
+    .mitre-chip {
+      display: inline-block; padding: 2px 7px; background: rgba(244,63,94,0.08);
+      border: 1px solid rgba(244,63,94,0.15); color: #fb7185;
+      border-radius: 4px; font-size: 11px; white-space: nowrap; font-family: 'JetBrains Mono', monospace;
+    }
     .msg-cell { color: var(--text-code); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 
     .empty-state {
@@ -904,8 +909,8 @@
       </div>
       <div class="log-table-wrap">
         <table class="log-table" id="log-table">
-          <thead><tr><th style="width:160px">Timestamp</th><th style="width:72px">Level</th><th style="width:120px">Source</th><th>Message</th></tr></thead>
-          <tbody id="log-tbody"><tr><td colspan="4"><div class="empty-state"><div class="es-icon">📭</div><h3>No logs loaded</h3><p>Go to <strong>Ingest</strong> to upload or paste logs</p></div></td></tr></tbody>
+          <thead><tr><th style="width:160px">Timestamp</th><th style="width:72px">Level</th><th style="width:120px">Source</th><th style="width:140px">MITRE ATT&CK</th><th>Message</th></tr></thead>
+          <tbody id="log-tbody"><tr><td colspan="5"><div class="empty-state"><div class="es-icon">📭</div><h3>No logs loaded</h3><p>Go to <strong>Ingest</strong> to upload or paste logs</p></div></td></tr></tbody>
         </table>
       </div>
       <div class="pagination-bar">
@@ -998,6 +1003,7 @@
         <div style="border-top:1px solid var(--border-subtle);padding-top:14px">
           <h3>⚡ Quick Prompts</h3>
           <div class="quick-prompts">
+            <button class="quick-prompt-btn" data-prompt="Analyze all logs, compare them against MITRE ATT&CK techniques, and give me a detailed security assessment and the best valid answer on potential threats."><span class="qp-icon">🛡️</span> MITRE Threat Assessment</button>
             <button class="quick-prompt-btn" data-prompt="Analyze all logs and give me a comprehensive summary of what's happening, including error rate, top issues, and any anomalies."><span class="qp-icon">📊</span> Full Log Summary</button>
             <button class="quick-prompt-btn" data-prompt="Identify all ERROR logs and perform root cause analysis. What are the most likely causes and how should I fix them?"><span class="qp-icon">🔍</span> Root Cause Analysis</button>
             <button class="quick-prompt-btn" data-prompt="Are there any performance issues? Look for timeout errors, high latency patterns, and slow queries."><span class="qp-icon">⚡</span> Performance Analysis</button>
@@ -1401,16 +1407,18 @@ async function loadExplorer() {
 function renderLogTable(logs) {
   const tbody = document.getElementById('log-tbody');
   if (!logs || !logs.length) {
-    tbody.innerHTML = `<tr><td colspan="4"><div class="empty-state"><div class="es-icon">🔍</div><h3>No matching logs</h3><p>Try adjusting your filters</p></div></td></tr>`;
+    tbody.innerHTML = `<tr><td colspan="5"><div class="empty-state"><div class="es-icon">🔍</div><h3>No matching logs</h3><p>Try adjusting your filters</p></div></td></tr>`;
     return;
   }
   tbody.innerHTML = logs.map((l, i) => {
     const ts = new Date(l.timestamp);
     const tsStr = isNaN(ts) ? l.timestamp : ts.toLocaleString('en-GB', { hour12: false });
+    const mitre = (l.metadata && l.metadata.mitre_technique) ? `<span class="mitre-chip" title="${esc(l.metadata.mitre_tactic)}">${esc(l.metadata.mitre_technique.split(' - ')[0])}</span>` : '<span style="color:var(--text-muted)">-</span>';
     return `<tr class="level-${l.level.toLowerCase()}" data-idx="${i}">
       <td class="ts-cell">${tsStr}</td>
       <td><span class="level-pill ${l.level}">${l.level}</span></td>
       <td><span class="source-chip">${esc(l.source)}</span></td>
+      <td>${mitre}</td>
       <td class="msg-cell" title="${esc(l.message)}">${esc(l.message)}</td>
     </tr>`;
   }).join('');

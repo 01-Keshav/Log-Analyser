@@ -5,6 +5,7 @@ An AI-powered log analysis backend and dashboard that leverages the Gemini API t
 ## ✨ Features
 
 - **In-Memory Log Store**: Fast and lightweight ingestion for local development.
+- **Windows Event Log & Sysmon Collector**: Automatically polls local Windows System, Application, and Sysmon logs via PowerShell and ingests them into the backend.
 - **Multi-format Parsing**: Supports JSON structured logs, Apache/Nginx combined logs, Syslog, and plain text.
 - **Smart Analytics & Timeline**: Automatically calculates error rates, extracts error types, highlights performance bottlenecks, and builds hourly timelines.
 - **Interactive Dashboard**: Modern UI with real-time analytics, explorer, and anomaly detection built using Vanilla HTML/CSS/JS.
@@ -18,8 +19,10 @@ An AI-powered log analysis backend and dashboard that leverages the Gemini API t
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/) (v16+)
+- [Python 3.8+](https://www.python.org/)
 - A [Google Gemini API Key](https://aistudio.google.com/app/apikey)
+
+> **Note on Windows Logs**: To successfully fetch Security logs or `Microsoft-Windows-Sysmon/Operational` logs, you must run the FastAPI server from a terminal with **Administrator** privileges. If Sysmon is not installed, the collector will gracefully skip it and continue collecting System and Application logs.
 
 ### Installation
 
@@ -31,13 +34,12 @@ An AI-powered log analysis backend and dashboard that leverages the Gemini API t
 
 2. Install the dependencies:
    ```bash
-   npm install
+   pip install -r requirements.txt
    ```
 
 3. Start the server:
    ```bash
-   npm start
-   # or npm run dev (for watch mode)
+   uvicorn main:app --reload
    ```
 
 4. Open `index.html` in your web browser.
@@ -60,6 +62,6 @@ To use the AI Chat capabilities, you'll need to set your Gemini API Key in the f
 
 ## 🛠️ Tech Stack
 
-- **Backend**: Node.js, Express, CORS
+- **Backend**: Python, FastAPI
 - **AI**: Google Generative AI (Gemini 2.5 Flash)
 - **Frontend**: Vanilla HTML/CSS/JavaScript
