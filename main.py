@@ -1,4 +1,5 @@
 import os
+import sys
 import json
 import asyncio
 from datetime import datetime
@@ -480,6 +481,13 @@ async def get_sources():
     return {"sources": sources}
 
 # ─── GEMINI AI INTEGRATION ────────────────────────────────────────────────
+# Set this to your Gemini API key before building the .exe to bundle it with the app.
+BUNDLED_GEMINI_API_KEY = ""
+
+@app.get('/api/config')
+async def get_config():
+    return {"has_bundled_key": bool(BUNDLED_GEMINI_API_KEY)}
+
 class ChatMessage(BaseModel):
     role: str
     content: str
@@ -543,6 +551,8 @@ def get_tool_functions():
 async def chat_endpoint(request: Request, body: ChatRequest):
     api_key = request.headers.get('x-gemini-api-key')
     if not api_key:
+        api_key = BUNDLED_GEMINI_API_KEY
+    if not api_key:
         return JSONResponse(status_code=401, content={"error": "Missing Gemini API key. Set it in the app settings."})
 
     client = genai.Client(api_key=api_key)
@@ -597,12 +607,21 @@ async def chat_endpoint(request: Request, body: ChatRequest):
         return JSONResponse(status_code=500, content={"error": str(e)})
 
 # Serve frontend files
+def get_base_path():
+    if getattr(sys, 'frozen', False):
+        return sys._MEIPASS
+    return os.path.dirname(os.path.abspath(__file__))
+
+base_path = get_base_path()
+
 @app.get("/")
 async def serve_index():
-    return FileResponse("index.html")
+    return FileResponse(os.path.join(base_path, "index.html"))
 
-app.mount("/", StaticFiles(directory=".", html=True), name="static")
+app.mount("/", StaticFiles(directory=base_path, html=True), name="static")
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("main:app", host="127.0.0.1", port=3001, reload=True)
+    import multiprocessing
+    multiprocessing.freeze_support()
+    uvicorn.run(app, host="127.0.0.1", port=3001)

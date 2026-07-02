@@ -17,7 +17,7 @@ async def fetch_windows_logs():
 
     ps_command = f"""
     $ErrorActionPreference = 'SilentlyContinue'
-    $logNames = @('Security')
+    $logNames = @('Application', 'System', 'Security')
     $events = @()
     $startTime = [datetime]'{start_time_iso}'
 

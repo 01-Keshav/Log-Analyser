@@ -1800,10 +1800,22 @@ if (GEMINI_KEY) {
   document.getElementById('settings-api-key').value = GEMINI_KEY;
 }
 
+let HAS_BUNDLED_KEY = false;
+async function fetchConfig() {
+  try {
+    const r = await fetch(API_BASE+'/config');
+    if (r.ok) {
+      const data = await r.json();
+      HAS_BUNDLED_KEY = data.has_bundled_key;
+      updateKeyIndicator();
+    }
+  } catch(e) {}
+}
+
 function updateKeyIndicator() {
   const dot = document.getElementById('ki-dot');
   const label = document.getElementById('ki-label');
-  if (GEMINI_KEY) {
+  if (GEMINI_KEY || HAS_BUNDLED_KEY) {
     dot.classList.add('active');
     label.textContent = 'AI Ready';
   } else {
@@ -1886,7 +1898,7 @@ async function sendChat() {
   const input = document.getElementById('chat-input');
   const text = input.value.trim();
   if (!text) return;
-  if (!GEMINI_KEY) { toast('Enter your Gemini API key in the sidebar first', 'error'); return; }
+  if (!GEMINI_KEY && !HAS_BUNDLED_KEY) { toast('Enter your Gemini API key in the sidebar first', 'error'); return; }
   input.value = ''; input.style.height='auto';
   addMessage('user', text);
   addTyping();
@@ -1990,6 +2002,7 @@ pasteContentEl.addEventListener('input', () => {
 // INIT
 // ════════════════════════════════════════════════════════════
 async function init() {
+  await fetchConfig();
   await refreshStats();
   setInterval(refreshStats, 10000);
   // Load dashboard on start
